@@ -1,5 +1,7 @@
 # The record behind the reports
 
+The paths on this page are inside `project/`.
+
 The reports read the record of the AI sessions that worked on the proposal, kept in the demo's audit home, which stays out of this repository since it holds whole transcripts. The record holds these sessions, 325 in all.
 
 - The 12 Claude Code sessions from September 10 to October 28 that touched the proposal's folders, with their 267 subagent conversations.

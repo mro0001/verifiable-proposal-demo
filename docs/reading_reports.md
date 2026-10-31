@@ -1,27 +1,29 @@
 # How to read the reports
 
+The paths on this page are inside `project/`.
+
 Each report lists items for the author to approve or hold. It lays out what the record of the AI sessions shows and what programs checked. No model gives a verdict in any report.
 
 ## Where they are
 
 | Stream | Proposal | Appendix |
 |---|---|---|
-| Prose | [report](../verification/proposal/prose/report.md) | [report](../verification/appendix/prose/report.md) |
-| References | [report](../verification/proposal/citations/report.md) | [report](../verification/appendix/citations/report.md) |
-| Data and analysis code | | [final numbers](../verification/appendix/data/report.md), [collection](../verification/appendix/data_collection/report.md), [cleaning](../verification/appendix/data_cleaning/report.md), [analysis](../verification/appendix/data_analysis/report.md) |
-| Build | [report](../verification/proposal/build/report.md) | [report](../verification/appendix/build/report.md) |
+| Prose | [report](../project/verification/proposal/prose/report.md) | [report](../project/verification/appendix/prose/report.md) |
+| References | [report](../project/verification/proposal/citations/report.md) | [report](../project/verification/appendix/citations/report.md) |
+| Data and analysis code | | [final numbers](../project/verification/appendix/data/report.md), [collection](../project/verification/appendix/data_collection/report.md), [cleaning](../project/verification/appendix/data_cleaning/report.md), [analysis](../project/verification/appendix/data_analysis/report.md) |
+| Build | [report](../project/verification/proposal/build/report.md) | [report](../project/verification/appendix/build/report.md) |
 
 Each report folder also holds `results.json`, the items with their decisions, which the build reads.
 
 ## One entry, field by field
 
-Entry r18 of the [proposal's references report](../verification/proposal/citations/report.md#r18-walters2023), shortened:
+Entry r18 of the [proposal's references report](../project/verification/proposal/citations/report.md#r18-walters2023), shortened:
 
 | Field | In r18 | What it tells you |
 |---|---|---|
 | Sentence | "Plausibility failures appear in hallucinated citations [@walters2023], ..." | Where the final build cites the work |
 | Origin | First named by an AI on July 31, in `research/06_provenance_verification/report.md`, a file an AI wrote | Who first named the work in the record, and where |
-| Session | `Sf2b3ddaba981` | The session's public id, a row in [`sessions/sessions.csv`](../sessions/sessions.csv) |
+| Session | `Sf2b3ddaba981` | The session's public id, a row in [`sessions/sessions.csv`](../project/sessions/sessions.csv) |
 | Found | found, DOI 10.1038/s41598-023-41032-5 | Whether the work exists, looked up by its DOI |
 | Reason | "The first careful audit of LLM-generated bibliographies ..." | Why the AI cited it, in its own recorded words |
 | Quote | "55% of the GPT-3.5 citations but just 18% of the GPT-4 citations are fabricated" | A passage of the source, taken from the record or, when the record has none, located by a model |

@@ -1,31 +1,14 @@
 # Rebuild and rerun
 
+The paths on this page are inside `project/`, and `make` runs there.
+
 ## The source texts
 
 The text is the author's. It changes only where the pipeline needs it. Author-year citations became keys that print the same way, the appendix's numbers about the prototype became placeholders filled from a numbers file, and the six works the text cites but the author's reference list leaves out were added to `refs.bib`.
 
 ## What is here
 
-| Path | What it holds |
-|---|---|
-| `proposal.md`, `appendix.md` | The two source texts |
-| `refs.bib`, `styles/` | The 30 references, the INFORMS citation style, and the Word style file |
-| `figures/` | The figures of each document |
-| `numbers.yml` | Every number the appendix cites by placeholder, 152 keys, each tied to the output it comes from |
-| `pipeline.yaml`, `params.yaml`, `acquisition.yaml` | The two analysis steps with their phase, every analytic choice set once, and the two raw archives with their checksums |
-| `s1_artifact_numbers.py`, `s2_live_runs.py` | The two analysis scripts, each with its steps marked |
-| `params_io.py`, `results_io.py` | The helpers both scripts share |
-| `artifact_public_e22136c.tar`, `artifact_public_f48459a.tar`, `live_runs_2026-10-08.tar` | The raw data, archives of the public research artifact at commit e22136c, the copy the appendix describes, and at the earlier commit f48459a, whose procedures the seven live runs of October 8 used, and those runs packed from it |
-| `*.csv` | The analysis outputs |
-| `builds/<product>/` | Every numbered build, with its ledger `BUILDS.md` |
-| `verification/<product>/<report>/` | Each report, `report.md`, and its results file, `results.json` |
-| `verification/<product>/<stream>.json` | The copy of each stream's results file that the build reads |
-| `verification/<product>/prose_pin/`, `verification/references_inputs/` | The pin of the author's last draft for each prose report, and the metadata cache the references reports read |
-| `settings/provider.example.yaml` | The model settings of the live runs, with the service's address replaced |
-| `sessions/` | The public index of the AI sessions behind the reports |
-| `tools/` | The conversion scripts, and `check_text.py`, which compares a build's plain text with the original Word file, which is not in this repository |
-
-The reports name the final build's text `draft.md` or `final_text.md`. These are `builds/proposal/v006.md` and `builds/appendix/v010.md`.
+[`project/README.md`](../project/README.md) says what each file in the project folder is.
 
 ## Rebuilding
 
@@ -36,13 +19,13 @@ make proposal WORKFLOW=/path/to/workflow
 make appendix WORKFLOW=/path/to/workflow
 ```
 
-Without `WORKFLOW=`, the `Makefile` looks for the workflow beside this folder, at `../verifiable-social-science-workflow`, where `git clone` puts it, and stops with "No module named ospipe" if it is not there. Each build fills every placeholder from `numbers.yml`, stops if one has no value, writes the next numbered build in `builds/<product>/`, and adds a ledger row that names each stream's current results and whether it is verified. To compute the numbers again from the raw archives, run `make data` (about 30 minutes, mostly the artifact's test suites) and then `make manifest`.
+Without `WORKFLOW=`, the `Makefile` looks for the workflow beside this repository, at `../../verifiable-social-science-workflow` from `project/`, where `git clone` puts it, and stops with "No module named ospipe" if it is not there. Each build fills every placeholder from `numbers.yml`, stops if one has no value, writes the next numbered build in `builds/<product>/`, and adds a ledger row that names each stream's current results and whether it is verified. To compute the numbers again from the raw archives, run `make data` (about 30 minutes, mostly the artifact's test suites) and then `make manifest`.
 
 ## Rerunning the reports
 
 The references, prose, and build reports, and the final-numbers report's account of the AI's edits, read the record, and the record is not in this repository. Neither are the cited works' texts, most of which are not openly licensed. These reports can be read here but not rerun from here. A report run with an empty record says nothing about it. The prose report then lists every change as the author's, and the build report counts no AI write, so a reader who starts an empty audit home gets clean-looking reports that are wrong. With the record in place, the commands below rerun each report. The phase reports and the final-numbers report's rerun of the pipeline need no record.
 
-Run them from the workflow's folder. `DEMO` is this folder, at the path the record was captured with, and `COPY` is a copy of it, made with `git archive`, into which the records go. Each `vg.py run` writes its report to `RUN/files/report.md` and its items to `RUN/results.json`. Name each run as the published ones are named, such as `appendix_prose`, since the folder's name becomes the run's id.
+Run them from the workflow's folder. `DEMO` is the project folder, at the path the record was captured with, and `COPY` is a copy of it, made with `git archive`, into which the records go. Each `vg.py run` writes its report to `RUN/files/report.md` and its items to `RUN/results.json`. Name each run as the published ones are named, such as `appendix_prose`, since the folder's name becomes the run's id.
 
 ```
 # References (citations), for the proposal or, with appendix in place of proposal, the appendix
