@@ -1,0 +1,310 @@
+# Source texts for the 30 works the proposal and appendix cite.
+# The texts are in sources/, which git ignores, since most are not openly licensed.
+# Each file is sources/source_<key>.txt. Its first line is ACCESS: fulltext or
+# ACCESS: abstract, then the title and authors as refs.bib gives them, a blank line,
+# and the text. sha256 is of the whole file, as the references procedure pins it.
+# kind is publisher, preprint, repository, or local copy. A local copy names only the
+# kind of file it came from.
+date: 2026-10-30
+counts: {fulltext: 26, abstract: 3, none: 1}
+works:
+  - key: ans2026
+    access: "fulltext"
+    kind: "local copy"
+    version: "publisher's open article text, Perspectives on Medical Education, 2026"
+    address: "local copy, markdown text"
+    date: "2026-10-30"
+    sha256: "sha256:fbaf45b8c64d40c8ec48d9fdbe68a6a984c36257554e59a3f203a6204d2461f7"
+    chars: 60906
+    text_made_by: "copied"
+    note: null
+  - key: astrom2008
+    access: "fulltext"
+    kind: "repository"
+    version: "the authors' electronic edition of the first edition, v2.10b of February 22, 2009, posted on the second author's site"
+    address: "https://www.cds.caltech.edu/~murray/books/AM08/pdf/am08-complete_22Feb09.pdf"
+    date: "2026-10-30"
+    sha256: "sha256:24271ef16de051b5fc71262bd2885bf80b9c0f9e935ab0e7aa26a87ec8dd26a9"
+    chars: 933791
+    text_made_by: "fetch.py jina (PDF read through Jina Reader)"
+    note: null
+  - key: boiko2023
+    access: "fulltext"
+    kind: "local copy"
+    version: "publisher's open access PDF, Nature 2023"
+    address: "local copy, PDF"
+    date: "2026-10-30"
+    sha256: "sha256:a1b116c9bc7bdb1299e9c52d85d719a66481e2456845532e545d811f69e4490c"
+    chars: 56902
+    text_made_by: "pdftotext 26.02.0"
+    note: null
+  - key: dellacqua2026
+    access: "fulltext"
+    kind: "local copy"
+    version: "publisher's CC BY PDF, Organization Science Articles in Advance, March 11, 2026"
+    address: "local copy, markdown text of a PDF"
+    date: "2026-10-30"
+    sha256: "sha256:7fc8e862abac58bd3f4df040a49a1c542ddb7f98371609c7df767ab8651f1aff"
+    chars: 114432
+    text_made_by: "copied"
+    note: null
+  - key: doshi2024
+    access: "fulltext"
+    kind: "local copy"
+    version: "publisher's PDF, Science Advances 2024"
+    address: "local copy, PDF"
+    date: "2026-10-30"
+    sha256: "sha256:86554558f6d0e2a09c34ea291f3c36416823773127b96e9aea0f41b47ac266fd"
+    chars: 54781
+    text_made_by: "pdftotext 26.02.0"
+    note: null
+  - key: eubank2016
+    access: "fulltext"
+    kind: "publisher"
+    version: "publisher's PDF, PS 2016"
+    address: "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/284B2830BFD99888B42D4CEABC28B9EE/S1049096516000196a.pdf/lessons_from_a_decade_of_replications_at_the_quarterly_journal_of_political_science.pdf"
+    date: "2026-10-30"
+    sha256: "sha256:ef7ba451f976390458df4dacc7f6f0b9e5d833ddb93ccf9b5f16ca9fd3c699a6"
+    chars: 20407
+    text_made_by: "fetch.py pdf_text"
+    note: null
+  - key: gartenberg2026
+    access: "fulltext"
+    kind: "repository"
+    version: "publisher's PDF (Articles in Advance, April 27, 2026) posted on a Wharton faculty page"
+    address: "https://faculty.wharton.upenn.edu/wp-content/uploads/2026/04/More-Versus-Better.pdf"
+    date: "2026-10-30"
+    sha256: "sha256:6824b5d83165faeca9c00f88ce9a3a04f6c4e2b43da0c414dd9dab5911a29611"
+    chars: 85518
+    text_made_by: "fetch.py pdf_text"
+    note: "The copy on disk held only the abstract. This full text replaces it."
+  - key: he2026
+    access: "fulltext"
+    kind: "repository"
+    version: "published version in PubMed Central (PMC12956875)"
+    address: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12956875/"
+    date: "2026-10-30"
+    sha256: "sha256:facb19032c3a1b315d8f3a9a8f18d2ae4da0daa1fc990d838a018a0732ade210"
+    chars: 60815
+    text_made_by: "fetch.py trafilatura"
+    note: "The PNAS page returned a bot challenge."
+  - key: healy2020
+    access: "fulltext"
+    kind: "publisher"
+    version: "the author's own release at the address the reference gives, \"This version: 2020-10-24\""
+    address: "https://kieranhealy.org/files/papers/plain-person-text.pdf"
+    date: "2026-10-30"
+    sha256: "sha256:c684ad1b6d97b81b16d77367f6bde6fbcad5dddeceae0a02ce38b40642660e93"
+    chars: 89288
+    text_made_by: "fetch.py pdf_text"
+    note: null
+  - key: hosseini2023
+    access: "none"
+    kind: null
+    version: null
+    address: null
+    date: "2026-10-30"
+    sha256: null
+    chars: null
+    text_made_by: null
+    note: "No open copy reached. The SAGE article page and its PDF, the SAGE reader, and ResearchGate all returned a bot challenge or an error, and two searches found no other copy."
+  - key: jcgm2012
+    access: "fulltext"
+    kind: "local copy"
+    version: "JCGM 200:2012, 3rd edition (2008 version with minor corrections), OCR text"
+    address: "local copy, markdown text"
+    date: "2026-10-30"
+    sha256: "sha256:cbc125a35b0a4ef07b62b0005fe3057e75063dd2a79fa9aab412fca80c367874"
+    chars: 260543
+    text_made_by: "copied"
+    note: null
+  - key: kapoor2026
+    access: "fulltext"
+    kind: "publisher"
+    version: "ICLR 2026 conference paper"
+    address: "https://proceedings.iclr.cc/paper_files/paper/2026/file/a0928f924a344aaebbb7f6cd8d56e34c-Paper-Conference.pdf"
+    date: "2026-10-30"
+    sha256: "sha256:2eae219638fb4b1bd7a44282eec25d67f12ba8d260e39eb67da5340b847d39e5"
+    chars: 195706
+    text_made_by: "fetch.py pdf_text"
+    note: null
+  - key: kusumegi2025
+    access: "fulltext"
+    kind: "local copy"
+    version: "the authors' accepted version, posted by permission of the AAAS"
+    address: "local copy, PDF"
+    date: "2026-10-30"
+    sha256: "sha256:014a02a5b26d75ecccd92d92bd0cf3a9683b655d13d7bc535f7804f139d75d36"
+    chars: 36305
+    text_made_by: "pdftotext 26.02.0"
+    note: null
+  - key: lee2024
+    access: "abstract"
+    kind: "publisher"
+    version: "publisher's landing page (subscription article)"
+    address: "https://www.nature.com/articles/s41562-024-01953-1"
+    date: "2026-10-30"
+    sha256: "sha256:6fc7326929126a9f54ad0af62cafe299a827fce4b1384ebd843dd2d34ebc8d5f"
+    chars: 1156
+    text_made_by: "fetch.py trafilatura, Abstract section kept"
+    note: "Two searches found no open full text."
+  - key: liang2025
+    access: "abstract"
+    kind: "publisher"
+    version: "publisher's landing page (subscription article)"
+    address: "https://www.nature.com/articles/s41562-025-02273-8"
+    date: "2026-10-30"
+    sha256: "sha256:a625327aa2c6b2123eb2535747dd1e59626c9c8ba179e94a0524f1aa6efef014"
+    chars: 1167
+    text_made_by: "fetch.py trafilatura, Abstract section kept"
+    note: "An author copy at nlp.stanford.edu was found but every fetch method failed on it (connection error)."
+  - key: linardon2026
+    access: "fulltext"
+    kind: "local copy"
+    version: "published open access article, Journal of Technology in Behavioral Science 2026"
+    address: "local copy, markdown text"
+    date: "2026-10-30"
+    sha256: "sha256:a4510eda1e8cb115213255547a80a431edf21399ddd9de4d5ae1794f03d9af8c"
+    chars: 41190
+    text_made_by: "copied"
+    note: null
+  - key: oxford2026
+    access: "fulltext"
+    kind: "publisher"
+    version: "the report, September 2026, at the address the reference gives"
+    address: "https://fdslive.oup.com/www.oup.com/Group_comms/pdf/Disclosing_AI_use_in_academic_research.pdf"
+    date: "2026-10-30"
+    sha256: "sha256:0f4e54bf1d8bebe77e332fedb209109bb3fabd59a48e96c78e2a8cfc570f22d5"
+    chars: 50785
+    text_made_by: "fetch.py pdf_text"
+    note: null
+  - key: rule2018
+    access: "fulltext"
+    kind: "repository"
+    version: "the first author's copy of the CHI 2018 paper"
+    address: "https://adamrule.com/files/papers/chi_2018.pdf"
+    date: "2026-10-30"
+    sha256: "sha256:2b8d526875b365a25313c61baa3252f56f6c854998b0a820345a9a79c7b19396"
+    chars: 62064
+    text_made_by: "fetch.py pdf_text"
+    note: "The landing page on disk was discarded, since its abstract is of another notebook paper. The ACM page and the HAL PDF returned bot challenges."
+  - key: schulz2026
+    access: "fulltext"
+    kind: "publisher"
+    version: "publisher's article page, Methodological Innovations 2026"
+    address: "https://journals.sagepub.com/doi/10.1177/20597991261454555"
+    date: "2026-10-30"
+    sha256: "sha256:93ed11fc0ce096de41d79643b3f1c4fca21871d4a05f7237a6f17d7d79f406a0"
+    chars: 43450
+    text_made_by: "fetch.py playwright"
+    note: "Partial. The page text holds every section, but the abstract is empty and in many paragraphs the words before the first citation link are missing. Jina and a second Playwright try returned a bot challenge or timed out."
+  - key: stodden2010
+    access: "abstract"
+    kind: "repository"
+    version: "Zenodo record of the talk, v1"
+    address: "https://zenodo.org/records/3781771"
+    date: "2026-10-30"
+    sha256: "sha256:bfd362e7399bb63419a3dedd9ecdeaf62bbd8d6a3a93a4eda1b01621db1a9d7c"
+    chars: 1226
+    text_made_by: "fetch.py jina, Description section kept"
+    note: "The talk is slides. The record's PDF (2010_c2_stodden.pdf) returned a short page to fetch.py and HTTP 403 to a direct download."
+  - key: trisovic2022
+    access: "fulltext"
+    kind: "publisher"
+    version: "publisher's open access article page, Scientific Data 2022"
+    address: "https://www.nature.com/articles/s41597-022-01143-6"
+    date: "2026-10-30"
+    sha256: "sha256:5ca569e70df94d9a71e0806233cc5c1c62ce6a7b133b4f411536577a4ec98b52"
+    chars: 70628
+    text_made_by: "fetch.py trafilatura"
+    note: null
+  - key: walters2023
+    access: "fulltext"
+    kind: "local copy"
+    version: "publisher's open access article, Scientific Reports 2023"
+    address: "local copy, markdown text"
+    date: "2026-10-30"
+    sha256: "sha256:78dab8c4ada7c11090e9053a08ffcd38e551e20e48310191d46acd6203c20236"
+    chars: 40742
+    text_made_by: "copied"
+    note: null
+  - key: wiley2025
+    access: "fulltext"
+    kind: "publisher"
+    version: "the February 2025 report at the address the reference gives"
+    address: "https://assets.wiley.com/image/upload/v1781548107/wiley-explanaItions-ai-study-february-2025vers3.pdf"
+    date: "2026-10-30"
+    sha256: "sha256:62408294521b532bf4910b2e05eec7c72402d935fe838225a9ed83f2166f1c7a"
+    chars: 61533
+    text_made_by: "fetch.py pdf_text"
+    note: null
+  - key: zheng2026
+    access: "fulltext"
+    kind: "local copy"
+    version: "arXiv:2607.20923v1, July 23, 2026, the cited preprint itself"
+    address: "local copy, markdown text"
+    date: "2026-10-30"
+    sha256: "sha256:01d1ba8371a7a658b32c2b9d09e1fd61372fbbde9d1dfdf76880701c3cd4a994"
+    chars: 89891
+    text_made_by: "copied"
+    note: null
+  - key: lu2026
+    access: "fulltext"
+    kind: "preprint"
+    version: "arXiv:2609.09153v1, September 8, 2026, the cited preprint itself"
+    address: "https://arxiv.org/pdf/2609.09153"
+    date: "2026-10-30"
+    sha256: "sha256:0e208872cd5433972377e541a47a84755a92b384b358792d3a4d761ff5d5d166"
+    chars: 118350
+    text_made_by: "fetch.py pdf_text"
+    note: null
+  - key: luccioni2024
+    access: "fulltext"
+    kind: "publisher"
+    version: "published ACM version (CC BY-SA, DOI 10.1145/3630106.3658542) posted on the FAccT conference site"
+    address: "https://facctconference.org/static/papers24/facct24-6.pdf"
+    date: "2026-10-30"
+    sha256: "sha256:5aae657577eef3a8a1c5e812e23c6307a274ca0e458f7290c7297cbc23e33260"
+    chars: 69453
+    text_made_by: "fetch.py pdf_text"
+    note: "The ACM page returned a bot challenge."
+  - key: resnik2025
+    access: "fulltext"
+    kind: "local copy"
+    version: "publisher's PDF, AI and Ethics 5 (2025), published online May 27, 2024"
+    address: "local copy, PDF"
+    date: "2026-10-30"
+    sha256: "sha256:99fbe04ec879d2ad12a39350a67bb4b8c34f56fc1c564ad725f1963cf80e1b4d"
+    chars: 125105
+    text_made_by: "pdftotext 26.02.0"
+    note: null
+  - key: suchak2025
+    access: "fulltext"
+    kind: "publisher"
+    version: "publisher's open access PDF, PLOS Biology 2025"
+    address: "https://journals.plos.org/plosbiology/article/file?type=printable&id=10.1371%2Fjournal.pbio.3003152"
+    date: "2026-10-30"
+    sha256: "sha256:e5ba0a966edd79511c6a580d27b6b3af31af6f3351bcd4aaafcd94fb0489bbd9"
+    chars: 49192
+    text_made_by: "fetch.py pdf_text"
+    note: null
+  - key: yuan2025
+    access: "fulltext"
+    kind: "publisher"
+    version: "NeurIPS 2025 conference paper"
+    address: "https://proceedings.neurips.cc/paper_files/paper/2025/file/f80094a824ba5912d4a2de169c404a40-Paper-Conference.pdf"
+    date: "2026-10-30"
+    sha256: "sha256:6275eeb6c9a526f5d62a383524e64a8c690edc281f0867ffe41cd57a37e27a22"
+    chars: 102039
+    text_made_by: "fetch.py pdf_text"
+    note: null
+  - key: zhang2026
+    access: "fulltext"
+    kind: "preprint"
+    version: "arXiv:2605.23950v1, May 7, 2026, the cited preprint itself"
+    address: "https://arxiv.org/pdf/2605.23950"
+    date: "2026-10-30"
+    sha256: "sha256:d4a12f64c19297b160d38e28948c065baa2f538d34664d3c4ef56f8d70512d46"
+    chars: 64309
+    text_made_by: "fetch.py pdf_text"
+    note: null

@@ -1,0 +1,17 @@
+{
+  "schema": "verification-results",
+  "schema_version": 1,
+  "stream": "data_phases",
+  "run_id": "appendix_data_collection",
+  "procedure_version": 0.1,
+  "inputs": {
+    "final_text.md": "sha256:6cfef15424907eb740a62a668ab9aaf9cecadbe47765b67dce2e205bcd4fb076",
+    "params_io.py": "sha256:2c0af822eef3ddf1a1f1e6deff40bb22728bdb3d2c83309c5f1862f92222c4a9",
+    "pipeline.yaml": "sha256:5d2b08aebbf298038c44b8ae6e0d7e23f33a141ef3c285882a85436572d31c3c",
+    "results_io.py": "sha256:1370d330abb7f8f05caffa7fadcf62d634ef2b211a485d1bc97176e1d0fd88da",
+    "s1_artifact_numbers.py": "sha256:c0d7c3fbf27aa4c612ca7db1da28dc4720df03271a727d126b28220a4d01da27",
+    "s2_live_runs.py": "sha256:7f78483fe3e311f914f4c2353090b9bcd97232c49e0fa6fcc0343e7b3301fe17"
+  },
+  "items": [],
+  "decisions": []
+}

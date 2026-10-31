@@ -1,0 +1,13 @@
+param,value,step,script
+differ_run,citations.seeded,live,s2_live_runs.py
+harness_programs,claude forge,live,s2_live_runs.py
+judgment_runs,citations.seeded data.seeded prose_v02.seeded,live,s2_live_runs.py
+live_archive,live_runs_2026-10-08.tar,live,s2_live_runs.py
+live_runs,citations.seeded=cit_live_seeded citations.clean=cit_live_clean data.seeded=data_live_seeded data.clean=data_live_clean prose_v01.seeded=prose_live prose_v02.seeded=prose_live2 prose.clean=prose_clean_live,live,s2_live_runs.py
+nojudge_stream,prose,live,s2_live_runs.py
+procedures_archive,artifact_public_f48459a.tar,live,s2_live_runs.py
+recheck_step,second_check,live,s2_live_runs.py
+retry_suffix,.retry.txt,live,s2_live_runs.py
+support_step,judge_support,live,s2_live_runs.py
+word_cap_keys,kb.outside live.retries,live,s2_live_runs.py
+word_keys,kb.tools kb.outside runtime.commands tests.suites sample.slides sample.blocking sample.warnings sample.notes sample.numbers sample.analysis_steps sample.analysis_descriptions citations.steps citations.steps_run citations.replays citations.judged citations.extras prose.faults prose.caught prose.extras data.faults data.caught data.extras cleaning.faults cleaning.caught cleaning.extras build.faults build.caught build.extras excerpt.ai excerpt.scholar excerpt.unknown excerpt.not_found excerpt.not_looked_up excerpt.no_quote_found excerpt.record_quote_not_found excerpt.no_reason excerpt.ai_before excerpt.ai_after live.runs live.retries live.judgment_faults live.prose.clean.findings live.citations.seeded.extras live.rechecks live.prose_v01.seeded.extras live.data.seeded.judgment_faults,live,s2_live_runs.py

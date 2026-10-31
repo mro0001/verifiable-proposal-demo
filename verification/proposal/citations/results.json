@@ -1,0 +1,1201 @@
+{
+  "schema": "verification-results",
+  "schema_version": 1,
+  "stream": "citations",
+  "run_id": "proposal_citations",
+  "procedure_version": 0.2,
+  "inputs": {
+    "citation_provenance.yaml": "sha256:3149e3d296183de631af514f98156ba5820b49c1a0754b2454aa706ddd1ff8a6",
+    "draft.md": "sha256:5e9b9d321d6794d369c9c51a2fc507e93ba9c97e4a3e1eb8178315dc8394e19f",
+    "metadata_cache.json": "sha256:1385201f7f62be31508d68769ba554600b323baf5b5926a4204d01228cae99d4",
+    "proposal.md": "sha256:5e9b9d321d6794d369c9c51a2fc507e93ba9c97e4a3e1eb8178315dc8394e19f",
+    "refs.yaml": "sha256:32c3c60b2c1ef9d11fe61c784e236518f8f781b7b3611864e79cc22dc4bbd4d7",
+    "source_ans2026.txt": "sha256:fbaf45b8c64d40c8ec48d9fdbe68a6a984c36257554e59a3f203a6204d2461f7",
+    "source_astrom2008.txt": "sha256:24271ef16de051b5fc71262bd2885bf80b9c0f9e935ab0e7aa26a87ec8dd26a9",
+    "source_boiko2023.txt": "sha256:a1b116c9bc7bdb1299e9c52d85d719a66481e2456845532e545d811f69e4490c",
+    "source_dellacqua2026.txt": "sha256:7fc8e862abac58bd3f4df040a49a1c542ddb7f98371609c7df767ab8651f1aff",
+    "source_doshi2024.txt": "sha256:86554558f6d0e2a09c34ea291f3c36416823773127b96e9aea0f41b47ac266fd",
+    "source_eubank2016.txt": "sha256:ef7ba451f976390458df4dacc7f6f0b9e5d833ddb93ccf9b5f16ca9fd3c699a6",
+    "source_gartenberg2026.txt": "sha256:6824b5d83165faeca9c00f88ce9a3a04f6c4e2b43da0c414dd9dab5911a29611",
+    "source_he2026.txt": "sha256:facb19032c3a1b315d8f3a9a8f18d2ae4da0daa1fc990d838a018a0732ade210",
+    "source_healy2020.txt": "sha256:c684ad1b6d97b81b16d77367f6bde6fbcad5dddeceae0a02ce38b40642660e93",
+    "source_jcgm2012.txt": "sha256:cbc125a35b0a4ef07b62b0005fe3057e75063dd2a79fa9aab412fca80c367874",
+    "source_kapoor2026.txt": "sha256:2eae219638fb4b1bd7a44282eec25d67f12ba8d260e39eb67da5340b847d39e5",
+    "source_kusumegi2025.txt": "sha256:014a02a5b26d75ecccd92d92bd0cf3a9683b655d13d7bc535f7804f139d75d36",
+    "source_lee2024.txt": "sha256:6fc7326929126a9f54ad0af62cafe299a827fce4b1384ebd843dd2d34ebc8d5f",
+    "source_liang2025.txt": "sha256:a625327aa2c6b2123eb2535747dd1e59626c9c8ba179e94a0524f1aa6efef014",
+    "source_linardon2026.txt": "sha256:a4510eda1e8cb115213255547a80a431edf21399ddd9de4d5ae1794f03d9af8c",
+    "source_lu2026.txt": "sha256:0e208872cd5433972377e541a47a84755a92b384b358792d3a4d761ff5d5d166",
+    "source_luccioni2024.txt": "sha256:5aae657577eef3a8a1c5e812e23c6307a274ca0e458f7290c7297cbc23e33260",
+    "source_oxford2026.txt": "sha256:0f4e54bf1d8bebe77e332fedb209109bb3fabd59a48e96c78e2a8cfc570f22d5",
+    "source_resnik2025.txt": "sha256:99fbe04ec879d2ad12a39350a67bb4b8c34f56fc1c564ad725f1963cf80e1b4d",
+    "source_rule2018.txt": "sha256:2b8d526875b365a25313c61baa3252f56f6c854998b0a820345a9a79c7b19396",
+    "source_schulz2026.txt": "sha256:93ed11fc0ce096de41d79643b3f1c4fca21871d4a05f7237a6f17d7d79f406a0",
+    "source_stodden2010.txt": "sha256:bfd362e7399bb63419a3dedd9ecdeaf62bbd8d6a3a93a4eda1b01621db1a9d7c",
+    "source_suchak2025.txt": "sha256:e5ba0a966edd79511c6a580d27b6b3af31af6f3351bcd4aaafcd94fb0489bbd9",
+    "source_trisovic2022.txt": "sha256:5ca569e70df94d9a71e0806233cc5c1c62ce6a7b133b4f411536577a4ec98b52",
+    "source_walters2023.txt": "sha256:78dab8c4ada7c11090e9053a08ffcd38e551e20e48310191d46acd6203c20236",
+    "source_wiley2025.txt": "sha256:62408294521b532bf4910b2e05eec7c72402d935fe838225a9ed83f2166f1c7a",
+    "source_yuan2025.txt": "sha256:6275eeb6c9a526f5d62a383524e64a8c690edc281f0867ffe41cd57a37e27a22",
+    "source_zhang2026.txt": "sha256:d4a12f64c19297b160d38e28948c065baa2f538d34664d3c4ef56f8d70512d46",
+    "source_zheng2026.txt": "sha256:01d1ba8371a7a658b32c2b9d09e1fd61372fbbde9d1dfdf76880701c3cd4a994"
+  },
+  "items": [
+    {
+      "id": "r01",
+      "citekey": "kusumegi2025",
+      "sentence": "AI-generated content is entering scientific manuscripts at a staggering pace [@liang2025; @kusumegi2025], and standards for using AI in research have lagged.",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-10T15:43:48.767Z in session Sf2b3ddaba981, in the output of a shell command the AI ran, where the record reads \"[Kusumegi et al. (2025)](https://pubsonline.informs.org/doi/full/10.1287/orsc.2026.ed.v37.n3#B8) examine preprint production and find that authors who adopt AI upload 36% more preprints than nonadopters across the three major preprint servers (arXiv, bioRxiv, and SSRN).\"",
+      "reference": "Kusumegi, K., Yang, X., Ginsparg, P., Vaan, M., Stuart, T., Yin, Y. (2025). Scientific production in the era of large language models. Science. doi:10.1126/science.adw3000",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1126/science.adw3000)",
+      "record": "Kusumegi, K., Yang, X., Ginsparg, P., de Vaan, M., Stuart, T., Yin, Y. (2025). Scientific production in the era of large language models. Science. Type journal-article.",
+      "reason": "The figures and wording for Dell'Acqua, Gottweis, Lu, Floridi and REFORMS come from the full-text check in `orgsci_special_issue/notes_for_proposal/ai_science_citation_check_2026-09-23.md`. One possible gap: the report worked from a truncated abstract for Kusumegi et al. (2025, *Science*), so any results it measured are missing here.",
+      "reason_source": "at 2026-09-28T17:52:53.530Z in session Sa41d678f3e51",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "Abstract",
+          "text": "Large Language Models (LLMs) are rapidly reshaping scientific research. We analyze these changes in multiple, large-scale datasets with 2.1M preprints, 28K peer review reports, and 246M online accesses to scientific documents.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_kusumegi2025.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "Sf2b3ddaba981"
+      ]
+    },
+    {
+      "id": "r02",
+      "citekey": "liang2025",
+      "sentence": "AI-generated content is entering scientific manuscripts at a staggering pace [@liang2025; @kusumegi2025], and standards for using AI in research have lagged.",
+      "origin": "scholar",
+      "origin_evidence": "First named by the scholar at 2026-09-10T15:50:38.061Z in session S691be438c530 in orgsci_editorial_excerpt.md, in a file that the AI read with Read, where the record reads \"...www.pangram.com/research/model-card/pangram-3-1](https://www.pangram.com/research/model-card/pangram-3-1). 268 269 5 Some prior research ( [Liang et al. 2025](https://pubsonline.informs.org/doi/full/10.1287/orsc.2026.ed.v37.n3#B10)) suggests that AI detection algorithms mis-classify text written b...\"",
+      "reference": "Liang, W., Zhang, Y., Wu, Z., Lepp, H., Ji, W., Zhao, X., Cao, H., others (2025). Quantifying large language model usage in scientific papers. Nature Human Behav.. doi:10.1038/s41562-025-02273-8",
+      "lookup": "not_checked",
+      "existence": "not looked up, since the citation is not an AI's",
+      "record": "",
+      "reason": "",
+      "reason_source": "",
+      "quotes": [],
+      "quote_in_source": "not_checked",
+      "access": "abstract",
+      "source_file": "source_liang2025.txt",
+      "notes": [
+        "@liang2025 was first named by the scholar in the record, so it is not checked further"
+      ],
+      "needs_decision": false
+    },
+    {
+      "id": "r03",
+      "citekey": "boiko2023",
+      "sentence": "AI can lower the cost of writing, coding, literature search, and other research tasks, allowing scholars to undertake work that would otherwise require more time, technical expertise, or cross-disciplinary collaborators [@doshi2024; @lee2024; @boiko2023].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-28T20:37:41.909Z in session S3041cff31f75, in the output of a shell command the AI ran, where the record reads \"Boiko, D. A., MacKnight, R., Kline, B. & Gomes, G. Autonomous chemical research with large language models. *Nature* **624**, 570–578 (2023). 47.\"",
+      "reference": "Boiko, D., MacKnight, R., Kline, B., Gomes, G. (2023). Autonomous chemical research with large language models. Nature. doi:10.1038/s41586-023-06792-0",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1038/s41586-023-06792-0)",
+      "record": "Boiko, D., MacKnight, R., Kline, B., Gomes, G. (2023). Autonomous chemical research with large language models. Nature. Type journal-article.",
+      "reason": "7. **Automation lets individual scientists do tasks that used to need other people's help.** - Source: [29] Boiko et al. 2023. - Quote (Introduction): \"LLM-driven automation tools can let scientists take on tasks that previously required more direct human assistance.\" - Hedging: none.",
+      "reason_source": "at 2026-10-09T16:55:26.344Z in session Scecd89f9bc5b",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "",
+          "text": "LLM-driven automation tools can let scientists take on tasks that previously required more direct human assistance.",
+          "where": "at 2026-10-09T16:55:26.344Z in session Scecd89f9bc5b"
+        }
+      ],
+      "quote_in_source": "no",
+      "access": "fulltext",
+      "source_file": "source_boiko2023.txt",
+      "notes": [
+        "the passage step found no passage in the source text of @boiko2023 that bears on the sentence",
+        "the quote given for @boiko2023 is not in its source text source_boiko2023.txt"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "S3041cff31f75"
+      ]
+    },
+    {
+      "id": "r04",
+      "citekey": "doshi2024",
+      "sentence": "AI can lower the cost of writing, coding, literature search, and other research tasks, allowing scholars to undertake work that would otherwise require more time, technical expertise, or cross-disciplinary collaborators [@doshi2024; @lee2024; @boiko2023].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-10T21:01:35.974Z in session Sf2b3ddaba981, in the output of a shell command the AI ran, where the record reads \"Yet generative AI has well-documented limitations in arithmetic and mathematical reasoning (Doshi & Hauser, 2024), and recent scholarship has demonstrated that hallucination is not a bug to be fixed but an innate limitation of the technology (Xu et al., 2024).\"",
+      "reference": "Doshi, A., Hauser, O. (2024). Generative AI enhances individual creativity but reduces the collective diversity of novel content. Sci. Adv.. doi:10.1126/sciadv.adn5290",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1126/sciadv.adn5290)",
+      "record": "Doshi, A., Hauser, O. (2024). Generative AI enhances individual creativity but reduces the collective diversity of novel content. Science Advances. Type journal-article.",
+      "reason": "1. **LLMs are good at writing, coding, brainstorming and literature search.** - Sources: [2] Doshi & Hauser 2024; [3] Lee & Chung 2024. - Quote (Introduction): \"LLM tools have been rapidly evolving and exhibit great advantages in tasks such as writing, coding, brainstorming, and literature search.\" - Hedging: none.",
+      "reason_source": "at 2026-10-09T16:55:26.344Z in session Scecd89f9bc5b",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "",
+          "text": "LLM tools have been rapidly evolving and exhibit great advantages in tasks such as writing, coding, brainstorming, and literature search.",
+          "where": "at 2026-10-09T16:55:26.344Z in session Scecd89f9bc5b"
+        }
+      ],
+      "quote_in_source": "no",
+      "access": "fulltext",
+      "source_file": "source_doshi2024.txt",
+      "notes": [
+        "the passage step found no passage in the source text of @doshi2024 that bears on the sentence",
+        "the quote given for @doshi2024 is not in its source text source_doshi2024.txt"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sf2b3ddaba981"
+      ]
+    },
+    {
+      "id": "r05",
+      "citekey": "lee2024",
+      "sentence": "AI can lower the cost of writing, coding, literature search, and other research tasks, allowing scholars to undertake work that would otherwise require more time, technical expertise, or cross-disciplinary collaborators [@doshi2024; @lee2024; @boiko2023].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-10-08T08:49:22.579Z in lsi_texts/10_48550_arxiv_2607_20923.md, in a source the AI fetched, where the record reads \"[3] B. C. Lee, J. J. Chung, An empirical investigation of the impact of ChatGPT on creativity. *Nature Human Behaviour* **8** (10), 1906–1914 (2024), doi:10.1038/s41562-024-01953-1.\"",
+      "reference": "Lee, B., Chung, J. (2024). An empirical investigation of the impact of ChatGPT on creativity. Nature Human Behav.. doi:10.1038/s41562-024-01953-1",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1038/s41562-024-01953-1)",
+      "record": "Lee, B., Chung, J. (2024). An empirical investigation of the impact of ChatGPT on creativity. Nature Human Behaviour. Type journal-article.",
+      "reason": "1. **LLMs are good at writing, coding, brainstorming and literature search.** - Sources: [2] Doshi & Hauser 2024; [3] Lee & Chung 2024. - Quote (Introduction): \"LLM tools have been rapidly evolving and exhibit great advantages in tasks such as writing, coding, brainstorming, and literature search.\" - Hedging: none.",
+      "reason_source": "at 2026-10-09T16:55:26.344Z in session Scecd89f9bc5b",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "",
+          "text": "LLM tools have been rapidly evolving and exhibit great advantages in tasks such as writing, coding, brainstorming, and literature search.",
+          "where": "at 2026-10-09T16:55:26.344Z in session Scecd89f9bc5b"
+        }
+      ],
+      "quote_in_source": "no",
+      "access": "abstract",
+      "source_file": "source_lee2024.txt",
+      "notes": [
+        "the passage step found no passage in the source text of @lee2024 that bears on the sentence",
+        "the quote given for @lee2024 is not in its source text source_lee2024.txt"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Scecd89f9bc5b"
+      ]
+    },
+    {
+      "id": "r06",
+      "citekey": "zheng2026",
+      "sentence": "These capabilities lower the cost of exploring risky ideas and help scholars work across fields and languages [@zheng2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-10-02T02:58:18.584Z in over_search/A4/fetched/arxiv.org-abs-2606.04990-a6ec1306.md, in a source the AI fetched, where the record reads \"Among the systems surveyed in Table 2, none reports tamper-evidence, signing, or attestation for its traces, so provenance is trustworthy only to the extent that the party holding the log is [Ojewale et al., 2026, Nian et al., 2026, Zheng et al., 2026].\"",
+      "reference": "Zheng, X., Hong, X., Liu, J., Ni, C. (2026). Scientific exploration, collaboration and labor division in the large language model era. doi:10.48550/arXiv.2607.20923",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.48550/arxiv.2607.20923)",
+      "record": "Zheng, X., Hong, X., Liu, J., Ni, C. (2026). Scientific exploration, collaboration and labor division in the large language model era. arXiv. Type Preprint.",
+      "reason": "The paper is now in the database with its full text. It is Zheng, Hong, Liu and Ni (2026), \"Scientific exploration, collaboration and labor division in the large language model era,\" arXiv preprint 2607.20923, posted 23 July 2026.",
+      "reason_source": "at 2026-10-08T08:49:28.567Z in session S35d5ba7e088a",
+      "quotes": [
+        {
+          "found_at": "Introduction",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "p. 2",
+          "text": "LLMs and AI agentic systems exhibit the potential to lower the cost of failure, making riskier and more ambitious ideas more practical for individuals to test when they were once too costly or time-consuming$^{30}$. LLMs may also lower the cost of integrating and coordinating specialized tasks performed by individuals within a team$^{31,32}$.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_zheng2026.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "S35d5ba7e088a"
+      ]
+    },
+    {
+      "id": "r07",
+      "citekey": "luccioni2024",
+      "sentence": "But the power of AI to accelerate research has numerous negative consequences beyond its ethical and environmental concerns [@resnik2025; @luccioni2024].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-10-23T18:02:23.002Z in session S2934df0a9e27, in the AI's own words, where the record reads \"Candidates to consider (verify, don't trust): slot 1 — Bender, Gebru et al. 2021 (Stochastic Parrots, FAccT); Luccioni, Jernite & Strubell 2024 (Power hungry processing, FAccT); Strubell et al. 2019; Resnik & Hosseini on AI ethics in research; a review of ethics of LLMs in science.\"",
+      "reference": "Luccioni, S., Jernite, Y., Strubell, E. (2024). Power hungry processing: Watts driving the cost of AI deployment?. Proc. 2024 ACM Conf. Fairness Accountability Transparency (FAccT ’24). doi:10.1145/3630106.3658542",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1145/3630106.3658542)",
+      "record": "Luccioni, S., Jernite, Y., Strubell, E. (2024). Power Hungry Processing: Watts Driving the Cost of AI Deployment?. The 2024 ACM Conference on Fairness Accountability and Transparency. Type proceedings-article.",
+      "reason": "Candidates to consider (verify, don't trust): slot 1 — Bender, Gebru et al. 2021 (Stochastic Parrots, FAccT); Luccioni, Jernite & Strubell 2024 (Power hungry processing, FAccT); Strubell et al. 2019; Resnik & Hosseini on AI ethics in research; a review of ethics of LLMs in science. Slot 2 — Kobak et al. 2025 Science Advances (excess vocabulary); Haider et al. 2024 HKS Misinformation Review (GPT-fabricated papers on Google Scholar); Richardson et al. 2025 PNAS (paper mills); any 2025-2026 evidence that AI use raises submissions of lower quality (e.g., journal/editor reports, Kusumegi et al. 2025 finding that LLM-written papers with complex language are less likely to be published).",
+      "reason_source": "at 2026-10-23T18:02:23.002Z in session S2934df0a9e27",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "p. 1",
+          "text": "However, this ambition of “generality” comes at a steep cost to the environment, given the amount of energy these systems require and the amount of carbon that they emit.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_luccioni2024.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "S2934df0a9e27"
+      ]
+    },
+    {
+      "id": "r08",
+      "citekey": "resnik2025",
+      "sentence": "But the power of AI to accelerate research has numerous negative consequences beyond its ethical and environmental concerns [@resnik2025; @luccioni2024].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-28T02:57:31.672Z in research/workflow_lit_ai_integrity.md, in a file an AI wrote, where the record reads \"[PR] https://doi.org/10.5055/jem.0962 — the closest existing analogue to a public administration survey. - Resnik, D. B., & Hosseini, M. (2025).\"",
+      "reference": "Resnik, D., Hosseini, M. (2025). The ethics of using artificial intelligence in scientific research: New guidance needed for a new tool. AI Ethics. doi:10.1007/s43681-024-00493-8",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1007/s43681-024-00493-8)",
+      "record": "Resnik, D., Hosseini, M. (2024). The ethics of using artificial intelligence in scientific research: new guidance needed for a new tool. AI and Ethics. Type journal-article.",
+      "reason": "### Scholarship about the policies - Ganjavi, Eppler, Pekcan, Biedermann, Abreu, Collins, Gill & Cacciamani (2024). Publishers' and journals' instructions to authors on use of generative artificial intelligence in academic and scientific publishing: bibliometric analysis. *BMJ* 384:e077192. [PR] https://doi.org/10.1136/bmj-2023-077192 — the canonical survey: 24% of publishers vs 87% of journals gave guidance. - Goyanes, Lopezosa & Piñeiro-Naval (2025). The use of artificial intelligence (AI) in research: a review of author guidelines in leading journals across eight social science disciplines. *Scientometrics* 130(7):3725–3741. [PR] https://doi.org/10.1007/s11192-025-05377-0 — **the closest thing to a social science policy survey; paywalled, internal numbers UNVERIFIED.** - Wang, Z., & Gong, M. (2026). A Cross-Disciplinary Analysis of AI Policies in Academic Peer Review. *Learned Publishing* 39(1):e2035. [PR] https://doi.org/10.1002/leap.2035 — 802 journals; HSS \"adopt more lenient approaches\" than STM. - Charbonneau, D. H., & Zhang, M. (2026). Artificial Intelligence (AI) guidance for authors, peer reviewers, and editors: A content analysis of journal policies. *Accountability in Research* 33(6). [PR] https://doi.org/10.1080/08989621.2026.2632083 - Zahn-Muñoz, Viancos, Alarcón-Henríquez, Aravena-Niño & Martínez-Rojas (2026). Policies and Guidelines for the Use of Artificial Intelligence in Latin American Journals Indexed in Scopus. *Publications* 14(1):17. [PR] https://doi.org/10.3390/publications14010017 — largest N (1,119 journals); only 27.2% with explicit guidelines. - Kalokoh, Thullah & Louis-Charles (2026). To AI or not to AI: A cross-sectional analysis of artificial intelligence policy among emergency management journals. *Journal of Emergency Management*. [PR] https://doi.org/10.5055/jem.0962 — the closest existing analogue to a public administration survey. - Resnik, D. B., & Hosseini, M. (2025). Disclosing artificial intelligence use in scientific researc...",
+      "reason_source": "at 2026-07-28T02:57:31.672Z in research/workflow_lit_ai_integrity.md",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "Abstract",
+          "text": "Using artificial intelligence (AI) in research offers many important benefits for science and society but also creates novel and complex ethical issues.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_resnik2025.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "Sde6d6e4c7742"
+      ]
+    },
+    {
+      "id": "r09",
+      "citekey": "gartenberg2026",
+      "sentence": "The rising volume of manuscripts is straining the peer review process [@gartenberg2026] and AI's polished output can mask underlying flaws [@dellacqua2026], increasing the rate of low-quality submissions [@kusumegi2025; @suchak2025].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-10T15:42:56.434Z in session Sf2b3ddaba981, in the output of a shell command the AI ran, where the record reads \"Our editorial last month ( [Gartenberg, Hasan, Murray and Pierce, 2026](https://pubsonline.informs.org/doi/abs/10.1287/orsc.2026.ed.v37.n3)) prompted scholars across fields to ask a fundamental quest...\"",
+      "reference": "Gartenberg, C., Hasan, S., Murray, A., Pierce, L. (2026). More versus better: Artificial intelligence, incentives, and the emerging crisis in peer review. Organ. Sci.. doi:10.1287/orsc.2026.ed.v37.n3",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1287/orsc.2026.ed.v37.n3)",
+      "record": "Gartenberg, C., Hasan, S., Murray, A., Pierce, L. (2026). More Versus Better: Artificial Intelligence, Incentives, and the Emerging Crisis in Peer Review. Organization Science. Type journal-article.",
+      "reason": "Compile the verified reference list the proposal may cite. Read the nine area reports research/01_plain_text_lineage/report.md through research/09_genre_venue/report.md (each tags every source FULL-TEXT, ABSTRACT, or METADATA), the policy sections of research/workflow_lit_ai_integrity.md (ICMJE verified live at icmje.org 2026-07-27; COPE from an archive snapshot), and orgsci_editorial_excerpt.md (Gartenberg, Hasan, Murray and Pierce 2026, Organization Science editorial \"More Versus Better\", doi 10.1287/orsc.2026.ed.v37.n3, read in full 2026-09-10, so tag it FULL-TEXT). Select the 20 to 30 sources most useful to the proposal described in PROPOSAL_BRIEF.md (plain text lineage and Healy, literate programming, TIER and its adoption evidence, notebook mess studies, fabrication and claim-source error rates, epistemic dependence and warrant, ICMJE and COPE and Nature authorship policy, provenance versus verification, reproducibility limits, quotation accuracy baselines, replication reform).",
+      "reason_source": "at 2026-09-10T18:35:39.753Z in session Sfdc8140a6627",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "p. 2",
+          "text": "Journal operations are increasingly strained by growth in low-quality AIaugmented submissions, affecting volunteer editors and reviewers alike.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_gartenberg2026.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "Sf2b3ddaba981"
+      ]
+    },
+    {
+      "id": "r10",
+      "citekey": "dellacqua2026",
+      "sentence": "The rising volume of manuscripts is straining the peer review process [@gartenberg2026] and AI's polished output can mask underlying flaws [@dellacqua2026], increasing the rate of low-quality submissions [@kusumegi2025; @suchak2025].",
+      "origin": "scholar",
+      "origin_evidence": "First named by the scholar at 2026-09-10T15:50:38.061Z in session S691be438c530 in orgsci_editorial_excerpt.md, in a file that the AI read with Read, where the record reads \"The potential for AI to bridge knowledge silos is particularly exciting for our diverse field ( [Dell’Acqua et al. 2026](https://pubsonline.informs.org/doi/full/10.1287/orsc.2026.ed.v37.n3#B4)).\"",
+      "reference": "Dell’Acqua, F., McFowland, E., Mollick, E., Lifshitz, H., Kellogg, K., Rajendran, S., Krayer, L., Candelon, F., Lakhani, K. (2026). Navigating the jagged technological frontier: Field experimental evidence of the effects of artificial intelligence on knowledge worker productivity and quality. Organ. Sci.. doi:10.1287/orsc.2025.21838",
+      "lookup": "not_checked",
+      "existence": "not looked up, since the citation is not an AI's",
+      "record": "",
+      "reason": "",
+      "reason_source": "",
+      "quotes": [],
+      "quote_in_source": "not_checked",
+      "access": "fulltext",
+      "source_file": "source_dellacqua2026.txt",
+      "notes": [
+        "@dellacqua2026 was first named by the scholar in the record, so it is not checked further"
+      ],
+      "needs_decision": false
+    },
+    {
+      "id": "r11",
+      "citekey": "kusumegi2025",
+      "sentence": "The rising volume of manuscripts is straining the peer review process [@gartenberg2026] and AI's polished output can mask underlying flaws [@dellacqua2026], increasing the rate of low-quality submissions [@kusumegi2025; @suchak2025].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-10T15:43:48.767Z in session Sf2b3ddaba981, in the output of a shell command the AI ran, where the record reads \"[Kusumegi et al. (2025)](https://pubsonline.informs.org/doi/full/10.1287/orsc.2026.ed.v37.n3#B8) examine preprint production and find that authors who adopt AI upload 36% more preprints than nonadopters across the three major preprint servers (arXiv, bioRxiv, and SSRN).\"",
+      "reference": "Kusumegi, K., Yang, X., Ginsparg, P., Vaan, M., Stuart, T., Yin, Y. (2025). Scientific production in the era of large language models. Science. doi:10.1126/science.adw3000",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1126/science.adw3000)",
+      "record": "Kusumegi, K., Yang, X., Ginsparg, P., de Vaan, M., Stuart, T., Yin, Y. (2025). Scientific production in the era of large language models. Science. Type journal-article.",
+      "reason": "The figures and wording for Dell'Acqua, Gottweis, Lu, Floridi and REFORMS come from the full-text check in `orgsci_special_issue/notes_for_proposal/ai_science_citation_check_2026-09-23.md`. One possible gap: the report worked from a truncated abstract for Kusumegi et al. (2025, *Science*), so any results it measured are missing here.",
+      "reason_source": "at 2026-09-28T17:52:53.530Z in session Sa41d678f3e51",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "p. 5",
+          "text": "This creates a risk for the scientific enterprise, as a deluge of superficially convincing but scientifically underwhelming research could saturate the literature.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_kusumegi2025.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "Sf2b3ddaba981"
+      ]
+    },
+    {
+      "id": "r12",
+      "citekey": "suchak2025",
+      "sentence": "The rising volume of manuscripts is straining the peer review process [@gartenberg2026] and AI's polished output can mask underlying flaws [@dellacqua2026], increasing the rate of low-quality submissions [@kusumegi2025; @suchak2025].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-10-23T18:02:47.112Z in session S64646222b4c4, in text the harness put in the conversation, such as a finished task's notice or a summary, where the record reads \"Quality is measured by later publication or reviewer score, and the authors say the link is not causal. - **Suchak et al. 2025, *PLOS Biology* 23(5):e3003152** (new; abstract and results checked).\"",
+      "reference": "Suchak, T., Aliu, A., Harrison, C., Zwiggelaar, R., Geifman, N., Spick, M. (2025). Explosion of formulaic research articles, including inappropriate study designs and false discoveries, based on the NHANES US national health database. PLOS Biol.. doi:10.1371/journal.pbio.3003152",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1371/journal.pbio.3003152)",
+      "record": "Suchak, T., Aliu, A., Harrison, C., Zwiggelaar, R., Geifman, N., Spick, M. (2025). Explosion of formulaic research articles, including inappropriate study designs and false discoveries, based on the NHANES US national health database. PLOS Biology. Type journal-article.",
+      "reason": "The finding also holds for all 7,243 ICLR 2024 submissions. Quality is measured by later publication or reviewer score, and the authors say the link is not causal. - **Suchak et al. 2025, *PLOS Biology* 23(5):e3003152** (new; abstract and results checked). Formulaic, flawed papers using one US health dataset (NHANES) went from about 4 a year (2014–2021) to 190 in 2024 through October 9.",
+      "reason_source": "at 2026-10-23T18:06:04.376Z in session S2934df0a9e27",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "p. 1",
+          "text": "Given the explosion of AI-assisted productivity in published manuscripts (the systematic search strategy used here identified an average of 4 papers per annum from 2014 to 2021, but 190 in 2024–9 October alone), we highlight a set of best practices to address these concerns, aimed at researchers, data controllers, publishers, and peer reviewers, to encourage improved statistical practices and mitigate the risks of paper mills using AI-assisted workflows to introduce low-quality manuscripts to the scientific literature.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_suchak2025.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "S64646222b4c4"
+      ]
+    },
+    {
+      "id": "r13",
+      "citekey": "oxford2026",
+      "sentence": "Scholars want clear guidance on acceptable use [@schulz2026; @oxford2026; @wiley2025], but journal policies rarely go beyond disclosure [@he2026; @ans2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-28T20:36:29.252Z in session S2c62c2036e7b, in text the harness put in the conversation, such as a finished task's notice or a summary, where the record reads \"The strongest is Oxford University Press's 2026 survey of 2,606 researchers: 74% agreed there is \\\"a general lack of clarity about what AI use should be disclosed,\\\" and only about a third keep a record of their AI use.\"",
+      "reference": "Oxford University Press (2026). Disclosing AI Use in Academic Research: A Global Study by Oxford University Press.",
+      "lookup": "not_looked_up",
+      "existence": "no DOI, not looked up",
+      "record": "",
+      "reason": "",
+      "reason_source": "",
+      "quotes": [],
+      "quote_in_source": "not_checked",
+      "access": "fulltext",
+      "source_file": "source_oxford2026.txt",
+      "notes": [
+        "@oxford2026 has no DOI, so it was not looked up"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "S2c62c2036e7b"
+      ]
+    },
+    {
+      "id": "r14",
+      "citekey": "schulz2026",
+      "sentence": "Scholars want clear guidance on acceptable use [@schulz2026; @oxford2026; @wiley2025], but journal policies rarely go beyond disclosure [@he2026; @ans2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-28T20:36:29.252Z in session S2c62c2036e7b, in text the harness put in the conversation, such as a finished task's notice or a summary, where the record reads \"Peer-reviewed evidence points the same way: Ng et al. 2025 (medical researchers), Andersen et al. 2025 (Danish researchers), Schulz et al. 2026 (social researchers in Denmark and Mexico) and Chemaya and Martin 2024 (mostly economists).\"",
+      "reference": "Schulz, M., Tavera Fenollosa, L., Dussauge Laguna, M., Fontanelli, O., Quintana Nedelcu, D., Alba Udave, J., Andersen, J. (2026). The uses of generative artificial intelligence in social research north and south: Comparing empirical evidence from surveys in Denmark and Mexico. Methodological Innovations. doi:10.1177/20597991261454555",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1177/20597991261454555)",
+      "record": "Schulz, M., Tavera Fenollosa, L., Dussauge Laguna, M., Fontanelli, O., Quintana Nedelcu, D., Alba Udave, J., Andersen, J. (2026). The uses of generative artificial intelligence in social research north and south: Comparing empirical evidence from surveys in Denmark and Mexico. Methodological Innovations. Type journal-article.",
+      "reason": "**Yes, with a qualification.** There are now actual studies, not just AI-use counts, showing that researchers are unsure what is required of them and are asking for guidance. The strongest is Oxford University Press's September 2026 survey of 2,606 researchers: 74% agreed \"there is a general lack of clarity about what AI use should be disclosed,\" and only about a third (36%) always keep a record of their AI use (OUP 2026, pp. 6, 27–28). Wiley's 2024 survey of 4,946 researchers found 63% named \"a lack of clear guidelines and consensus on what uses of AI are accepted in their field and/or the need for more training\" as a barrier, and 70% want publishers to say which uses are acceptable (Wiley 2025, pp. 4, 8). Both are publisher reports, not peer-reviewed. The peer-reviewed evidence points the same way but is smaller or narrower: medical corresponding authors (only 11.4% had institutional training; 69.7% wanted more; Ng et al. 2025), Danish researchers asking for \"more support from their institutions\" (Andersen et al. 2025), social researchers in Denmark and Mexico whose many \"unable to answer\" responses the authors read as \"widespread uncertainty\" (Schulz et al. 2026), and economists who could not agree on what AI use must be reported (Chemaya and Martin 2024). **The qualification:** every one of these measures uncertainty about *disclosure, acceptable use, or training*. None measures whether scholars know how to *verify or validate* an AI contribution. The closest verification evidence is about practice, not understanding: Desai, Card and Jacobs (2026, preprint) find validation of LLM measurements in flagship social-science journals \"inconsistent and limited\" and attribute it to \"the limited guidance currently available.\" So the proposal can say scholars are asking for guidance and are unsure what to disclose. It should not say studies show scholars do not understand what verification requires. That is the gap the proposal fills, and it can be stated as a gap.",
+      "reason_source": "at 2026-09-28T20:52:15.458Z in session Sde6d6e4c7742 in 11_evidence_P4_P5_journals_guidance.md",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "",
+          "text": "more support from their institutions",
+          "where": "at 2026-09-28T20:52:15.458Z in session Sde6d6e4c7742 in 11_evidence_P4_P5_journals_guidance.md"
+        },
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "not_checked",
+          "kind": "paraphrase",
+          "location": "Implications, further analysis, and limitations",
+          "text": "The authors interpret the high number of 'don't know' responses in the Mexican survey as evidence of hesitation and 'epistemic friction' regarding the use of generative AI, noting that informal conversations revealed uncertainty about the technology's inner workings.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "no",
+      "access": "fulltext",
+      "source_file": "source_schulz2026.txt",
+      "notes": [
+        "no exact quote was given for @schulz2026, since the passage step gave a paraphrase, which is not checked word for word",
+        "the quote given for @schulz2026 is not in its source text source_schulz2026.txt"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "S2c62c2036e7b"
+      ]
+    },
+    {
+      "id": "r15",
+      "citekey": "wiley2025",
+      "sentence": "Scholars want clear guidance on acceptable use [@schulz2026; @oxford2026; @wiley2025], but journal policies rarely go beyond disclosure [@he2026; @ans2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-28T20:36:29.252Z in session S2c62c2036e7b, in text the harness put in the conversation, such as a finished task's notice or a summary, where the record reads \"...d sampling date are unknown.\",\"The date of Science's move from the January 2023 ban to its current permissive policy was not found.\",\"The Wiley ExplanAItions 2025 full report is registration-gated; only the 2024 report PDF and the 2025 web page were read.\"",
+      "reference": "Wiley (2025). ExplanAItions: An AI Study by Wiley.",
+      "lookup": "not_looked_up",
+      "existence": "no DOI, not looked up",
+      "record": "",
+      "reason": "",
+      "reason_source": "",
+      "quotes": [],
+      "quote_in_source": "not_checked",
+      "access": "fulltext",
+      "source_file": "source_wiley2025.txt",
+      "notes": [
+        "@wiley2025 has no DOI, so it was not looked up"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "S2c62c2036e7b"
+      ]
+    },
+    {
+      "id": "r16",
+      "citekey": "ans2026",
+      "sentence": "Scholars want clear guidance on acceptable use [@schulz2026; @oxford2026; @wiley2025], but journal policies rarely go beyond disclosure [@he2026; @ans2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-28T02:57:31.672Z in research/workflow_lit_ai_integrity.md, in a file an AI wrote, where the record reads \"[PR] https://doi.org/10.1080/0142159x.2025.2607513 — introduces **internal vs. external disclosure**. - Ans, Maggio, Algodi, Costello, Driessen & Oswald (2026).\"",
+      "reference": "Ans, M., Maggio, L., Algodi, H., Costello, J., Driessen, E., Oswald, K., Lingard, L. (2026). The presence and nature of AI-use disclosure statements in medical education journals: A bibliometric study. Perspect. Medical Ed.. doi:10.5334/pme.2431",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.5334/pme.2431)",
+      "record": "Ans, M., Maggio, L., Algodi, H., Costello, J., Driessen, E., Oswald, K., Lingard, L. (2026). The Presence and Nature of AI-Use Disclosure Statements in Medical Education Journals: A Bibliometric Study. Perspectives on Medical Education. Type journal-article.",
+      "reason": "### Scholarship about the policies - Ganjavi, Eppler, Pekcan, Biedermann, Abreu, Collins, Gill & Cacciamani (2024). Publishers' and journals' instructions to authors on use of generative artificial intelligence in academic and scientific publishing: bibliometric analysis. *BMJ* 384:e077192. [PR] https://doi.org/10.1136/bmj-2023-077192 — the canonical survey: 24% of publishers vs 87% of journals gave guidance. - Goyanes, Lopezosa & Piñeiro-Naval (2025). The use of artificial intelligence (AI) in research: a review of author guidelines in leading journals across eight social science disciplines. *Scientometrics* 130(7):3725–3741. [PR] https://doi.org/10.1007/s11192-025-05377-0 — **the closest thing to a social science policy survey; paywalled, internal numbers UNVERIFIED.** - Wang, Z., & Gong, M. (2026). A Cross-Disciplinary Analysis of AI Policies in Academic Peer Review. *Learned Publishing* 39(1):e2035. [PR] https://doi.org/10.1002/leap.2035 — 802 journals; HSS \"adopt more lenient approaches\" than STM. - Charbonneau, D. H., & Zhang, M. (2026). Artificial Intelligence (AI) guidance for authors, peer reviewers, and editors: A content analysis of journal policies. *Accountability in Research* 33(6). [PR] https://doi.org/10.1080/08989621.2026.2632083 - Zahn-Muñoz, Viancos, Alarcón-Henríquez, Aravena-Niño & Martínez-Rojas (2026). Policies and Guidelines for the Use of Artificial Intelligence in Latin American Journals Indexed in Scopus. *Publications* 14(1):17. [PR] https://doi.org/10.3390/publications14010017 — largest N (1,119 journals); only 27.2% with explicit guidelines. - Kalokoh, Thullah & Louis-Charles (2026). To AI or not to AI: A cross-sectional analysis of artificial intelligence policy among emergency management journals. *Journal of Emergency Management*. [PR] https://doi.org/10.5055/jem.0962 — the closest existing analogue to a public administration survey. - Resnik, D. B., & Hosseini, M. (2025). Disclosing artificial intelligence use in scientific researc...",
+      "reason_source": "at 2026-07-28T02:57:31.672Z in research/workflow_lit_ai_integrity.md",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "p. 218",
+          "text": "One influence is the lack of clarity. Not only are journal policies on AI use and disclosure shifting quickly due to the fast-changing AI landscape, journals’ positions vary.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_ans2026.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "S4fe08bc23803"
+      ]
+    },
+    {
+      "id": "r17",
+      "citekey": "he2026",
+      "sentence": "Scholars want clear guidance on acceptable use [@schulz2026; @oxford2026; @wiley2025], but journal policies rarely go beyond disclosure [@he2026; @ans2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-28T20:36:29.252Z in session S2c62c2036e7b, in text the harness put in the conversation, such as a finished task's notice or a summary, where the record reads \"He and Bu 2026 (PNAS, full text) found 70% of 5,114 Q1 journals have policies, no effect on AI-writing growth, and about 0.1% disclosure.\"",
+      "reference": "He, Y., Bu, Y. (2026). Academic journals’ AI policies fail to curb the surge in AI-assisted academic writing. Proc. Natl. Acad. Sci. USA. doi:10.1073/pnas.2526734123",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1073/pnas.2526734123)",
+      "record": "He, Y., Bu, Y. (2026). Academic journals’ AI policies fail to curb the surge in AI-assisted academic writing. Proceedings of the National Academy of Sciences. Type journal-article.",
+      "reason": "- **P4 is now well supported, including the two things the earlier notes lacked.** COPE and the Nature 2023 ground rules, blocked in earlier passes, were read live today. There are also systematic policy studies: Ganjavi et al. (2024, *BMJ*), Goyanes et al. (2025, eight social-science disciplines), He and Bu (2026, *PNAS*, 5,114 journals), Drobniak et al. (2026), and Lendvai and Aczél (2026). - **What P4 can safely say:** - Policies converge on two rules: AI cannot be an author, and AI use must be disclosed. Beyond that they diverge (Ganjavi; Goyanes; Lendvai and Aczél). - They are \"largely generic\" with \"minimal operational guidance\" (Drobniak). - They have not changed behavior. About 70% of Q1 journals have policies, yet AI-writing growth is the same with or without them, and only about 0.1% of papers disclose (He and Bu). - Every policy puts full responsibility on the author (ICMJE, COPE, Nature, *Science*, Wiley). - **One correction to the draft's likely framing.** At least one publisher does ask authors to document \"how they personally reviewed and verified AI-generated content\" (Wiley). The accurate claim is not \"no policy asks about verification.\" It is that where policies ask, they accept the author's own statement of it: Wiley's model disclosures read \"All AI-generated outputs were reviewed and validated by the authors.\" This sharpens the argument rather than weakening it. - **Journal history makes the \"struggling\" point concrete.** *Science* banned AI-generated text outright in January 2023, treating violations as misconduct (Thorp 2023). Its current policy allows AI text with a declaration of model name and version, and requires no declaration for literature searches or reference gathering. Wiley, by contrast, requires disclosure of agentic literature search. - **Organization Science's own editors can be quoted.** The response \"cannot ... consist solely of disclosure policies or AI 'bans'\" (Gartenberg et al. 2026, p. 2). Their critique of disclosure is ab...",
+      "reason_source": "at 2026-09-28T20:52:15.458Z in session Sde6d6e4c7742 in 11_evidence_P4_P5_journals_guidance.md",
+      "quotes": [
+        {
+          "found_at": "Abstract",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "Abstract",
+          "text": "We show that despite 70% of journals adopting AI policies (primarily requiring disclosure), researchers’ use of AI writing tools has increased dramatically across disciplines, with no significant difference between journals with or without policies.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_he2026.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "S2c62c2036e7b"
+      ]
+    },
+    {
+      "id": "r18",
+      "citekey": "walters2023",
+      "sentence": "Plausibility failures appear in hallucinated citations [@walters2023], misattributed claims [@linardon2026], and analyses that reach a defensible answer while skipping required steps [@kapoor2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-31T19:57:34.401Z in research/06_provenance_verification/report.md, in a file an AI wrote, where the record reads \"...non-fabricated citations \"43% of the real GPT-3.5 citations but just 24% of the real GPT-4 citations include substantive citation errors\" [Walters & Wilder 2023, \"Fabrication and errors in the bibliographic citations generated by ChatGPT,\" Scientific Reports 13:14045, https://doi.org/10.1038/s41598...\"",
+      "reference": "Walters, W., Wilder, E. (2023). Fabrication and errors in the bibliographic citations generated by ChatGPT. Sci. Rep.. doi:10.1038/s41598-023-41032-5",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1038/s41598-023-41032-5)",
+      "record": "Walters, W., Wilder, E. (2023). Fabrication and errors in the bibliographic citations generated by ChatGPT. Scientific Reports. Type journal-article.",
+      "reason": "**The AI comparison, and a gap the prior draft wrongly declared closed.** The first careful audit of LLM-generated bibliographies produced short literature reviews on 42 multidisciplinary topics and examined the 636 citations in the resulting 84 papers, finding that \"55% of the GPT-3.5 citations but just 18% of the GPT-4 citations are fabricated\", and that among the real, non-fabricated citations \"43% of the real GPT-3.5 citations but just 24% of the real GPT-4 citations include substantive citation errors\" [Walters & Wilder 2023, \"Fabrication and errors in the bibliographic citations generated by ChatGPT,\" Scientific Reports 13:14045, https://doi.org/10.1038/s41598-023-41032-5, ABSTRACT].",
+      "reason_source": "at 2026-07-31T19:57:34.401Z in research/06_provenance_verification/report.md",
+      "quotes": [
+        {
+          "found_at": "Fabrication and errors in the bibliographic citations generated by ChatGPT",
+          "from": "record",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "",
+          "text": "55% of the GPT-3.5 citations but just 18% of the GPT-4 citations are fabricated",
+          "where": "at 2026-07-31T19:57:34.401Z in research/06_provenance_verification/report.md"
+        },
+        {
+          "found_at": "Methods",
+          "from": "record",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "",
+          "text": "43% of the real GPT-3.5 citations but just 24% of the real GPT-4 citations include substantive citation errors",
+          "where": "at 2026-07-31T19:57:34.401Z in research/06_provenance_verification/report.md"
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_walters2023.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "Sf2b3ddaba981"
+      ]
+    },
+    {
+      "id": "r19",
+      "citekey": "linardon2026",
+      "sentence": "Plausibility failures appear in hallucinated citations [@walters2023], misattributed claims [@linardon2026], and analyses that reach a defensible answer while skipping required steps [@kapoor2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-31T19:57:43.088Z in research/05_ai_research_workflow/report.md, in a file an AI wrote, where the record reads \"...ontradicted by the cited source (including six direct contradictions of effect direction) and a further 18.3% contained major inaccuracies [Linardon et al. 2026, \"Fluency Without Fidelity: Errors in Citation-Attributed Claims in Large Language Model-Generated Literature Reviews in Mental Health\", Jo...\"",
+      "reference": "Linardon, J., Messer, M., Anderson, C., Soliman, O., Liu, C., Firth, J., Torous, J. (2026). Fluency without fidelity: Errors in citation-attributed claims in large language model-generated literature reviews in mental health. J. Tech. Behav. Sci.. doi:10.1007/s41347-026-00630-6",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1007/s41347-026-00630-6)",
+      "record": "Linardon, J., Messer, M., Anderson, C., Soliman, O., Liu, C., Firth, J., Torous, J. (2026). Fluency Without Fidelity: Errors in Citation-Attributed Claims in Large Language Model-Generated Literature Reviews in Mental Health. Journal of Technology in Behavioral Science. Type journal-article.",
+      "reason": "**The newest evidence shows the failure relocating, not resolving.** The first citation-claim alignment audit of ChatGPT-5 (thinking model, December 2025; 12 mental-health literature reviews; 333 citation-claims scored 1–4 against the full text of each cited source by two raters, kappa > 0.74) found that every one of the 209 cited publications existed — bibliographic fabrication effectively zero — yet only 43.5% of citation-claims were completely accurate; 19.8% were fabricated or contradicted by the cited source (including six direct contradictions of effect direction) and a further 18.3% contained major inaccuracies [Linardon et al. 2026, \"Fluency Without Fidelity: Errors in Citation-Attributed Claims in Large Language Model-Generated Literature Reviews in Mental Health\", Journal of Technology in Behavioral Science, 10.1007/s41347-026-00630-6, FULL-TEXT]. The same team's earlier GPT-4o audits (relayed in this paper's introduction) found fabricated-citation proportions varying with the maturity of the underlying evidence base, from 6% (major depressive disorder) to 28–29% (binge-eating and body dysmorphic disorder) [relayed in Linardon et al. 2026, FULL-TEXT of the relaying source]. A real DOI at the end of a false sentence is exactly what the manuscript means by provenance without correspondence (our analysis).",
+      "reason_source": "at 2026-07-31T19:57:43.088Z in research/05_ai_research_workflow/report.md",
+      "quotes": [
+        {
+          "found_at": "Abstract",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "Abstract",
+          "text": "Overall, 19.8% (n=66) of citation-claims reflected fabrications, 18.3% (n=61) contained major errors, 18.3% (n=61) contained minor errors, and 43.5% (n=145) were accurate.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_linardon2026.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "Sf2b3ddaba981"
+      ]
+    },
+    {
+      "id": "r20",
+      "citekey": "kapoor2026",
+      "sentence": "Plausibility failures appear in hallucinated citations [@walters2023], misattributed claims [@linardon2026], and analyses that reach a defensible answer while skipping required steps [@kapoor2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-24T17:23:25.430Z in session S42812eb01e05, in the result of the AI's WebSearch call, where the record reads \"...g Opus 4.5 with Claude Code)\\\" | Hacker News\",\"url\":\"https://news.ycombinator.com/item?id=46148166\"},{\"title\":\"Holistic Agent Leaderboard: The Missing Infrastructure for AI Agent Evaluation\",\"url\":\"https://arxiv.org/pdf/2510.11977\"},{\"title\":\"CORE-Bench is solved (using Opus 4.5 with Claude Code) .....\"",
+      "reference": "Kapoor, S., Stroebl, B., Kirgis, P., Nadgir, N., Siegel, Z., Wei, B., Xue, T., others (2026). Holistic agent leaderboard: The missing infrastructure for AI agent evaluation. Proc. Internat. Conf. Learn. Representations (ICLR 2026).",
+      "lookup": "not_looked_up",
+      "existence": "no DOI, not looked up",
+      "record": "",
+      "reason": "",
+      "reason_source": "",
+      "quotes": [],
+      "quote_in_source": "not_checked",
+      "access": "fulltext",
+      "source_file": "source_kapoor2026.txt",
+      "notes": [
+        "@kapoor2026 has no DOI, so it was not looked up"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "S42812eb01e05"
+      ]
+    },
+    {
+      "id": "r21",
+      "citekey": "yuan2025",
+      "sentence": "Inconsistency occurs because models sample their output from probabilities and GPU arithmetic shifts with hardware and server load [@yuan2025].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-10-02T02:48:02.546Z in lsi_texts/10_18653_v1_2025_findings_emnlp_67.md, in a source the AI fetched, where the record reads \"...itle: 'Chain-of-Thought Prompting Obscures Hallucination Cues in Large Language Models: An Empirical Evaluation' authors: ['Cheng, Su, Yuan, et al. (He)'] year: 2025 venue: 'Findings of EMNLP 2025' doi: '10.18653/v1/2025.findings-emnlp.67' retrieval_status: 'retrieved' source_id: '0ebe4bd5-9001-42b9...\"",
+      "reference": "Yuan, J., Li, H., Ding, X., Xie, W., Li, Y., Zhao, W., Wan, K., Shi, J., Hu, X., Liu, Z. (2025). Understanding and mitigating numerical sources of nondeterminism in LLM inference. Adv. Neural Inform. Processing Systems 38 (NeurIPS 2025). doi:10.52202/085713-5653",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.52202/085713-5653)",
+      "record": "Yuan, J., Li, H., Ding, X., Xie, W., Li, Y., Zhao, W., Wan, K., Shi, J., Hu, X., Liu, Z. (2025). Understanding and Mitigating Numerical Sources of Nondeterminism in LLM Inference. Advances in Neural Information Processing Systems 38. Type proceedings-article.",
+      "reason": "Candidates to consider (verify, don't trust): - Slot 3: He and Thinking Machines Lab 2025 \"Defeating nondeterminism in LLM inference\" (blog; note it argues batch-size/batch invariance, not floating point per se — check whether the claim \"GPU arithmetic varies between runs\" is accurate as worded and suggest a fix if not); Atil et al. 2024/2025 \"Non-determinism of 'deterministic' LLM settings\"; Ouyang et al. 2025 ACM TOSEM on ChatGPT code-generation nondeterminism; Yuan et al. 2025 \"Give me FP32 or give me death? Challenges and solutions for reproducible reasoning\".",
+      "reason_source": "at 2026-10-23T18:02:35.250Z in session S8b4b9e86615d",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "",
+          "text": "Defeating nondeterminism in LLM inference",
+          "where": "at 2026-10-23T18:02:35.250Z in session S8b4b9e86615d"
+        },
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "",
+          "text": "GPU arithmetic varies between runs",
+          "where": "at 2026-10-23T18:02:35.250Z in session S8b4b9e86615d"
+        },
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "",
+          "text": "Non-determinism of 'deterministic' LLM settings",
+          "where": "at 2026-10-23T18:02:35.250Z in session S8b4b9e86615d"
+        },
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "",
+          "text": "Give me FP32 or give me death? Challenges and solutions for reproducible reasoning",
+          "where": "at 2026-10-23T18:02:35.250Z in session S8b4b9e86615d"
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_yuan2025.txt",
+      "notes": [
+        "the quote given for @yuan2025 is not in its source text source_yuan2025.txt",
+        "the quote given for @yuan2025 is not in its source text source_yuan2025.txt",
+        "the quote given for @yuan2025 is not in its source text source_yuan2025.txt"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "S75c6ddbe0853"
+      ]
+    },
+    {
+      "id": "r22",
+      "citekey": "lu2026",
+      "sentence": "We use procedural graphs [@lu2026] stored in a queryable knowledge base to route AI contributions through verification procedures [JCGM -@jcgm2012], which is supported by auditable records of AI sessions and tool use.",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-31T19:57:43.088Z in research/05_ai_research_workflow/report.md, in a file an AI wrote, where the record reads \"**Agentic science: milestone or hazard?** Nature publication and a passed workshop review [Lu et al. 2026, ABSTRACT] versus 42% failed experiments and hallucinated numerics in independent evaluation [Beel et al. 2025, ABSTRACT], plus the prior-file...\"",
+      "reference": "Lu, Y., Chen, Y., Wu, S., Arık, S. (2026). Procedural graphs: Self-evolving execution structures for LLM agents. doi:10.48550/arXiv.2609.09153",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.48550/arxiv.2609.09153)",
+      "record": "Lu, Y., Chen, Y., Wu, S., Arık, S. (2026). Procedural Graphs: Self-Evolving Execution Structures for LLM Agents. arXiv. Type Preprint.",
+      "reason": "**Agentic science: milestone or hazard?** Nature publication and a passed workshop review [Lu et al. 2026, ABSTRACT] versus 42% failed experiments and hallucinated numerics in independent evaluation [Beel et al. 2025, ABSTRACT], plus the prior-file's Messeri & Crockett illusion-of-understanding counterweight. The debate is live and the manuscript sits exactly on its fault line.",
+      "reason_source": "at 2026-07-31T19:57:43.088Z in research/05_ai_research_workflow/report.md",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "p. 1",
+          "text": "We introduce the Procedural Graph: just as a knowledge graph organizes factual knowledge into (entity, relation, entity) triplets for what-is questions, a Procedural Graph organizes procedural knowledge into (procedure, relation, procedure) triplets for what-to-do questions.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_lu2026.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "Sfdc8140a6627"
+      ]
+    },
+    {
+      "id": "r23",
+      "citekey": "jcgm2012",
+      "sentence": "We use procedural graphs [@lu2026] stored in a queryable knowledge base to route AI contributions through verification procedures [JCGM -@jcgm2012], which is supported by auditable records of AI sessions and tool use.",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-28T02:56:16.198Z in research/workflow_lit_provenance.md, in a file an AI wrote, where the record reads \"**JCGM 200:2012**, *International vocabulary of metrology — Basic and general concepts and associated terms (VIM)*, 3rd edition, 2008 version with minor corrections, published by the Joint Committee for Guides in Metrology (BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP, OIML).\"",
+      "reference": "JCGM (Joint Committee for Guides in Metrology) (2012). International Vocabulary of Metrology: Basic and General Concepts and Associated Terms (VIM). doi:10.59161/jcgm200-2012",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.59161/jcgm200-2012)",
+      "record": " (2012). International Vocabulary of Metrology – Basic and general concepts and associated terms (VIM), 3rd edition. Type posted-content.",
+      "reason": "**JCGM 200:2012**, *International vocabulary of metrology — Basic and general concepts and associated terms (VIM)*, 3rd edition, 2008 version with minor corrections, published by the Joint Committee for Guides in Metrology (BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP, OIML). Browsable free at <https://jcgm.bipm.org/vim/en/>.",
+      "reason_source": "at 2026-07-28T02:56:16.198Z in research/workflow_lit_provenance.md",
+      "quotes": [],
+      "quote_in_source": "not_checked",
+      "access": "fulltext",
+      "source_file": "source_jcgm2012.txt",
+      "notes": [
+        "the passage step found no passage in the source text of @jcgm2012 that bears on the sentence"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sf2b3ddaba981"
+      ]
+    },
+    {
+      "id": "r24",
+      "citekey": "ans2026",
+      "sentence": "This workflow aims to support scholarly accountability through documented evidence rather than disclosure alone [@he2026; @ans2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-28T02:57:31.672Z in research/workflow_lit_ai_integrity.md, in a file an AI wrote, where the record reads \"[PR] https://doi.org/10.1080/0142159x.2025.2607513 — introduces **internal vs. external disclosure**. - Ans, Maggio, Algodi, Costello, Driessen & Oswald (2026).\"",
+      "reference": "Ans, M., Maggio, L., Algodi, H., Costello, J., Driessen, E., Oswald, K., Lingard, L. (2026). The presence and nature of AI-use disclosure statements in medical education journals: A bibliometric study. Perspect. Medical Ed.. doi:10.5334/pme.2431",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.5334/pme.2431)",
+      "record": "Ans, M., Maggio, L., Algodi, H., Costello, J., Driessen, E., Oswald, K., Lingard, L. (2026). The Presence and Nature of AI-Use Disclosure Statements in Medical Education Journals: A Bibliometric Study. Perspectives on Medical Education. Type journal-article.",
+      "reason": "### Scholarship about the policies - Ganjavi, Eppler, Pekcan, Biedermann, Abreu, Collins, Gill & Cacciamani (2024). Publishers' and journals' instructions to authors on use of generative artificial intelligence in academic and scientific publishing: bibliometric analysis. *BMJ* 384:e077192. [PR] https://doi.org/10.1136/bmj-2023-077192 — the canonical survey: 24% of publishers vs 87% of journals gave guidance. - Goyanes, Lopezosa & Piñeiro-Naval (2025). The use of artificial intelligence (AI) in research: a review of author guidelines in leading journals across eight social science disciplines. *Scientometrics* 130(7):3725–3741. [PR] https://doi.org/10.1007/s11192-025-05377-0 — **the closest thing to a social science policy survey; paywalled, internal numbers UNVERIFIED.** - Wang, Z., & Gong, M. (2026). A Cross-Disciplinary Analysis of AI Policies in Academic Peer Review. *Learned Publishing* 39(1):e2035. [PR] https://doi.org/10.1002/leap.2035 — 802 journals; HSS \"adopt more lenient approaches\" than STM. - Charbonneau, D. H., & Zhang, M. (2026). Artificial Intelligence (AI) guidance for authors, peer reviewers, and editors: A content analysis of journal policies. *Accountability in Research* 33(6). [PR] https://doi.org/10.1080/08989621.2026.2632083 - Zahn-Muñoz, Viancos, Alarcón-Henríquez, Aravena-Niño & Martínez-Rojas (2026). Policies and Guidelines for the Use of Artificial Intelligence in Latin American Journals Indexed in Scopus. *Publications* 14(1):17. [PR] https://doi.org/10.3390/publications14010017 — largest N (1,119 journals); only 27.2% with explicit guidelines. - Kalokoh, Thullah & Louis-Charles (2026). To AI or not to AI: A cross-sectional analysis of artificial intelligence policy among emergency management journals. *Journal of Emergency Management*. [PR] https://doi.org/10.5055/jem.0962 — the closest existing analogue to a public administration survey. - Resnik, D. B., & Hosseini, M. (2025). Disclosing artificial intelligence use in scientific researc...",
+      "reason_source": "at 2026-07-28T02:57:31.672Z in research/workflow_lit_ai_integrity.md",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "p. 1",
+          "text": "This suggests a practice of “safe” disclosure that may be more performative than informative, therefore failing to satisfy the goal of ensuring transparent and ethical AI use in research.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_ans2026.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "S4fe08bc23803"
+      ]
+    },
+    {
+      "id": "r25",
+      "citekey": "he2026",
+      "sentence": "This workflow aims to support scholarly accountability through documented evidence rather than disclosure alone [@he2026; @ans2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-28T20:36:29.252Z in session S2c62c2036e7b, in text the harness put in the conversation, such as a finished task's notice or a summary, where the record reads \"He and Bu 2026 (PNAS, full text) found 70% of 5,114 Q1 journals have policies, no effect on AI-writing growth, and about 0.1% disclosure.\"",
+      "reference": "He, Y., Bu, Y. (2026). Academic journals’ AI policies fail to curb the surge in AI-assisted academic writing. Proc. Natl. Acad. Sci. USA. doi:10.1073/pnas.2526734123",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1073/pnas.2526734123)",
+      "record": "He, Y., Bu, Y. (2026). Academic journals’ AI policies fail to curb the surge in AI-assisted academic writing. Proceedings of the National Academy of Sciences. Type journal-article.",
+      "reason": "- **P4 is now well supported, including the two things the earlier notes lacked.** COPE and the Nature 2023 ground rules, blocked in earlier passes, were read live today. There are also systematic policy studies: Ganjavi et al. (2024, *BMJ*), Goyanes et al. (2025, eight social-science disciplines), He and Bu (2026, *PNAS*, 5,114 journals), Drobniak et al. (2026), and Lendvai and Aczél (2026). - **What P4 can safely say:** - Policies converge on two rules: AI cannot be an author, and AI use must be disclosed. Beyond that they diverge (Ganjavi; Goyanes; Lendvai and Aczél). - They are \"largely generic\" with \"minimal operational guidance\" (Drobniak). - They have not changed behavior. About 70% of Q1 journals have policies, yet AI-writing growth is the same with or without them, and only about 0.1% of papers disclose (He and Bu). - Every policy puts full responsibility on the author (ICMJE, COPE, Nature, *Science*, Wiley). - **One correction to the draft's likely framing.** At least one publisher does ask authors to document \"how they personally reviewed and verified AI-generated content\" (Wiley). The accurate claim is not \"no policy asks about verification.\" It is that where policies ask, they accept the author's own statement of it: Wiley's model disclosures read \"All AI-generated outputs were reviewed and validated by the authors.\" This sharpens the argument rather than weakening it. - **Journal history makes the \"struggling\" point concrete.** *Science* banned AI-generated text outright in January 2023, treating violations as misconduct (Thorp 2023). Its current policy allows AI text with a declaration of model name and version, and requires no declaration for literature searches or reference gathering. Wiley, by contrast, requires disclosure of agentic literature search. - **Organization Science's own editors can be quoted.** The response \"cannot ... consist solely of disclosure policies or AI 'bans'\" (Gartenberg et al. 2026, p. 2). Their critique of disclosure is ab...",
+      "reason_source": "at 2026-09-28T20:52:15.458Z in session Sde6d6e4c7742 in 11_evidence_P4_P5_journals_guidance.md",
+      "quotes": [
+        {
+          "found_at": "Significance",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "Significance",
+          "text": "These findings underscore the urgent need to move beyond declarative policies and develop verifiable, accountable frameworks to ensure the responsible integration of AI in research.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_he2026.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "S2c62c2036e7b"
+      ]
+    },
+    {
+      "id": "r26",
+      "citekey": "healy2020",
+      "sentence": "The workflow builds on a plain-text reproducible research pipeline, which assembles manuscripts from text, references, and analysis code through a build script [@healy2020].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-28T02:45:10.124Z in research/workflow_lit_socsci.md, in a file an AI wrote, where the record reads \"Use the concept DOI and name the version you read. - **Healy, K. *The Plain Person's Guide to Plain Text Social Science*.** https://plain-text.co/, page dated 2019-10-04; PDF at https://kieranhealy.org/files/papers/plain-person-text.pdf (...\"",
+      "reference": "Healy, K. (2020). The Plain Person’s Guide to Plain-Text Social Science.",
+      "lookup": "not_looked_up",
+      "existence": "no DOI, not looked up",
+      "record": "",
+      "reason": "",
+      "reason_source": "",
+      "quotes": [],
+      "quote_in_source": "not_checked",
+      "access": "fulltext",
+      "source_file": "source_healy2020.txt",
+      "notes": [
+        "@healy2020 has no DOI, so it was not looked up"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sf2b3ddaba981"
+      ]
+    },
+    {
+      "id": "r27",
+      "citekey": "jcgm2012",
+      "sentence": "Verification is the \"provision of objective evidence that a given item fulfils specified requirements\" [JCGM -@jcgm2012, 2.44 and Note 2] and is implemented in a verification layer.",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-28T02:56:16.198Z in research/workflow_lit_provenance.md, in a file an AI wrote, where the record reads \"**JCGM 200:2012**, *International vocabulary of metrology — Basic and general concepts and associated terms (VIM)*, 3rd edition, 2008 version with minor corrections, published by the Joint Committee for Guides in Metrology (BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP, OIML).\"",
+      "reference": "JCGM (Joint Committee for Guides in Metrology) (2012). International Vocabulary of Metrology: Basic and General Concepts and Associated Terms (VIM). doi:10.59161/jcgm200-2012",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.59161/jcgm200-2012)",
+      "record": " (2012). International Vocabulary of Metrology – Basic and general concepts and associated terms (VIM), 3rd edition. Type posted-content.",
+      "reason": "**JCGM 200:2012**, *International vocabulary of metrology — Basic and general concepts and associated terms (VIM)*, 3rd edition, 2008 version with minor corrections, published by the Joint Committee for Guides in Metrology (BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP, OIML). Browsable free at <https://jcgm.bipm.org/vim/en/>.",
+      "reason_source": "at 2026-07-28T02:56:16.198Z in research/workflow_lit_provenance.md",
+      "quotes": [
+        {
+          "found_at": "2.44 verification",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "2.44 verification",
+          "text": "provision of objective evidence that a given item fulfils specified requirements",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_jcgm2012.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "Sf2b3ddaba981"
+      ]
+    },
+    {
+      "id": "r28",
+      "citekey": "astrom2008",
+      "sentence": "Observability concerns real-time monitoring of the process behind an AI output in an observability layer, which is hidden from anyone who sees only the output [@astrom2008].",
+      "origin": "scholar",
+      "origin_evidence": "First named by the scholar at 2026-09-28T20:31:31.134Z in session S2c62c2036e7b in focused research.md, in a file that the AI read with Read, where the record reads \"If so, \"there are no \"hidden\" dynamics inside it\" (Åström & Murray 2008, Def. 7.1, p. 202, VERIFIED).\"",
+      "reference": "Åström, K., Murray, R. (2008). Feedback Systems: An Introduction for Scientists and Engineers. doi:10.1515/9781400828739",
+      "lookup": "not_checked",
+      "existence": "not looked up, since the citation is not an AI's",
+      "record": "",
+      "reason": "",
+      "reason_source": "",
+      "quotes": [],
+      "quote_in_source": "not_checked",
+      "access": "fulltext",
+      "source_file": "source_astrom2008.txt",
+      "notes": [
+        "@astrom2008 was first named by the scholar in the record, so it is not checked further"
+      ],
+      "needs_decision": false
+    },
+    {
+      "id": "r29",
+      "citekey": "jcgm2012",
+      "sentence": "Audibility is a documented chain from each element of a research product to the inputs, sources, scripts, and sessions that produced it [JCGM -@jcgm2012, 2.41] referred to as an audit layer in this workflow.",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-28T02:56:16.198Z in research/workflow_lit_provenance.md, in a file an AI wrote, where the record reads \"**JCGM 200:2012**, *International vocabulary of metrology — Basic and general concepts and associated terms (VIM)*, 3rd edition, 2008 version with minor corrections, published by the Joint Committee for Guides in Metrology (BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP, OIML).\"",
+      "reference": "JCGM (Joint Committee for Guides in Metrology) (2012). International Vocabulary of Metrology: Basic and General Concepts and Associated Terms (VIM). doi:10.59161/jcgm200-2012",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.59161/jcgm200-2012)",
+      "record": " (2012). International Vocabulary of Metrology – Basic and general concepts and associated terms (VIM), 3rd edition. Type posted-content.",
+      "reason": "**JCGM 200:2012**, *International vocabulary of metrology — Basic and general concepts and associated terms (VIM)*, 3rd edition, 2008 version with minor corrections, published by the Joint Committee for Guides in Metrology (BIPM, IEC, IFCC, ILAC, ISO, IUPAC, IUPAP, OIML). Browsable free at <https://jcgm.bipm.org/vim/en/>.",
+      "reason_source": "at 2026-07-28T02:56:16.198Z in research/workflow_lit_provenance.md",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "2.41 (6.10) metrological traceability",
+          "text": "property of a measurement result whereby the result can be related to a reference through a documented unbroken chain of calibrations, each contributing to the measurement uncertainty",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "no",
+      "access": "fulltext",
+      "source_file": "source_jcgm2012.txt",
+      "notes": [
+        "the quote given for @jcgm2012 is not in its source text source_jcgm2012.txt"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sf2b3ddaba981"
+      ]
+    },
+    {
+      "id": "r30",
+      "citekey": "hosseini2023",
+      "sentence": "Because repeating an AI interaction may not reproduce the same output, maintaining session records and logs is essential for auditing and downstream verification [Hosseini, Resnik, and Holmes -@hosseini2023].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-10-02T02:48:02.704Z in session S26cfc250a733, in text the harness put in the conversation, such as a finished task's notice or a summary, where the record reads \"**C9 (checkpoints backed by traceable records): supported.** - **Best:** VIM 2012, 2.44 and 2.41 Note 8 (verified in LSI), and Hosseini, Resnik &amp; Holmes 2023, *Research Ethics*: \"To enable verification, interactions with LLMs ... should be recorded\" (verified via PMC). - **Alternate:** Bin...\"",
+      "reference": "Hosseini, M., Resnik, D., Holmes, K. (2023). The ethics of disclosing the use of artificial intelligence tools in writing scholarly manuscripts. Res. Ethics. doi:10.1177/17470161231180449",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1177/17470161231180449)",
+      "record": "Hosseini, M., Resnik, D., Holmes, K. (2023). The ethics of disclosing the use of artificial intelligence tools in writing scholarly manuscripts. Research Ethics. Type journal-article.",
+      "reason": "Leads to check (verify each; do not assume details are right): - In LSI already: JCGM 200:2012 VIM (10.59161/jcgm200-2012; definitions 2.44 verification, 2.45 validation, 2.41 metrological traceability); provenance documentation for explainable and trustworthy AI 2023 (10.1162/dint_a_00119, metadata only); Hardwig 1985 \"Epistemic Dependence\" (10.2307/2026523, metadata only); disclosure effects 2023 JPART (10.1093/jopart/muad009). - Not in LSI (Draft H already cites several; confirm wording): He & Bu 2026 (5,114 top-quartile journals, 70% had AI policies, about 0.1% of papers disclosed AI use); Gartenberg et al. 2026 Organization Science editorial (\"cannot ... consist solely of disclosure policies or AI 'bans'\"); ICMJE Recommendations, AI section (authors responsible; \"carefully review and edit\"); COPE 2023 position statement \"Authorship and AI tools\"; Nature 2023 editorial on ground rules for LLM use; Thorp 2023 Science \"ChatGPT is fun, but not an author\"; ISO 9000:2015 definitions of verification and validation; W3C PROV-DM 2013 (provenance model); Hosseini, Resnik & Holmes 2023 on disclosing AI use in scholarly writing (Research Ethics). - Also check work/11_evidence_P4_P5_journals_guidance.md and work/13_vv_terminology_and_tradition.md for quotes already checked; reuse them with their sources rather than re-finding.",
+      "reason_source": "at 2026-10-02T02:48:02.706Z in session S8f1dafba2be7",
+      "quotes": [],
+      "quote_in_source": "not_checked",
+      "access": "none",
+      "source_file": "",
+      "notes": [
+        "there is no source text for @hosseini2023, so no quote was located or checked"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "S26cfc250a733"
+      ]
+    },
+    {
+      "id": "r31",
+      "citekey": "zhang2026",
+      "sentence": "The AI harness is the software that connects to an AI model and connects it to tools and files [@zhang2026].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-28T20:50:06.923Z in session Sae95a1bc7281 in 10_evidence_P2_P3_manuscripts_quality.md, in a file an AI wrote, where the record reads \"Wang, B., W. Liang, J. Xue, Y. Zhang, H. Cao, D. Wang, and Y. Yin. 2026.\"",
+      "reference": "Zhang, Y., Wang, J., Ge, Y., Xu, W., Hamm, J., Reddy, C. (2026). Stop comparing LLM agents without disclosing the harness. doi:10.48550/arXiv.2605.23950",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.48550/arxiv.2605.23950)",
+      "record": "Zhang, Y., Wang, J., Ge, Y., Xu, W., Hamm, J., Reddy, C. (2026). Stop Comparing LLM Agents Without Disclosing the Harness. arXiv. Type Preprint.",
+      "reason": "Wang, B., W. Liang, J. Xue, Y. Zhang, H. Cao, D. Wang, and Y. Yin. 2026. \"Human-AI Collaboration in Science at Scale: A Global Large-Scale Randomized Field Experiment.\" arXiv preprint arXiv:2605.24180. https://arxiv.org/abs/2605.24180.",
+      "reason_source": "at 2026-09-28T20:50:06.923Z in session Sae95a1bc7281 in 10_evidence_P2_P3_manuscripts_quality.md",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "",
+          "text": "Human-AI Collaboration in Science at Scale: A Global Large-Scale Randomized Field Experiment.",
+          "where": "at 2026-09-28T20:50:06.923Z in session Sae95a1bc7281 in 10_evidence_P2_P3_manuscripts_quality.md"
+        },
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "p. 1",
+          "text": "This assumption omits the execution harness: the software layer between the model and the task that constructs the context the model sees, mediates its tool calls, validates its outputs, and decides when to retry, escalate, or stop.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_zhang2026.txt",
+      "notes": [
+        "the quote given for @zhang2026 is not in its source text source_zhang2026.txt"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sae95a1bc7281"
+      ]
+    },
+    {
+      "id": "r32",
+      "citekey": "stodden2010",
+      "sentence": "These features apply the core workflow to a practical barrier to adoption: researchers often lack the time or technical expertise to establish and maintain reproducible infrastructure [@stodden2010] and work in disjointed and loosely organized ways, which leaves code and project files messy and often unable to run [Rule, Tabard, and Hollan -@rule2018; @eubank2016; @trisovic2022].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-09-24T17:18:42.370Z in session S42812eb01e05, in the AI's own words, where the record reads \"Candidate leads to check, not assumptions: Stodden 2010 (survey of reasons for not sharing code, \"time to document and clean up\"); Barnes 2010 (Nature, \"Publish your computer code: it is good enough\"); Gomes et al. 2022 (Proc.\"",
+      "reference": "Stodden, V. (2010). Reproducibility of computational results: Opening code and data. doi:10.5281/zenodo.3781771",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.5281/zenodo.3781771)",
+      "record": "Stodden, V. (2010). Reproducibility of Computational Results: Opening Code and Data. Zenodo. Type Text.",
+      "reason": "Priority: surveys of researchers' stated reasons for not sharing code (e.g., time to clean/document code, lack of skills, embarrassment about code quality), large-scale studies of code availability or code that fails to run, and social-science-specific evidence. Candidate leads to check, not assumptions: Stodden 2010 (survey of reasons for not sharing code, \"time to document and clean up\"); Barnes 2010 (Nature, \"Publish your computer code: it is good enough\"); Gomes et al. 2022 (Proc. R. Soc.",
+      "reason_source": "at 2026-09-24T17:18:42.370Z in session S42812eb01e05",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "",
+          "text": "time to document and clean up",
+          "where": "at 2026-09-24T17:18:42.370Z in session S42812eb01e05"
+        },
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "",
+          "text": "Publish your computer code: it is good enough",
+          "where": "at 2026-09-24T17:18:42.370Z in session S42812eb01e05"
+        },
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "not_checked",
+          "kind": "paraphrase",
+          "location": "Abstract",
+          "text": "The source text states that a survey of computational scientists was conducted to determine factors that create barriers to code and data sharing, and that one major finding is that when scientists choose not to reveal data or code, it is due to perceived personal impact.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "no",
+      "access": "abstract",
+      "source_file": "source_stodden2010.txt",
+      "notes": [
+        "no exact quote was given for @stodden2010, since the passage step gave a paraphrase, which is not checked word for word",
+        "the quote given for @stodden2010 is not in its source text source_stodden2010.txt",
+        "the quote given for @stodden2010 is not in its source text source_stodden2010.txt"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "S42812eb01e05"
+      ]
+    },
+    {
+      "id": "r33",
+      "citekey": "eubank2016",
+      "sentence": "These features apply the core workflow to a practical barrier to adoption: researchers often lack the time or technical expertise to establish and maintain reproducible infrastructure [@stodden2010] and work in disjointed and loosely organized ways, which leaves code and project files messy and often unable to run [Rule, Tabard, and Hollan -@rule2018; @eubank2016; @trisovic2022].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-28T02:45:10.124Z in research/workflow_lit_socsci.md, in a file an AI wrote, where the record reads \"Eubank (2016) found that of 24 papers under in-house replication review at *QJPS*, only four packages needed no modification and 14 produced results differing from the published paper.\"",
+      "reference": "Eubank, N. (2016). Lessons from a decade of replications at the <i>Quarterly Journal of Political Science</i>. PS Political Sci. Politics. doi:10.1017/S1049096516000196",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1017/s1049096516000196)",
+      "record": "Eubank, N. (2016). Lessons from a Decade of Replications at the <i>Quarterly Journal of Political Science</i>. Political Science and Politics. Type journal-article.",
+      "reason": "**1.2 Computational reproducibility is empirically terrible, and this is now measured, not asserted.** The distinctive feature of the last decade is that the field stopped arguing and started counting. Stodden, Seiler and Ma (2018) obtained artifacts for 44% of a *Science* sample and reproduced findings for 26%. Chang and Li (2022) reproduced 60 economics papers and titled the result \"Often Not.\" Eubank (2016) found that of 24 papers under in-house replication review at *QJPS*, only four packages needed no modification and 14 produced results differing from the published paper. Trisovic et al. (2022) ran 9,000+ R files from Harvard Dataverse and found 74% failed to execute without error. This is the evidentiary base for any claim that a manuscript pipeline needs a gate.",
+      "reason_source": "at 2026-07-28T02:45:10.124Z in research/workflow_lit_socsci.md",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "located",
+          "in_source": "no",
+          "kind": "quote",
+          "location": "p. 2, IN-HOUSE REPLICATION",
+          "text": "Of the 24 empirical papers subject to in-house replication review between September 2012 and November 2015,1 only four packages did not require any modiﬁcations. Of the remaining 20 papers, 13 had code that would not execute without errors, eight failed to include code for results that appeared in the paper,2 and seven failed to include installation directions for software dependencies. Most troubling, however, was that 14 (58%) papers had results that diﬀered from those generated by the author’s own code.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "no",
+      "access": "fulltext",
+      "source_file": "source_eubank2016.txt",
+      "notes": [
+        "the quote given for @eubank2016 is not in its source text source_eubank2016.txt"
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sfdc8140a6627"
+      ]
+    },
+    {
+      "id": "r34",
+      "citekey": "rule2018",
+      "sentence": "These features apply the core workflow to a practical barrier to adoption: researchers often lack the time or technical expertise to establish and maintain reproducible infrastructure [@stodden2010] and work in disjointed and loosely organized ways, which leaves code and project files messy and often unable to run [Rule, Tabard, and Hollan -@rule2018; @eubank2016; @trisovic2022].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-31T19:28:49.290Z in research/01_plain_text_lineage/report.md, in a file an AI wrote, where the record reads \"...re (full analysis) analytical reasoning and results were discussed less than half the time\"), and interviewed 15 academic data analysts [Rule, Tabard & Hollan 2018, \"Exploration and Explanation in Computational Notebooks\", CHI 2018 Paper 32, 10.1145/3173574.3173606, FULL-TEXT].\"",
+      "reference": "Rule, A., Tabard, A., Hollan, J. (2018). Exploration and explanation in computational notebooks. Proc. 2018 CHI Conf. Human Factors Comput. Systems. doi:10.1145/3173574.3173606",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1145/3173574.3173606)",
+      "record": "Rule, A., Tabard, A., Hollan, J. (2018). Exploration and Explanation in Computational Notebooks. Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. Type proceedings-article.",
+      "reason": "Rule, Tabard and Hollan analyzed over 1 million GitHub notebooks (one in four \"had no explanatory text but consisted entirely of visualizations or code\"), 221 academic notebooks (introductory text in 55%, a concluding text cell in 3%; of notebooks with non-header text, \"88% used that text to describe analytical steps, but only 34% to explain reasoning, and just 38% to discuss results\"; \"even in the most verbose genre (full analysis) analytical reasoning and results were discussed less than half the time\"), and interviewed 15 academic data analysts [Rule, Tabard & Hollan 2018, \"Exploration and Explanation in Computational Notebooks\", CHI 2018 Paper 32, 10.1145/3173574.3173606, FULL-TEXT]. The interview findings state the final-path thesis in so many words:",
+      "reason_source": "at 2026-07-31T19:28:49.290Z in research/01_plain_text_lineage/report.md",
+      "quotes": [
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "",
+          "text": "had no explanatory text but consisted entirely of visualizations or code",
+          "where": "at 2026-07-31T19:28:49.290Z in research/01_plain_text_lineage/report.md"
+        },
+        {
+          "found_at": "",
+          "from": "record",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "",
+          "text": "88% used that text to describe analytical steps, but only 34% to explain reasoning, and just 38% to discuss results",
+          "where": "at 2026-07-31T19:28:49.290Z in research/01_plain_text_lineage/report.md"
+        },
+        {
+          "found_at": "Notebooks",
+          "from": "record",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "",
+          "text": "even in the most verbose genre (full analysis) analytical reasoning and results were discussed less than half the time",
+          "where": "at 2026-07-31T19:28:49.290Z in research/01_plain_text_lineage/report.md"
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_rule2018.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "S1fc10e437250"
+      ]
+    },
+    {
+      "id": "r35",
+      "citekey": "trisovic2022",
+      "sentence": "These features apply the core workflow to a practical barrier to adoption: researchers often lack the time or technical expertise to establish and maintain reproducible infrastructure [@stodden2010] and work in disjointed and loosely organized ways, which leaves code and project files messy and often unable to run [Rule, Tabard, and Hollan -@rule2018; @eubank2016; @trisovic2022].",
+      "origin": "ai",
+      "origin_evidence": "First named by an AI at 2026-07-28T02:45:10.124Z in research/workflow_lit_socsci.md, in a file an AI wrote, where the record reads \"Trisovic et al. (2022) ran 9,000+ R files from Harvard Dataverse and found 74% failed to execute without error.\"",
+      "reference": "Trisovic, A., Lau, M., Pasquier, T., Crosas, M. (2022). A large-scale study on research code quality and execution. Sci. Data. doi:10.1038/s41597-022-01143-6",
+      "lookup": "found",
+      "existence": "found in the metadata cache (DOI 10.1038/s41597-022-01143-6)",
+      "record": "Trisovic, A., Lau, M., Pasquier, T., Crosas, M. (2022). A large-scale study on research code quality and execution. Scientific Data. Type journal-article.",
+      "reason": "**1.2 Computational reproducibility is empirically terrible, and this is now measured, not asserted.** The distinctive feature of the last decade is that the field stopped arguing and started counting. Stodden, Seiler and Ma (2018) obtained artifacts for 44% of a *Science* sample and reproduced findings for 26%. Chang and Li (2022) reproduced 60 economics papers and titled the result \"Often Not.\" Eubank (2016) found that of 24 papers under in-house replication review at *QJPS*, only four packages needed no modification and 14 produced results differing from the published paper. Trisovic et al. (2022) ran 9,000+ R files from Harvard Dataverse and found 74% failed to execute without error. This is the evidentiary base for any claim that a manuscript pipeline needs a gate.",
+      "reason_source": "at 2026-07-28T02:45:10.124Z in research/workflow_lit_socsci.md",
+      "quotes": [
+        {
+          "found_at": "Abstract",
+          "from": "located",
+          "in_source": "yes",
+          "kind": "quote",
+          "location": "Abstract",
+          "text": "We find that 74% of R files failed to complete without error in the initial execution, while 56% failed when code cleaning was applied, showing that many errors can be prevented with good coding practices.",
+          "where": ""
+        }
+      ],
+      "quote_in_source": "yes",
+      "access": "fulltext",
+      "source_file": "source_trisovic2022.txt",
+      "notes": [],
+      "needs_decision": true,
+      "sessions": [
+        "Sfdc8140a6627"
+      ]
+    }
+  ],
+  "decisions": []
+}

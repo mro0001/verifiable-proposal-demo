@@ -1,0 +1,1678 @@
+{
+  "schema": "verification-results",
+  "schema_version": 1,
+  "stream": "prose",
+  "run_id": "proposal_prose",
+  "procedure_version": 0.3,
+  "inputs": {
+    "baseline.md": "sha256:f4c3c71a9f8df938fd12912466b5635d2191b903b84cca7db7f61352097b13ef",
+    "rationales.yaml": "sha256:6448a501fe7c2a5bbef58352cd138d0dc41822ce08b8226b92391400fbdf4d44",
+    "revised.md": "sha256:5e9b9d321d6794d369c9c51a2fc507e93ba9c97e4a3e1eb8178315dc8394e19f",
+    "versions.yaml": "sha256:df590cf8e89e4eee8f2571cd5a8db4f69b16f9d99e72c5e654a0e3f3e69e2e4b"
+  },
+  "items": [
+    {
+      "id": "c01",
+      "kind": "change",
+      "summary": "edit: AI-generated content is entering scientific manuscripts at a staggering pace [@liang2025; @kusumegi2025], and standards ",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r02 and r03 names it with no reason, AI-generated content is entering scientific manuscripts at a staggering pace (Liang et al. 2025; Kusumegi et al. 20…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2025, 2025 -> (none); citations (none) -> kusumegi2025, liang2025"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c02",
+      "kind": "change",
+      "summary": "edit: AI can lower the cost of writing, coding, literature search, and other research tasks, allowing scholars to undertake wo",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2023 -> (none); citations Doshi and Hauser 2024, Lee and Chung 2024 -> boiko2023, doshi2024, lee2024"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c03",
+      "kind": "change",
+      "summary": "edit: These capabilities lower the cost of exploring risky ideas and help scholars work across fields and languages [@zheng202",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2026 -> (none); citations (none) -> zheng2026"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c04",
+      "kind": "change",
+      "summary": "edit: But the power of AI to accelerate research has numerous negative consequences beyond its ethical and environmental conce",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2024 -> (none); citations Resnik and Hosseini 2025 -> luccioni2024, resnik2025"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c05",
+      "kind": "change",
+      "summary": "edit: The rising volume of manuscripts is straining the peer review process [@gartenberg2026] and AI's polished output can mas",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2025, 2025, 2026, 2026 -> (none); citations (none) -> dellacqua2026, gartenberg2026, kusumegi2025, suchak2025"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c06",
+      "kind": "change",
+      "summary": "edit: Scholars want clear guidance on acceptable use [@schulz2026; @oxford2026; @wiley2025], but journal policies rarely go be",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2026, 2026 -> (none); citations He and Bu 2026, Press 2026, Wiley 2025 -> ans2026, he2026, oxford2026, schulz2026, wiley2025"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c07",
+      "kind": "change",
+      "summary": "edit: Plausibility failures appear in hallucinated citations [@walters2023], misattributed claims [@linardon2026], and analyse",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2026, 2026 -> (none); citations Walters and Wilder 2023 -> kapoor2026, linardon2026, walters2023"
+        },
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "kind mismatch, record entry r18 says delete and the diff says edit",
+          "evidence": "Plausibility failures appear in hallucinated citations [@walters2023], misattributed claims [@linardon2026], and analys…"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c08",
+      "kind": "change",
+      "summary": "edit: Inconsistency occurs because models sample their output from probabilities and GPU arithmetic shifts with hardware and s",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2025 -> (none); citations (none) -> yuan2025"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c09",
+      "kind": "change",
+      "summary": "edit: We use procedural graphs [@lu2026] stored in a queryable knowledge base to route AI contributions through verification p",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2026 -> (none); citations JCGM 2012 -> jcgm2012, lu2026"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c10",
+      "kind": "change",
+      "summary": "edit: This workflow aims to support scholarly accountability through documented evidence rather than disclosure alone [@he2026",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2026 -> (none); citations He and Bu 2026 -> ans2026, he2026"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c11",
+      "kind": "change",
+      "summary": "edit: The workflow builds on a plain-text reproducible research pipeline, which assembles manuscripts from text, references, a",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations stream",
+          "evidence": "citations Healy 2020 -> healy2020"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c12",
+      "kind": "change",
+      "summary": "edit: Verification is the \"provision of objective evidence that a given item fulfils specified requirements\" [JCGM -@jcgm2012,",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations stream",
+          "evidence": "citations JCGM 2012 -> jcgm2012"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c13",
+      "kind": "change",
+      "summary": "edit: Observability concerns real-time monitoring of the process behind an AI output in an observability layer, which is hidde",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations stream",
+          "evidence": "citations Murray 2008 -> astrom2008"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c14",
+      "kind": "change",
+      "summary": "edit: Audibility is a documented chain from each element of a research product to the inputs, sources, scripts, and sessions t",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations stream",
+          "evidence": "citations JCGM 2012 -> jcgm2012"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c15",
+      "kind": "change",
+      "summary": "edit: Because repeating an AI interaction may not reproduce the same output, maintaining session records and logs is essential",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations stream",
+          "evidence": "citations Holmes 2023 -> hosseini2023"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c16",
+      "kind": "change",
+      "summary": "edit: The AI harness is the software that connects to an AI model and connects it to tools and files [@zhang2026].",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2026 -> (none); citations (none) -> zhang2026"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c17",
+      "kind": "change",
+      "summary": "edit: These features apply the core workflow to a practical barrier to adoption: researchers often lack the time or technical ",
+      "findings": [
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2022 -> (none); citations Eubank 2016, Hollan 2018, Stodden 2010 -> eubank2016, rule2018, stodden2010, trisovic2022"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c18",
+      "kind": "change",
+      "summary": "delete: Ans M, Maggio LA, Algodi H, Costello JA, Driessen E, Oswald K, Lingard L (2026) The presence and nature of AI-use disclo",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r35 names it with no reason, Ans M, Maggio LA, Algodi H, Costello JA, Driessen E, Oswald K, Lingard L (2026) The presence and nature of AI-use disclosur…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2026 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c19",
+      "kind": "change",
+      "summary": "delete: Medical Ed.* 15(1):212--225. https://doi.org/10.5334/pme.2431",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r36 names it with no reason, Medical Ed.* 15(1):212--225. https://doi.org/10.5334/pme.2431 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers -225, 1, 10.5334, 15, 212 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c20",
+      "kind": "change",
+      "summary": "delete: Åström KJ, Murray RM (2008) *Feedback Systems: An Introduction for Scientists and Engineers* (Princeton University Press",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r37 names it with no reason, Åström KJ, Murray RM (2008) *Feedback Systems: An Introduction for Scientists and Engineers* (Princeton University Press, P…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 10.1515, 9781400828739 -> (none); citations RM (2008) -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c21",
+      "kind": "change",
+      "summary": "delete: Boiko DA, MacKnight R, Kline B, Gomes G (2023) Autonomous chemical research with large language models. *Nature* 624(799",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r38 names it with no reason, Boiko DA, MacKnight R, Kline B, Gomes G (2023) Autonomous chemical research with large language models. *Nature* 624(7992):…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers -578, 0, 023, 06792, 10.1038, 2023, 570, 624, 7992 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c22",
+      "kind": "change",
+      "summary": "delete: Dell\\'Acqua F, McFowland E III, Mollick E, Lifshitz H, Kellogg KC, Rajendran S, Krayer L, Candelon F, Lakhani KR (2026) ",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r39 names it with no reason, Dell\\'Acqua F, McFowland E III, Mollick E, Lifshitz H, Kellogg KC, Rajendran S, Krayer L, Candelon F, Lakhani KR (2026) Nav…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations stream",
+          "evidence": "citations KR (2026) -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c23",
+      "kind": "change",
+      "summary": "delete: Sci.* 37(2):403--423. https://doi.org/10.1287/orsc.2025.21838",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r40 names it with no reason, Sci.* 37(2):403--423. https://doi.org/10.1287/orsc.2025.21838 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers -423, 10.1287, 2, 37, 403 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c24",
+      "kind": "change",
+      "summary": "delete: Doshi AR, Hauser OP (2024) Generative AI enhances individual creativity but reduces the collective diversity of novel co",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r41 names it with no reason, Doshi AR, Hauser OP (2024) Generative AI enhances individual creativity but reduces the collective diversity of novel conte…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations stream",
+          "evidence": "citations OP (2024) -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c25",
+      "kind": "change",
+      "summary": "delete: Adv.* 10(28):eadn5290. https://doi.org/10.1126/sciadv.adn5290",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r42 names it with no reason, Adv.* 10(28):eadn5290. https://doi.org/10.1126/sciadv.adn5290 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 10, 10.1126, 28 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c26",
+      "kind": "change",
+      "summary": "delete: Eubank N (2016) Lessons from a decade of replications at the *Quarterly Journal of Political Science*. *PS Political Sci",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r43 names it with no reason, Eubank N (2016) Lessons from a decade of replications at the *Quarterly Journal of Political Science*. *PS Political Sci. -…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2016 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c27",
+      "kind": "change",
+      "summary": "delete: Politics* 49(2):273--276. https://doi.org/10.1017/S1049096516000196",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r44 names it with no reason, Politics* 49(2):273--276. https://doi.org/10.1017/S1049096516000196 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers -276, 10.1017, 2, 273, 49 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c28",
+      "kind": "change",
+      "summary": "delete: Gartenberg C, Hasan S, Murray A, Pierce L (2026) More versus better: Artificial intelligence, incentives, and the emergi",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r45 names it with no reason, Gartenberg C, Hasan S, Murray A, Pierce L (2026) More versus better: Artificial intelligence, incentives, and the emerging …"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2026 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c29",
+      "kind": "change",
+      "summary": "delete: Sci.* 37(3):795--812. https://doi.org/10.1287/orsc.2026.ed.v37.n3",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r46 names it with no reason, Sci.* 37(3):795--812. https://doi.org/10.1287/orsc.2026.ed.v37.n3 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers -812, 10.1287, 3, 37, 795 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c30",
+      "kind": "change",
+      "summary": "delete: He Y, Bu Y (2026) Academic journals\\' AI policies fail to curb the surge in AI-assisted academic writing. *Proc.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r47 names it with no reason, He Y, Bu Y (2026) Academic journals\\' AI policies fail to curb the surge in AI-assisted academic writing. *Proc. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2026 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c31",
+      "kind": "change",
+      "summary": "delete: Natl.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r48 names it with no reason, Natl. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c32",
+      "kind": "change",
+      "summary": "delete: Acad.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r49 names it with no reason, Acad. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c33",
+      "kind": "change",
+      "summary": "delete: Sci.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r50 names it with no reason, Sci. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c34",
+      "kind": "change",
+      "summary": "delete: USA* 123(9):e2526734123. https://doi.org/10.1073/pnas.2526734123",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r51 names it with no reason, USA* 123(9):e2526734123. https://doi.org/10.1073/pnas.2526734123 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 10.1073, 123, 9 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c35",
+      "kind": "change",
+      "summary": "delete: Healy K (2020) *The Plain Person\\'s Guide to Plain-Text Social Science*.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r52 names it with no reason, Healy K (2020) *The Plain Person\\'s Guide to Plain-Text Social Science*. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2020 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c36",
+      "kind": "change",
+      "summary": "delete: Version 2020-10-24.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r53 names it with no reason, Version 2020-10-24. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 10, 2020, 24 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c37",
+      "kind": "change",
+      "summary": "delete: Accessed October 22, 2026, https://kieranhealy.org/files/papers/plain-person-text.pdf.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r54 names it with no reason, Accessed October 22, 2026, https://kieranhealy.org/files/papers/plain-person-text.pdf. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2026, 22 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c38",
+      "kind": "change",
+      "summary": "delete: Hosseini M, Resnik DB, Holmes K (2023) The ethics of disclosing the use of artificial intelligence tools in writing scho",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r55 names it with no reason, Hosseini M, Resnik DB, Holmes K (2023) The ethics of disclosing the use of artificial intelligence tools in writing scholar…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2023 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c39",
+      "kind": "change",
+      "summary": "delete: Ethics* 19(4):449--465. https://doi.org/10.1177/17470161231180449",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r56 names it with no reason, Ethics* 19(4):449--465. https://doi.org/10.1177/17470161231180449 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers -465, 10.1177, 17470161231180449, 19, 4, 449 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c40",
+      "kind": "change",
+      "summary": "delete: JCGM (Joint Committee for Guides in Metrology) (2012) *International Vocabulary of Metrology: Basic and General Concepts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r57 names it with no reason, JCGM (Joint Committee for Guides in Metrology) (2012) *International Vocabulary of Metrology: Basic and General Concepts an…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2012, 3 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c41",
+      "kind": "change",
+      "summary": "delete: JCGM 200:2012 (Bureau International des Poids et Mesures, Sèvres, France). https://doi.org/10.59161/jcgm200-2012",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r58 names it with no reason, JCGM 200:2012 (Bureau International des Poids et Mesures, Sèvres, France). https://doi.org/10.59161/jcgm200-2012 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 10.59161, 200, 2012, 2012 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c42",
+      "kind": "change",
+      "summary": "delete: Kapoor S, Stroebl B, Kirgis P, Nadgir N, Siegel ZS, Wei B, Xue T, et al.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r59 names it with no reason, Kapoor S, Stroebl B, Kirgis P, Nadgir N, Siegel ZS, Wei B, Xue T, et al. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c43",
+      "kind": "change",
+      "summary": "delete: (2026) Holistic agent leaderboard: The missing infrastructure for AI agent evaluation. *Proc.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r60 names it with no reason, (2026) Holistic agent leaderboard: The missing infrastructure for AI agent evaluation. *Proc. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2026 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c44",
+      "kind": "change",
+      "summary": "delete: Internat.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r61 names it with no reason, Internat. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c45",
+      "kind": "change",
+      "summary": "delete: Conf.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r62 names it with no reason, Conf. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c46",
+      "kind": "change",
+      "summary": "delete: Learn.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r63 names it with no reason, Learn. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c47",
+      "kind": "change",
+      "summary": "delete: Representations (ICLR 2026)*, https://proceedings.iclr.cc/paper_files/paper/2026/hash/a0928f924a344aaebbb7f6cd8d56e34c-A",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r64 names it with no reason, Representations (ICLR 2026)*, https://proceedings.iclr.cc/paper_files/paper/2026/hash/a0928f924a344aaebbb7f6cd8d56e34c-Abst…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2026 -> (none); citations ICLR 2026 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c48",
+      "kind": "change",
+      "summary": "delete: Preprint: https://doi.org/10.48550/arXiv.2510.11977",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r65 names it with no reason, Preprint: https://doi.org/10.48550/arXiv.2510.11977 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 10.48550 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c49",
+      "kind": "change",
+      "summary": "delete: Kusumegi K, Yang X, Ginsparg P, de Vaan M, Stuart T, Yin Y (2025) Scientific production in the era of large language mod",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r66 names it with no reason, Kusumegi K, Yang X, Ginsparg P, de Vaan M, Stuart T, Yin Y (2025) Scientific production in the era of large language models…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers -1243, 10.1126, 1240, 2025, 390, 6779 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c50",
+      "kind": "change",
+      "summary": "delete: Lee BC, Chung J (2024) An empirical investigation of the impact of ChatGPT on creativity. *Nature Human Behav.* 8(10):19",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r67 names it with no reason, Lee BC, Chung J (2024) An empirical investigation of the impact of ChatGPT on creativity. *Nature Human Behav.* 8(10):1906-…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers -1914, 01953, 024, 1, 10, 10.1038, 1906, 2024, 8 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c51",
+      "kind": "change",
+      "summary": "delete: Liang W, Zhang Y, Wu Z, Lepp H, Ji W, Zhao X, Cao H, et al.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r68 names it with no reason, Liang W, Zhang Y, Wu Z, Lepp H, Ji W, Zhao X, Cao H, et al. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c52",
+      "kind": "change",
+      "summary": "delete: (2025) Quantifying large language model usage in scientific papers. *Nature Human Behav.* 9(12):2599--2609. https://doi.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r69 names it with no reason, (2025) Quantifying large language model usage in scientific papers. *Nature Human Behav.* 9(12):2599--2609. https://doi.org…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers -2609, 02273, 025, 10.1038, 12, 2025, 2599, 8, 9 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c53",
+      "kind": "change",
+      "summary": "delete: Linardon J, Messer M, Anderson C, Soliman OM, Liu C, Firth J, Torous J (2026) Fluency without fidelity: Errors in citati",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r70 names it with no reason, Linardon J, Messer M, Anderson C, Soliman OM, Liu C, Firth J, Torous J (2026) Fluency without fidelity: Errors in citation-…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2026 -> (none); negation without -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c54",
+      "kind": "change",
+      "summary": "delete: Tech.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r71 names it with no reason, Tech. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c55",
+      "kind": "change",
+      "summary": "delete: Behav.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r72 names it with no reason, Behav. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c56",
+      "kind": "change",
+      "summary": "delete: Sci.*, ePub ahead of print April 20, https://doi.org/10.1007/s41347-026-00630-6.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r73 names it with no reason, Sci.*, ePub ahead of print April 20, https://doi.org/10.1007/s41347-026-00630-6. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 00630, 026, 10.1007, 20, 6 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c57",
+      "kind": "change",
+      "summary": "delete: Oxford University Press (2026) *Disclosing AI Use in Academic Research: A Global Study by Oxford University Press*.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r74 names it with no reason, Oxford University Press (2026) *Disclosing AI Use in Academic Research: A Global Study by Oxford University Press*. -> (non…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations stream",
+          "evidence": "citations Press (2026) -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c58",
+      "kind": "change",
+      "summary": "delete: Report, September, Oxford University Press. https://fdslive.oup.com/www.oup.com/Group_comms/pdf/Disclosing_AI_use_in_aca",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r75 names it with no reason, Report, September, Oxford University Press. https://fdslive.oup.com/www.oup.com/Group_comms/pdf/Disclosing_AI_use_in_academ…"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c59",
+      "kind": "change",
+      "summary": "delete: Rule A, Tabard A, Hollan JD (2018) Exploration and explanation in computational notebooks. *Proc. 2018 CHI Conf.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r76 names it with no reason, Rule A, Tabard A, Hollan JD (2018) Exploration and explanation in computational notebooks. *Proc. 2018 CHI Conf. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers 2018 -> (none); citations JD (2018) -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c60",
+      "kind": "change",
+      "summary": "delete: Human Factors Comput.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r77 names it with no reason, Human Factors Comput. -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c61",
+      "kind": "change",
+      "summary": "delete: Systems* (Association for Computing Machinery, New York), Paper 32, 1--12. https://doi.org/10.1145/3173574.3173606",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r78 names it with no reason, Systems* (Association for Computing Machinery, New York), Paper 32, 1--12. https://doi.org/10.1145/3173574.3173606 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers -12, 1, 10.1145, 3173574.3173606, 32 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c62",
+      "kind": "change",
+      "summary": "delete: Schulz MS, Tavera Fenollosa L, Dussauge Laguna MI, Fontanelli O, Quintana Nedelcu D, Alba Udave J, Andersen JP (2026) Th",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r79 names it with no reason, Schulz MS, Tavera Fenollosa L, Dussauge Laguna MI, Fontanelli O, Quintana Nedelcu D, Alba Udave J, Andersen JP (2026) The u…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations|data stream",
+          "evidence": "numbers -191, 10.1177, 173, 19, 20597991261454555, 3 -> (none); citations JP (2026) -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c63",
+      "kind": "change",
+      "summary": "delete: Stodden V (2010) Reproducibility of computational results: Opening code and data.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r80 names it with no reason, Stodden V (2010) Reproducibility of computational results: Opening code and data. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2010 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c64",
+      "kind": "change",
+      "summary": "delete: Presentation, IASSIST 2010: Social Data and Social Networking, June 2, Ithaca, NY. https://doi.org/10.5281/zenodo.378177",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r81 names it with no reason, Presentation, IASSIST 2010: Social Data and Social Networking, June 2, Ithaca, NY. https://doi.org/10.5281/zenodo.3781771 -…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 10.5281, 2, 2010 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c65",
+      "kind": "change",
+      "summary": "delete: Trisovic A, Lau MK, Pasquier T, Crosas M (2022) A large-scale study on research code quality and execution. *Sci.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r82 names it with no reason, Trisovic A, Lau MK, Pasquier T, Crosas M (2022) A large-scale study on research code quality and execution. *Sci. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2022 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c66",
+      "kind": "change",
+      "summary": "delete: Data* 9(1):60. https://doi.org/10.1038/s41597-022-01143-6",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r83 names it with no reason, Data* 9(1):60. https://doi.org/10.1038/s41597-022-01143-6 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 01143, 022, 1, 10.1038, 6, 60, 9 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c67",
+      "kind": "change",
+      "summary": "delete: Walters WH, Wilder EI (2023) Fabrication and errors in the bibliographic citations generated by ChatGPT. *Sci.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r84 names it with no reason, Walters WH, Wilder EI (2023) Fabrication and errors in the bibliographic citations generated by ChatGPT. *Sci. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations stream",
+          "evidence": "citations EI (2023) -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c68",
+      "kind": "change",
+      "summary": "delete: Rep.* 13(1):14045. https://doi.org/10.1038/s41598-023-41032-5",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r85 names it with no reason, Rep.* 13(1):14045. https://doi.org/10.1038/s41598-023-41032-5 -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 023, 1, 10.1038, 13, 14045, 41032, 5 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c69",
+      "kind": "change",
+      "summary": "delete: Wiley (2025) *ExplanAItions: An AI Study by Wiley*.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r86 names it with no reason, Wiley (2025) *ExplanAItions: An AI Study by Wiley*. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to citations stream",
+          "evidence": "citations Wiley (2025) -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c70",
+      "kind": "change",
+      "summary": "delete: Report, February, John Wiley & Sons. https://assets.wiley.com/image/upload/v1781548107/wiley-explanaItions-ai-study-febr",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r87 names it with no reason, Report, February, John Wiley & Sons. https://assets.wiley.com/image/upload/v1781548107/wiley-explanaItions-ai-study-februar…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2025 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c71",
+      "kind": "change",
+      "summary": "delete: Zheng X, Hong X, Liu J, Ni C (2026) Scientific exploration, collaboration and labor division in the large language model",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r88 names it with no reason, Zheng X, Hong X, Liu J, Ni C (2026) Scientific exploration, collaboration and labor division in the large language model er…"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 2026 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "c72",
+      "kind": "change",
+      "summary": "delete: Preprint, submitted July 23, https://doi.org/10.48550/arXiv.2607.20923.",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "blocking",
+          "message": "AI change with no recorded reason",
+          "evidence": "record r89 names it with no reason, Preprint, submitted July 23, https://doi.org/10.48550/arXiv.2607.20923. -> (none)"
+        },
+        {
+          "check": "content_handoff",
+          "severity": "warning",
+          "message": "content change, hand off to data stream",
+          "evidence": "numbers 10.48550, 23 -> (none)"
+        }
+      ],
+      "needs_decision": true,
+      "sessions": [
+        "Sea91e4086425"
+      ]
+    },
+    {
+      "id": "r01",
+      "kind": "finding",
+      "summary": "1 problem. an AI tool call wrote the whole file, so the record cannot tell which changes are the AI's",
+      "findings": [
+        {
+          "check": "exclude_author",
+          "severity": "blocking",
+          "message": "an AI tool call wrote the whole file, so the record cannot tell which changes are the AI's",
+          "evidence": "Record entry r01 gives the reason \"Now I write the proposal source into the demo, as converted and with its figure lines pointed at the demo's figure files.\" It came from session S921f30753997. The changes listed as the scholar's own may hold the AI's."
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r10",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor names a change another record entry already accounts for, can mask underlying flaws [@dellacqua2026]"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r11",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor names a change another record entry already accounts for, low-quality submissions [@kusumegi2025; @suchak2025]"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r12",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor names a change another record entry already accounts for, low-quality submissions (Kusumegi et al. 2025; Suchak et al. 2025)"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r15",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor names a change another record entry already accounts for, rarely go beyond disclosure [@he2026; @ans2026]"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r16",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor names a change another record entry already accounts for, rarely go beyond disclosure (He and Bu 2026; Ans et al. 2026)"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r17",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor text found in no changed sentence, hallucinated citations [@walters2023]"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r19",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor text found in no changed sentence, misattributed claims [@linardon2026]"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r20",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor names a change another record entry already accounts for, misattributed claims (Linardon et al. 2026)"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r21",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor names a change another record entry already accounts for, while skipping required steps [@kapoor2026]"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r24",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor names a change another record entry already accounts for, through verification procedures [JCGM -@jcgm2012], which"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "r34",
+      "kind": "finding",
+      "summary": "1 problem. recorded AI change matches no change between the two texts",
+      "findings": [
+        {
+          "check": "rationale_coverage",
+          "severity": "warning",
+          "message": "recorded AI change matches no change between the two texts",
+          "evidence": "anchor names a change another record entry already accounts for, often unable to run [Rule, Tabard, and Hollan -@rule2018; @eubank2016; @trisovic2022]"
+        }
+      ],
+      "needs_decision": true
+    }
+  ],
+  "decisions": []
+}

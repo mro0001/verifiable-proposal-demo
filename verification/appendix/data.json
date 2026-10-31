@@ -1,0 +1,1958 @@
+{
+  "schema": "verification-results",
+  "schema_version": 1,
+  "stream": "data",
+  "run_id": "appendix_data",
+  "procedure_version": 0.2,
+  "inputs": {
+    ".gitignore": "sha256:28ce5605c9dc9b7d9a88966ac288e90151276f54d03816ae766d5a9c7d922ffe",
+    "Makefile": "sha256:fedc3c3187330bcb8b041ba277aae99c4386eb2c6a3975e75a873415eec4930a",
+    "README.md": "sha256:e13411589b613b0e11388f181e026329de81da02c601ec922b7edd621b4d64f0",
+    "a4_results.csv": "sha256:c17e06680d96d4b374361d7875e88f14697d6990669f7751d5b3a33a01ed6a35",
+    "acquisition.yaml": "sha256:a4eb6b08a17f52f26190a1b13df22ee6db6f63fe6e49ee227806ee96d372c1f9",
+    "appendix.md": "sha256:780a623ce757614b247132fc96bfd8f6cefa091cab183f25253a8a6a4aaba3e5",
+    "artifact_counts.csv": "sha256:05b14c220f961f05e571e1823e2e2e83c1c2d9ae836c03a0824038c30a53d777",
+    "artifact_public_e22136c.tar": "sha256:db9331971271ee57b9205a324600b5cb63398d2349c0808fc0e906df2cab1a10",
+    "artifact_public_f48459a.tar": "sha256:cc516aa2cf06c3fee16012e7ef6f41f84dda1e7ffb92ce33295da389c3e27610",
+    "file_edits.yaml": "sha256:03774afb208a13ec9c984c5314c244662a97f4348b2ed01def82f200f37f4a73",
+    "live_runs.csv": "sha256:5af6fcceca5ef6531b636f369c69dc5b9fa3d20cc00ecb6bfebe14d3862e196f",
+    "live_runs_2026-10-08.tar": "sha256:865b686a97dceb265700c0ef02560d4e7d58ecdcdc83f6e74959818fffa7db60",
+    "numbers.yml": "sha256:224947b3b06ab3c1f6642548a9ea2999b79ccf0bb972f123a816975d69d0c1c1",
+    "params.yaml": "sha256:7c33dbab6c414e4ea68fb1bc6a40121ddae093802b19f7820eceb639d709bd36",
+    "params_io.py": "sha256:2c0af822eef3ddf1a1f1e6deff40bb22728bdb3d2c83309c5f1862f92222c4a9",
+    "params_record_artifact.csv": "sha256:7dd99e5993c467a1feb55b902252f4e00566f731ceace7f41dd0180d1895fbcd",
+    "params_record_live.csv": "sha256:c8bb558a971717fe3957f0ca050106d0f0d0456239459e2c90cde75d1740d61a",
+    "pipeline.yaml": "sha256:5d2b08aebbf298038c44b8ae6e0d7e23f33a141ef3c285882a85436572d31c3c",
+    "proposal.md": "sha256:5e9b9d321d6794d369c9c51a2fc507e93ba9c97e4a3e1eb8178315dc8394e19f",
+    "refs.bib": "sha256:1a7169e75dad87bcef2654bf6e10efc04dff217aa6ddae62183bd9468cdfcd84",
+    "results_io.py": "sha256:1370d330abb7f8f05caffa7fadcf62d634ef2b211a485d1bc97176e1d0fd88da",
+    "s1_artifact_numbers.py": "sha256:c0d7c3fbf27aa4c612ca7db1da28dc4720df03271a727d126b28220a4d01da27",
+    "s2_live_runs.py": "sha256:7f78483fe3e311f914f4c2353090b9bcd97232c49e0fa6fcc0343e7b3301fe17",
+    "sources_manifest.yaml": "sha256:f90405585efbfdc2ea9e7d1c985d6d872d3f120b70cf395fdc4b4f07de833e42",
+    "suite_counts.csv": "sha256:49d006d4ab49958039aa8e6d4b6e22015252a282dfab50b184fe1e40aab3da6a"
+  },
+  "items": [
+    {
+      "id": "build.caught",
+      "kind": "number",
+      "summary": "build.caught = 7, rerun 7, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "build.caught.word",
+      "kind": "number",
+      "summary": "build.caught.word = seven, rerun seven, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "build.extras",
+      "kind": "number",
+      "summary": "build.extras = 0, rerun 0, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "build.extras.word",
+      "kind": "number",
+      "summary": "build.extras.word = zero, rerun zero, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "build.faults",
+      "kind": "number",
+      "summary": "build.faults = 7, rerun 7, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "build.faults.word",
+      "kind": "number",
+      "summary": "build.faults.word = seven, rerun seven, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.extras",
+      "kind": "number",
+      "summary": "citations.extras = 0, rerun 0, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.extras.word",
+      "kind": "number",
+      "summary": "citations.extras.word = zero, rerun zero, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.faults",
+      "kind": "number",
+      "summary": "citations.faults = 13, rerun 13, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.judged",
+      "kind": "number",
+      "summary": "citations.judged = 6, rerun 6, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.judged.word",
+      "kind": "number",
+      "summary": "citations.judged.word = six, rerun six, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.recall",
+      "kind": "number",
+      "summary": "citations.recall = 1.0, rerun 1.0, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.replays",
+      "kind": "number",
+      "summary": "citations.replays = 9, rerun 9, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.replays.word",
+      "kind": "number",
+      "summary": "citations.replays.word = nine, rerun nine, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.steps",
+      "kind": "number",
+      "summary": "citations.steps = 11, rerun 11, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.steps.word",
+      "kind": "number",
+      "summary": "citations.steps.word = eleven, rerun eleven, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.steps_run",
+      "kind": "number",
+      "summary": "citations.steps_run = 11, rerun 11, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "citations.steps_run.word",
+      "kind": "number",
+      "summary": "citations.steps_run.word = eleven, rerun eleven, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "cleaning.caught",
+      "kind": "number",
+      "summary": "cleaning.caught = 2, rerun 2, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "cleaning.caught.word",
+      "kind": "number",
+      "summary": "cleaning.caught.word = two, rerun two, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "cleaning.extras",
+      "kind": "number",
+      "summary": "cleaning.extras = 0, rerun 0, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "cleaning.extras.word",
+      "kind": "number",
+      "summary": "cleaning.extras.word = zero, rerun zero, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "cleaning.faults",
+      "kind": "number",
+      "summary": "cleaning.faults = 2, rerun 2, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "cleaning.faults.word",
+      "kind": "number",
+      "summary": "cleaning.faults.word = two, rerun two, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "data.caught",
+      "kind": "number",
+      "summary": "data.caught = 9, rerun 9, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "data.caught.word",
+      "kind": "number",
+      "summary": "data.caught.word = nine, rerun nine, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "data.extras",
+      "kind": "number",
+      "summary": "data.extras = 2, rerun 2, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "data.extras.word",
+      "kind": "number",
+      "summary": "data.extras.word = two, rerun two, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "data.faults",
+      "kind": "number",
+      "summary": "data.faults = 9, rerun 9, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "data.faults.word",
+      "kind": "number",
+      "summary": "data.faults.word = nine, rerun nine, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.ai",
+      "kind": "number",
+      "summary": "excerpt.ai = 11, rerun 11, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.ai.word",
+      "kind": "number",
+      "summary": "excerpt.ai.word = eleven, rerun eleven, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.ai_after",
+      "kind": "number",
+      "summary": "excerpt.ai_after = 4, rerun 4, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.ai_after.word",
+      "kind": "number",
+      "summary": "excerpt.ai_after.word = four, rerun four, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.ai_before",
+      "kind": "number",
+      "summary": "excerpt.ai_before = 6, rerun 6, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.ai_before.word",
+      "kind": "number",
+      "summary": "excerpt.ai_before.word = six, rerun six, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.citations",
+      "kind": "number",
+      "summary": "excerpt.citations = 15, rerun 15, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.doc_sha",
+      "kind": "number",
+      "summary": "excerpt.doc_sha = 667c48dc9515, rerun 667c48dc9515, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.no_quote_found",
+      "kind": "number",
+      "summary": "excerpt.no_quote_found = 1, rerun 1, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.no_quote_found.word",
+      "kind": "number",
+      "summary": "excerpt.no_quote_found.word = one, rerun one, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.no_reason",
+      "kind": "number",
+      "summary": "excerpt.no_reason = 2, rerun 2, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.no_reason.word",
+      "kind": "number",
+      "summary": "excerpt.no_reason.word = two, rerun two, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.not_found",
+      "kind": "number",
+      "summary": "excerpt.not_found = 2, rerun 2, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.not_found.word",
+      "kind": "number",
+      "summary": "excerpt.not_found.word = two, rerun two, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.not_looked_up",
+      "kind": "number",
+      "summary": "excerpt.not_looked_up = 0, rerun 0, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.not_looked_up.word",
+      "kind": "number",
+      "summary": "excerpt.not_looked_up.word = zero, rerun zero, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.notes_omitted",
+      "kind": "number",
+      "summary": "excerpt.notes_omitted = 16, rerun 16, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.record_quote_not_found",
+      "kind": "number",
+      "summary": "excerpt.record_quote_not_found = 1, rerun 1, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.record_quote_not_found.word",
+      "kind": "number",
+      "summary": "excerpt.record_quote_not_found.word = one, rerun one, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.row",
+      "kind": "number",
+      "summary": "excerpt.row = r08, rerun r08, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.row_location",
+      "kind": "number",
+      "summary": "excerpt.row_location = p. 15, rerun p. 15, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.row_source_sha",
+      "kind": "number",
+      "summary": "excerpt.row_source_sha = b76d203442be, rerun b76d203442be, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.scholar",
+      "kind": "number",
+      "summary": "excerpt.scholar = 2, rerun 2, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.scholar.word",
+      "kind": "number",
+      "summary": "excerpt.scholar.word = two, rerun two, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.unknown",
+      "kind": "number",
+      "summary": "excerpt.unknown = 2, rerun 2, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "excerpt.unknown.word",
+      "kind": "number",
+      "summary": "excerpt.unknown.word = two, rerun two, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "fixtures.max_files",
+      "kind": "number",
+      "summary": "fixtures.max_files = 25, rerun 25, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "fixtures.min_files",
+      "kind": "number",
+      "summary": "fixtures.min_files = 4, rerun 4, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "kb.entries",
+      "kind": "number",
+      "summary": "kb.entries = 24, rerun 24, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "kb.outside",
+      "kind": "number",
+      "summary": "kb.outside = 4, rerun 4, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "kb.outside.word_cap",
+      "kind": "number",
+      "summary": "kb.outside.word_cap = Four, rerun Four, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "kb.tools",
+      "kind": "number",
+      "summary": "kb.tools = 5, rerun 5, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "kb.tools.word",
+      "kind": "number",
+      "summary": "kb.tools.word = five, rerun five, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.citations.clean.findings",
+      "kind": "number",
+      "summary": "live.citations.clean.findings = 0, rerun 0, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.citations.seeded.caught",
+      "kind": "number",
+      "summary": "live.citations.seeded.caught = 13, rerun 13, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.citations.seeded.extras",
+      "kind": "number",
+      "summary": "live.citations.seeded.extras = 5, rerun 5, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.citations.seeded.extras.word",
+      "kind": "number",
+      "summary": "live.citations.seeded.extras.word = five, rerun five, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.citations.seeded.faults",
+      "kind": "number",
+      "summary": "live.citations.seeded.faults = 13, rerun 13, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.citations.seeded.judgment_caught",
+      "kind": "number",
+      "summary": "live.citations.seeded.judgment_caught = 2, rerun 2, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.citations.seeded.judgment_faults",
+      "kind": "number",
+      "summary": "live.citations.seeded.judgment_faults = 2, rerun 2, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.data.clean.findings",
+      "kind": "number",
+      "summary": "live.data.clean.findings = 0, rerun 0, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.data.seeded.caught",
+      "kind": "number",
+      "summary": "live.data.seeded.caught = 8, rerun 8, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.data.seeded.extras",
+      "kind": "number",
+      "summary": "live.data.seeded.extras = 4, rerun 4, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.data.seeded.faults",
+      "kind": "number",
+      "summary": "live.data.seeded.faults = 8, rerun 8, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.data.seeded.judgment_faults",
+      "kind": "number",
+      "summary": "live.data.seeded.judgment_faults = 1, rerun 1, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.data.seeded.judgment_faults.word",
+      "kind": "number",
+      "summary": "live.data.seeded.judgment_faults.word = one, rerun one, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.items",
+      "kind": "number",
+      "summary": "live.items = 127, rerun 127, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.judgment_caught",
+      "kind": "number",
+      "summary": "live.judgment_caught = 6, rerun 6, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.judgment_faults",
+      "kind": "number",
+      "summary": "live.judgment_faults = 6, rerun 6, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.judgment_faults.word",
+      "kind": "number",
+      "summary": "live.judgment_faults.word = six, rerun six, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose.clean.findings",
+      "kind": "number",
+      "summary": "live.prose.clean.findings = 1, rerun 1, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose.clean.findings.word",
+      "kind": "number",
+      "summary": "live.prose.clean.findings.word = one, rerun one, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose.clean.graph_version",
+      "kind": "number",
+      "summary": "live.prose.clean.graph_version = 0.2, rerun 0.2, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose_v01.seeded.caught",
+      "kind": "number",
+      "summary": "live.prose_v01.seeded.caught = 10, rerun 10, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose_v01.seeded.extras",
+      "kind": "number",
+      "summary": "live.prose_v01.seeded.extras = 2, rerun 2, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose_v01.seeded.extras.word",
+      "kind": "number",
+      "summary": "live.prose_v01.seeded.extras.word = two, rerun two, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose_v01.seeded.faults",
+      "kind": "number",
+      "summary": "live.prose_v01.seeded.faults = 10, rerun 10, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose_v01.seeded.graph_version",
+      "kind": "number",
+      "summary": "live.prose_v01.seeded.graph_version = 0.1, rerun 0.1, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose_v02.seeded.caught",
+      "kind": "number",
+      "summary": "live.prose_v02.seeded.caught = 10, rerun 10, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose_v02.seeded.faults",
+      "kind": "number",
+      "summary": "live.prose_v02.seeded.faults = 10, rerun 10, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose_v02.seeded.graph_version",
+      "kind": "number",
+      "summary": "live.prose_v02.seeded.graph_version = 0.2, rerun 0.2, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.prose_v02.seeded.judgment_caught",
+      "kind": "number",
+      "summary": "live.prose_v02.seeded.judgment_caught = 3, rerun 3, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.rechecks",
+      "kind": "number",
+      "summary": "live.rechecks = 5, rerun 5, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.rechecks.word",
+      "kind": "number",
+      "summary": "live.rechecks.word = five, rerun five, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.rechecks_agree",
+      "kind": "number",
+      "summary": "live.rechecks_agree = 5, rerun 5, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.responses",
+      "kind": "number",
+      "summary": "live.responses = 128, rerun 128, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.retries",
+      "kind": "number",
+      "summary": "live.retries = 1, rerun 1, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.retries.word",
+      "kind": "number",
+      "summary": "live.retries.word = one, rerun one, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.retries.word_cap",
+      "kind": "number",
+      "summary": "live.retries.word_cap = One, rerun One, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.runs",
+      "kind": "number",
+      "summary": "live.runs = 7, rerun 7, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.runs.word",
+      "kind": "number",
+      "summary": "live.runs.word = seven, rerun seven, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.verdict_rows",
+      "kind": "number",
+      "summary": "live.verdict_rows = 12, rerun 12, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "live.verdicts_differ",
+      "kind": "number",
+      "summary": "live.verdicts_differ = 3, rerun 3, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "prose.caught",
+      "kind": "number",
+      "summary": "prose.caught = 7, rerun 7, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "prose.caught.word",
+      "kind": "number",
+      "summary": "prose.caught.word = seven, rerun seven, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "prose.extras",
+      "kind": "number",
+      "summary": "prose.extras = 0, rerun 0, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "prose.extras.word",
+      "kind": "number",
+      "summary": "prose.extras.word = zero, rerun zero, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "prose.faults",
+      "kind": "number",
+      "summary": "prose.faults = 7, rerun 7, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "prose.faults.word",
+      "kind": "number",
+      "summary": "prose.faults.word = seven, rerun seven, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "prose_nojudge.caught",
+      "kind": "number",
+      "summary": "prose_nojudge.caught = 10, rerun 10, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "prose_nojudge.faults",
+      "kind": "number",
+      "summary": "prose_nojudge.faults = 10, rerun 10, from live_runs.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "repo.files",
+      "kind": "number",
+      "summary": "repo.files = 1666, rerun 1666, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "repo.mb",
+      "kind": "number",
+      "summary": "repo.mb = 7.0, rerun 7.0, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "runtime.commands",
+      "kind": "number",
+      "summary": "runtime.commands = 8, rerun 8, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "runtime.commands.word",
+      "kind": "number",
+      "summary": "runtime.commands.word = eight, rerun eight, from artifact_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.analysis_descriptions",
+      "kind": "number",
+      "summary": "sample.analysis_descriptions = 1, rerun 1, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.analysis_descriptions.word",
+      "kind": "number",
+      "summary": "sample.analysis_descriptions.word = one, rerun one, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.analysis_steps",
+      "kind": "number",
+      "summary": "sample.analysis_steps = 5, rerun 5, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.analysis_steps.word",
+      "kind": "number",
+      "summary": "sample.analysis_steps.word = five, rerun five, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.blocking",
+      "kind": "number",
+      "summary": "sample.blocking = 0, rerun 0, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.blocking.word",
+      "kind": "number",
+      "summary": "sample.blocking.word = zero, rerun zero, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.manuscript_version",
+      "kind": "number",
+      "summary": "sample.manuscript_version = v001, rerun v001, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.notes",
+      "kind": "number",
+      "summary": "sample.notes = 3, rerun 3, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.notes.word",
+      "kind": "number",
+      "summary": "sample.notes.word = three, rerun three, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.numbers",
+      "kind": "number",
+      "summary": "sample.numbers = 10, rerun 10, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.numbers.word",
+      "kind": "number",
+      "summary": "sample.numbers.word = ten, rerun ten, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.slides",
+      "kind": "number",
+      "summary": "sample.slides = 4, rerun 4, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.slides.word",
+      "kind": "number",
+      "summary": "sample.slides.word = four, rerun four, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.slides_version",
+      "kind": "number",
+      "summary": "sample.slides_version = v001, rerun v001, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.version",
+      "kind": "number",
+      "summary": "sample.version = v001, rerun v001, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.warnings",
+      "kind": "number",
+      "summary": "sample.warnings = 0, rerun 0, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "sample.warnings.word",
+      "kind": "number",
+      "summary": "sample.warnings.word = zero, rerun zero, from a4_results.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.audit",
+      "kind": "number",
+      "summary": "tests.audit = 1333, rerun 1333, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.connections",
+      "kind": "number",
+      "summary": "tests.connections = 559, rerun 559, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.features",
+      "kind": "number",
+      "summary": "tests.features = 644, rerun 644, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.handoffs",
+      "kind": "number",
+      "summary": "tests.handoffs = 148, rerun 148, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.kb",
+      "kind": "number",
+      "summary": "tests.kb = 145, rerun 145, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.lint",
+      "kind": "number",
+      "summary": "tests.lint = 16, rerun 16, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.moved",
+      "kind": "number",
+      "summary": "tests.moved = 212, rerun 212, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.observability",
+      "kind": "number",
+      "summary": "tests.observability = 338, rerun 338, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.ospipe",
+      "kind": "number",
+      "summary": "tests.ospipe = 443, rerun 443, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.phases",
+      "kind": "number",
+      "summary": "tests.phases = 63, rerun 63, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.pipeline_core",
+      "kind": "number",
+      "summary": "tests.pipeline_core = 193, rerun 193, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.procedures",
+      "kind": "number",
+      "summary": "tests.procedures = 122, rerun 122, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.review",
+      "kind": "number",
+      "summary": "tests.review = 85, rerun 85, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.slides",
+      "kind": "number",
+      "summary": "tests.slides = 10, rerun 10, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.story",
+      "kind": "number",
+      "summary": "tests.story = 39, rerun 39, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.suites",
+      "kind": "number",
+      "summary": "tests.suites = 8, rerun 8, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.suites.word",
+      "kind": "number",
+      "summary": "tests.suites.word = eight, rerun eight, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.total",
+      "kind": "number",
+      "summary": "tests.total = 4376, rerun 4376, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.verification",
+      "kind": "number",
+      "summary": "tests.verification = 872, rerun 872, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "tests.word_review",
+      "kind": "number",
+      "summary": "tests.word_review = 51, rerun 51, from suite_counts.csv",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "e51",
+      "kind": "change",
+      "summary": "AI write to results_io.py, no recorded reason",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "an AI change to results_io.py with no recorded reason",
+          "evidence": "\"\"\"Write a step's results as a small table of key and value, with word forms. Purpose: Give both step scripts one way t…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e52",
+      "kind": "change",
+      "summary": "AI write to s1_artifact_numbers.py, reason recorded",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "the AI's text from this change is not in s1_artifact_numbers.py as it stands",
+          "evidence": "\"\"\"Compute the appendix's numbers about the research artifact from its archive. Purpose: Compute, from the archived res…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e53",
+      "kind": "change",
+      "summary": "AI write to s2_live_runs.py, reason recorded",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "the AI's text from this change is not in s2_live_runs.py as it stands",
+          "evidence": "\"\"\"Count what A5 and Tables A10 and A11 report about the live judgment runs of October 8, 2026. Purpose: Unpack the sev…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e57",
+      "kind": "change",
+      "summary": "AI edit to s1_artifact_numbers.py, reason recorded",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "e250",
+      "kind": "change",
+      "summary": "AI edit to s2_live_runs.py, no recorded reason",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "an AI change to s2_live_runs.py with no recorded reason",
+          "evidence": "Inputs: live_runs_2026-10-08.tar - the seven run folders of October 8, packed unchanged. artifact_public_f48459a.tar - …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e251",
+      "kind": "change",
+      "summary": "AI edit to s2_live_runs.py, no recorded reason",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "an AI change to s2_live_runs.py with no recorded reason",
+          "evidence": "The truth files, recorded answers, and graphs are read from the earlier public copy of the artifact, commit f48459a, no…"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "the AI's text from this change is not in s2_live_runs.py as it stands",
+          "evidence": "The truth files, recorded answers, and graphs are read from the earlier public copy of the artifact, commit f48459a, no…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e252",
+      "kind": "change",
+      "summary": "AI edit to s2_live_runs.py, reason recorded",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "e253",
+      "kind": "change",
+      "summary": "AI edit to s1_artifact_numbers.py, no recorded reason",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "an AI change to s1_artifact_numbers.py with no recorded reason",
+          "evidence": "Compute, from the archived research artifact alone, the numbers the appendix reports about the prototype. The archive i…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e254",
+      "kind": "change",
+      "summary": "AI edit to s1_artifact_numbers.py, no recorded reason",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "an AI change to s1_artifact_numbers.py with no recorded reason",
+          "evidence": "sample_project - the folder of the sample project that the A4 second block builds and checks. a4_runs - each A4 run on …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e255",
+      "kind": "change",
+      "summary": "AI edit to s1_artifact_numbers.py, reason recorded",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "the AI's text from this change is not in s1_artifact_numbers.py as it stands",
+          "evidence": "folders that hold a harness program on the command path. Pandoc is on the command path for the sample builds. The A4 co…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e256",
+      "kind": "change",
+      "summary": "AI edit to s1_artifact_numbers.py, no recorded reason",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "an AI change to s1_artifact_numbers.py with no recorded reason",
+          "evidence": "# step: A4 commands def a4_runs(): \"\"\"Return each A4 run on seeded test files as label: (graph, folder under fixtures/)…"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "the AI's text from this change is not in s1_artifact_numbers.py as it stands",
+          "evidence": "# step: A4 commands def a4_runs(): \"\"\"Return each A4 run on seeded test files as label: (graph, folder under fixtures/)…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e257",
+      "kind": "change",
+      "summary": "AI edit to s1_artifact_numbers.py, reason recorded",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "e264",
+      "kind": "change",
+      "summary": "AI edit to s1_artifact_numbers.py, no recorded reason",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "an AI change to s1_artifact_numbers.py with no recorded reason",
+          "evidence": "def demo(name): \"\"\"Return the README's run folder runs/demo_<name>, relative to the procedures' folder.\"\"\" return os.pa…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e265",
+      "kind": "change",
+      "summary": "AI edit to s1_artifact_numbers.py, reason recorded",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "e266",
+      "kind": "change",
+      "summary": "AI edit to s1_artifact_numbers.py, no recorded reason",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "an AI change to s1_artifact_numbers.py with no recorded reason",
+          "evidence": "def section_bullets(report, heading): \"\"\"Return the bullet lines of one ## section of a report.\"\"\" bullets, inside = []…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e267",
+      "kind": "change",
+      "summary": "AI edit to s1_artifact_numbers.py, reason recorded",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "e268",
+      "kind": "change",
+      "summary": "AI edit to s2_live_runs.py, no recorded reason",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "an AI change to s2_live_runs.py with no recorded reason",
+          "evidence": "the second model agreed. It also reruns, from the earlier copy, the trial of the earlier prose procedure with no model …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e269",
+      "kind": "change",
+      "summary": "AI edit to s2_live_runs.py, reason recorded",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "e270",
+      "kind": "change",
+      "summary": "AI edit to s2_live_runs.py, reason recorded",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "e271",
+      "kind": "change",
+      "summary": "AI edit to s2_live_runs.py, reason recorded",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "e272",
+      "kind": "change",
+      "summary": "AI edit to s2_live_runs.py, no recorded reason",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "an AI change to s2_live_runs.py with no recorded reason",
+          "evidence": "# step: No-answer trial def child_env(base): \"\"\"Return the environment the trial runs with (see Assumptions).\"\"\" env = …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "e273",
+      "kind": "change",
+      "summary": "AI edit to s2_live_runs.py, reason recorded",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:artifact_archive",
+      "kind": "parameter",
+      "summary": "artifact_archive set by the AI to artifact_public_e22136c.tar, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "artifact_archive (not recorded) -> artifact_public_e22136c.tar (record e54 and e246), params.yaml now artifact_public_e22136c.tar"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:live_archive",
+      "kind": "parameter",
+      "summary": "live_archive set by the AI to live_runs_2026-10-08.tar, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "live_archive (not recorded) -> live_runs_2026-10-08.tar (record e54), params.yaml now live_runs_2026-10-08.tar"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:harness_programs",
+      "kind": "parameter",
+      "summary": "harness_programs set by the AI to claude forge, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "harness_programs (not recorded) -> claude forge (record e54), params.yaml now claude forge"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:suites",
+      "kind": "parameter",
+      "summary": "suites set by the AI to ospipe=ospipe:tests verification=verification_procedures:tests audit=.:audit_layer story=.:examples/test_story handoffs=.:handoffs/tests observability=.:observability/tests connections=.:connections/tests features=.:features/tests, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "suites (not recorded) -> ospipe=ospipe:tests verification=verification_procedures:tests audit=.:audit_layer story=.:examples/test_story handoffs=.:handoffs/tests observability=.:observability/tests connections=.:connections/tests features=.:features/tests (record e54), params.yaml now ospipe=ospipe:tests verification=verification_procedures:tests audit=.:audit_layer story=.:examples/test_story handoffs=.:handoffs/tests observability=.:observability/tests connections=.:connections/tests features=.:features/tests"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:test_groups",
+      "kind": "parameter",
+      "summary": "test_groups set by the AI to pipeline_core=ospipe/tests/test_build.py,ospipe/tests/test_build_fixed_date.py,ospipe/tests/test_build_verification.py,ospipe/tests/test_foundation.py,ospipe/tests/test_resolve.py,ospipe/tests/test_root_composition.py procedures=verification_procedures/tests/test_build.py,verification_procedures/tests/test_citations.py,verification_procedures/tests/test_data.py,verification_procedures/tests/test_prose.py word_review=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py lint=verification_procedures/tests/test_review_lint.py review=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py,verification_procedures/tests/test_review_lint.py,verification_procedures/tests/test_review_cli.py kb=audit_layer/kb/tests/ moved=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py,verification_procedures/tests/test_review_lint.py,audit_layer/kb/tests/ phases=verification_procedures/tests/test_data_phases.py, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "test_groups (not recorded) -> pipeline_core=ospipe/tests/test_build.py,ospipe/tests/test_build_fixed_date.py,ospipe/tests/test_build_verification.py,ospipe/tests/test_foundation.py,ospipe/tests/test_resolve.py,ospipe/tests/test_root_composition.py procedures=verification_procedures/tests/test_build.py,verification_procedures/tests/test_citations.py,verification_procedures/tests/test_data.py,verification_procedures/tests/test_prose.py word_review=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py lint=verification_procedures/tests/test_review_lint.py review=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py,verification_procedures/tests/test_review_lint.py,verification_procedures/tests/test_review_cli.py kb=audit_layer/kb/tests/ moved=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py,verification_procedures/tests/test_review_lint.py,audit_layer/kb/tests/ phases=verification_procedures/tests/test_data_phases.py (record e54 and e247), params.yaml now pipeline_core=ospipe/tests/test_build.py,ospipe/tests/test_build_fixed_date.py,ospipe/tests/test_build_verification.py,ospipe/tests/test_foundation.py,ospipe/tests/test_resolve.py,ospipe/tests/test_root_composition.py procedures=verification_procedures/tests/test_build.py,verification_procedures/tests/test_citations.py,verification_procedures/tests/test_data.py,verification_procedures/tests/test_prose.py word_review=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py lint=verification_procedures/tests/test_review_lint.py review=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py,verification_procedures/tests/test_review_lint.py,verification_procedures/tests/test_review_cli.py kb=audit_layer/kb/tests/ moved=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py,verification_procedures/tests/test_review_lint.py,audit_layer/kb/tests/ phases=verification_procedures/tests/test_data_phases.py"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:slides_group",
+      "kind": "parameter",
+      "summary": "slides_group set by the AI to pipeline_core, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "slides_group (not recorded) -> pipeline_core (record e54), params.yaml now pipeline_core"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:slides_terms",
+      "kind": "parameter",
+      "summary": "slides_terms set by the AI to slide reveal, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "slides_terms (not recorded) -> slide reveal (record e54), params.yaml now slide reveal"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:sample_project",
+      "kind": "parameter",
+      "summary": "sample_project set by the AI to examples/sample_project, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "sample_project (not recorded) -> examples/sample_project (record e54), params.yaml now examples/sample_project"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:seeded_streams",
+      "kind": "parameter",
+      "summary": "seeded_streams set by the AI to citations prose data build, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "seeded_streams (not recorded) -> citations prose data build (record e54), params.yaml now citations prose data build"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:judged_streams",
+      "kind": "parameter",
+      "summary": "judged_streams set by the AI to (removed), was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "the AI set this parameter with no recorded reason",
+          "evidence": "record e54 and e248"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "judged_streams (not recorded) -> (removed) (record e54 and e248), params.yaml now (not in params.yaml)"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:nojudge_stream",
+      "kind": "parameter",
+      "summary": "nojudge_stream set by the AI to prose, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "the AI set this parameter with no recorded reason",
+          "evidence": "record e54 and e248 and e274"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "nojudge_stream (not recorded) -> prose (record e54 and e248 and e274), params.yaml now prose"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:excerpt_stream",
+      "kind": "parameter",
+      "summary": "excerpt_stream set by the AI to citations, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "excerpt_stream (not recorded) -> citations (record e54), params.yaml now citations"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:excerpt_row",
+      "kind": "parameter",
+      "summary": "excerpt_row set by the AI to r08, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "excerpt_row (not recorded) -> r08 (record e54), params.yaml now r08"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:excerpt_shown",
+      "kind": "parameter",
+      "summary": "excerpt_shown set by the AI to (removed), was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "the AI set this parameter with no recorded reason",
+          "evidence": "record e54 and e248"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "excerpt_shown (not recorded) -> (removed) (record e54 and e248), params.yaml now (not in params.yaml)"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:hash_digits",
+      "kind": "parameter",
+      "summary": "hash_digits set by the AI to 12, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "hash_digits (not recorded) -> 12 (record e54), params.yaml now 12"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:fixture_kinds",
+      "kind": "parameter",
+      "summary": "fixture_kinds set by the AI to clean seeded, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "fixture_kinds (not recorded) -> clean seeded (record e54), params.yaml now clean seeded"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:kb_corpus",
+      "kind": "parameter",
+      "summary": "kb_corpus set by the AI to audit_layer/kb/corpus, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "kb_corpus (not recorded) -> audit_layer/kb/corpus (record e54), params.yaml now audit_layer/kb/corpus"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:kb_server",
+      "kind": "parameter",
+      "summary": "kb_server set by the AI to connections/mcp/kb_server.py, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "kb_server (not recorded) -> connections/mcp/kb_server.py (record e54), params.yaml now connections/mcp/kb_server.py"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:kb_tool_call",
+      "kind": "parameter",
+      "summary": "kb_tool_call set by the AI to Tool, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "kb_tool_call (not recorded) -> Tool (record e54), params.yaml now Tool"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:runtime_file",
+      "kind": "parameter",
+      "summary": "runtime_file set by the AI to verification_procedures/vg.py, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "runtime_file (not recorded) -> verification_procedures/vg.py (record e54), params.yaml now verification_procedures/vg.py"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:command_call",
+      "kind": "parameter",
+      "summary": "command_call set by the AI to add_parser, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "command_call (not recorded) -> add_parser (record e54), params.yaml now add_parser"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:bytes_per_mb",
+      "kind": "parameter",
+      "summary": "bytes_per_mb set by the AI to 1000000, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "bytes_per_mb (not recorded) -> 1000000 (record e54), params.yaml now 1000000"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:mb_digits",
+      "kind": "parameter",
+      "summary": "mb_digits set by the AI to 1, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "mb_digits (not recorded) -> 1 (record e54), params.yaml now 1"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:live_runs",
+      "kind": "parameter",
+      "summary": "live_runs set by the AI to citations.seeded=cit_live_seeded citations.clean=cit_live_clean data.seeded=data_live_seeded data.clean=data_live_clean prose_v01.seeded=prose_live prose_v02.seeded=prose_live2 prose.clean=prose_clean_live, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "live_runs (not recorded) -> citations.seeded=cit_live_seeded citations.clean=cit_live_clean data.seeded=data_live_seeded data.clean=data_live_clean prose_v01.seeded=prose_live prose_v02.seeded=prose_live2 prose.clean=prose_clean_live (record e54), params.yaml now citations.seeded=cit_live_seeded citations.clean=cit_live_clean data.seeded=data_live_seeded data.clean=data_live_clean prose_v01.seeded=prose_live prose_v02.seeded=prose_live2 prose.clean=prose_clean_live"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:judgment_runs",
+      "kind": "parameter",
+      "summary": "judgment_runs set by the AI to citations.seeded data.seeded prose_v02.seeded, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "judgment_runs (not recorded) -> citations.seeded data.seeded prose_v02.seeded (record e54), params.yaml now citations.seeded data.seeded prose_v02.seeded"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:differ_run",
+      "kind": "parameter",
+      "summary": "differ_run set by the AI to citations.seeded, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "differ_run (not recorded) -> citations.seeded (record e54), params.yaml now citations.seeded"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:support_step",
+      "kind": "parameter",
+      "summary": "support_step set by the AI to judge_support, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "support_step (not recorded) -> judge_support (record e54), params.yaml now judge_support"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:recheck_step",
+      "kind": "parameter",
+      "summary": "recheck_step set by the AI to second_check, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "recheck_step (not recorded) -> second_check (record e54), params.yaml now second_check"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:retry_suffix",
+      "kind": "parameter",
+      "summary": "retry_suffix set by the AI to .retry.txt, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "retry_suffix (not recorded) -> .retry.txt (record e54), params.yaml now .retry.txt"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:word_keys",
+      "kind": "parameter",
+      "summary": "word_keys set by the AI to kb.tools kb.outside runtime.commands tests.suites sample.slides sample.blocking sample.warnings sample.notes sample.numbers sample.analysis_steps sample.analysis_descriptions citations.steps citations.steps_run citations.replays citations.judged citations.extras prose.faults prose.caught prose.extras data.faults data.caught data.extras cleaning.faults cleaning.caught cleaning.extras build.faults build.caught build.extras excerpt.ai excerpt.scholar excerpt.unknown excerpt.not_found excerpt.not_looked_up excerpt.no_quote_found excerpt.record_quote_not_found excerpt.no_reason excerpt.ai_before excerpt.ai_after live.runs live.retries live.judgment_faults live.prose.clean.findings live.citations.seeded.extras live.rechecks live.prose_v01.seeded.extras live.data.seeded.judgment_faults, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "the AI set this parameter with no recorded reason",
+          "evidence": "record e54 and e249 and e275 and e276"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "word_keys (not recorded) -> kb.tools kb.outside runtime.commands tests.suites sample.slides sample.blocking sample.warnings sample.notes sample.numbers sample.analysis_steps sample.analysis_descriptions citations.steps citations.steps_run citations.replays citations.judged citations.extras prose.faults prose.caught prose.extras data.faults data.caught data.extras cleaning.faults cleaning.caught cleaning.extras build.faults build.caught build.extras excerpt.ai excerpt.scholar excerpt.unknown excerpt.not_found excerpt.not_looked_up excerpt.no_quote_found excerpt.record_quote_not_found excerpt.no_reason excerpt.ai_before excerpt.ai_after live.runs live.retries live.judgment_faults live.prose.clean.findings live.citations.seeded.extras live.rechecks live.prose_v01.seeded.extras live.data.seeded.judgment_faults (record e54 and e249 and e275 and e276), params.yaml now kb.tools kb.outside runtime.commands tests.suites sample.slides sample.blocking sample.warnings sample.notes sample.numbers sample.analysis_steps sample.analysis_descriptions citations.steps citations.steps_run citations.replays citations.judged citations.extras prose.faults prose.caught prose.extras data.faults data.caught data.extras cleaning.faults cleaning.caught cleaning.extras build.faults build.caught build.extras excerpt.ai excerpt.scholar excerpt.unknown excerpt.not_found excerpt.not_looked_up excerpt.no_quote_found excerpt.record_quote_not_found excerpt.no_reason excerpt.ai_before excerpt.ai_after live.runs live.retries live.judgment_faults live.prose.clean.findings live.citations.seeded.extras live.rechecks live.prose_v01.seeded.extras live.data.seeded.judgment_faults"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:word_cap_keys",
+      "kind": "parameter",
+      "summary": "word_cap_keys set by the AI to kb.outside live.retries, was (not recorded)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "word_cap_keys (not recorded) -> kb.outside live.retries (record e54), params.yaml now kb.outside live.retries"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:procedures_archive",
+      "kind": "parameter",
+      "summary": "procedures_archive set by the AI to artifact_public_f48459a.tar, was (not set)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "procedures_archive (not set) -> artifact_public_f48459a.tar (record e246), params.yaml now artifact_public_f48459a.tar"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:a4_runs",
+      "kind": "parameter",
+      "summary": "a4_runs set by the AI to citations=citations:citations prose=prose:prose data=data:data collection=data_collection:data_phases cleaning=data_cleaning:data_phases analysis=data_analysis:data_phases build=build:build, was (not set)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "the AI set this parameter with no recorded reason",
+          "evidence": "record e248"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "a4_runs (not set) -> citations=citations:citations prose=prose:prose data=data:data collection=data_collection:data_phases cleaning=data_cleaning:data_phases analysis=data_analysis:data_phases build=build:build (record e248), params.yaml now citations=citations:citations prose=prose:prose data=data:data collection=data_collection:data_phases cleaning=data_cleaning:data_phases analysis=data_analysis:data_phases build=build:build"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:judged_runs",
+      "kind": "parameter",
+      "summary": "judged_runs set by the AI to citations collection cleaning analysis, was (not set)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "the AI set this parameter with no recorded reason",
+          "evidence": "record e248"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "judged_runs (not set) -> citations collection cleaning analysis (record e248), params.yaml now citations collection cleaning analysis"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:replayed_runs",
+      "kind": "parameter",
+      "summary": "replayed_runs set by the AI to citations, was (not set)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "the AI set this parameter with no recorded reason",
+          "evidence": "record e248"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "replayed_runs (not set) -> citations (record e248), params.yaml now citations"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:scored_runs",
+      "kind": "parameter",
+      "summary": "scored_runs set by the AI to citations prose data cleaning build, was (not set)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "the AI set this parameter with no recorded reason",
+          "evidence": "record e248"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "scored_runs (not set) -> citations prose data cleaning build (record e248), params.yaml now citations prose data cleaning build"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "params.yaml:excerpt_counts",
+      "kind": "parameter",
+      "summary": "excerpt_counts set by the AI to citations=n_citations ai=n_ai scholar=n_scholar unknown=n_unknown not_found=n_not_found not_looked_up=n_not_looked_up no_quote_found=n_quote_not_found record_quote_not_found=n_record_quote_not_found no_reason=n_no_reason, was (not set)",
+      "findings": [
+        {
+          "check": "attribute_ai",
+          "severity": "blocking",
+          "message": "the AI set this parameter with no recorded reason",
+          "evidence": "record e248"
+        },
+        {
+          "check": "attribute_ai",
+          "severity": "warning",
+          "message": "a parameter the AI set, for the scholar to check",
+          "evidence": "excerpt_counts (not set) -> citations=n_citations ai=n_ai scholar=n_scholar unknown=n_unknown not_found=n_not_found not_looked_up=n_not_looked_up no_quote_found=n_quote_not_found record_quote_not_found=n_record_quote_not_found no_reason=n_no_reason (record e248), params.yaml now citations=n_citations ai=n_ai scholar=n_scholar unknown=n_unknown not_found=n_not_found not_looked_up=n_not_looked_up no_quote_found=n_quote_not_found record_quote_not_found=n_record_quote_not_found no_reason=n_no_reason"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "s1_artifact_numbers.py",
+      "kind": "finding",
+      "summary": "1 problem. Inputs section disagrees with pipeline.yaml",
+      "findings": [
+        {
+          "check": "check_docs",
+          "severity": "warning",
+          "message": "Inputs section disagrees with pipeline.yaml",
+          "evidence": "pipeline.yaml only: artifact_public_e22136c.tar"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "s2_live_runs.py",
+      "kind": "finding",
+      "summary": "1 problem. Inputs section disagrees with pipeline.yaml",
+      "findings": [
+        {
+          "check": "check_docs",
+          "severity": "warning",
+          "message": "Inputs section disagrees with pipeline.yaml",
+          "evidence": "pipeline.yaml only: artifact_public_f48459a.tar, live_runs_2026-10-08.tar"
+        }
+      ],
+      "needs_decision": true
+    }
+  ],
+  "decisions": []
+}

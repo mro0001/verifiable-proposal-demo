@@ -1,0 +1,27 @@
+param,value,step,script
+a4_runs,citations=citations:citations prose=prose:prose data=data:data collection=data_collection:data_phases cleaning=data_cleaning:data_phases analysis=data_analysis:data_phases build=build:build,artifact,s1_artifact_numbers.py
+artifact_archive,artifact_public_e22136c.tar,artifact,s1_artifact_numbers.py
+bytes_per_mb,1000000,artifact,s1_artifact_numbers.py
+command_call,add_parser,artifact,s1_artifact_numbers.py
+excerpt_counts,citations=n_citations ai=n_ai scholar=n_scholar unknown=n_unknown not_found=n_not_found not_looked_up=n_not_looked_up no_quote_found=n_quote_not_found record_quote_not_found=n_record_quote_not_found no_reason=n_no_reason,artifact,s1_artifact_numbers.py
+excerpt_row,r08,artifact,s1_artifact_numbers.py
+excerpt_stream,citations,artifact,s1_artifact_numbers.py
+fixture_kinds,clean seeded,artifact,s1_artifact_numbers.py
+harness_programs,claude forge,artifact,s1_artifact_numbers.py
+hash_digits,12,artifact,s1_artifact_numbers.py
+judged_runs,citations collection cleaning analysis,artifact,s1_artifact_numbers.py
+kb_corpus,audit_layer/kb/corpus,artifact,s1_artifact_numbers.py
+kb_server,connections/mcp/kb_server.py,artifact,s1_artifact_numbers.py
+kb_tool_call,Tool,artifact,s1_artifact_numbers.py
+mb_digits,1,artifact,s1_artifact_numbers.py
+replayed_runs,citations,artifact,s1_artifact_numbers.py
+runtime_file,verification_procedures/vg.py,artifact,s1_artifact_numbers.py
+sample_project,examples/sample_project,artifact,s1_artifact_numbers.py
+scored_runs,citations prose data cleaning build,artifact,s1_artifact_numbers.py
+seeded_streams,citations prose data build,artifact,s1_artifact_numbers.py
+slides_group,pipeline_core,artifact,s1_artifact_numbers.py
+slides_terms,slide reveal,artifact,s1_artifact_numbers.py
+suites,ospipe=ospipe:tests verification=verification_procedures:tests audit=.:audit_layer story=.:examples/test_story handoffs=.:handoffs/tests observability=.:observability/tests connections=.:connections/tests features=.:features/tests,artifact,s1_artifact_numbers.py
+test_groups,"pipeline_core=ospipe/tests/test_build.py,ospipe/tests/test_build_fixed_date.py,ospipe/tests/test_build_verification.py,ospipe/tests/test_foundation.py,ospipe/tests/test_resolve.py,ospipe/tests/test_root_composition.py procedures=verification_procedures/tests/test_build.py,verification_procedures/tests/test_citations.py,verification_procedures/tests/test_data.py,verification_procedures/tests/test_prose.py word_review=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py lint=verification_procedures/tests/test_review_lint.py review=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py,verification_procedures/tests/test_review_lint.py,verification_procedures/tests/test_review_cli.py kb=audit_layer/kb/tests/ moved=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py,verification_procedures/tests/test_review_lint.py,audit_layer/kb/tests/ phases=verification_procedures/tests/test_data_phases.py",artifact,s1_artifact_numbers.py
+word_cap_keys,kb.outside live.retries,artifact,s1_artifact_numbers.py
+word_keys,kb.tools kb.outside runtime.commands tests.suites sample.slides sample.blocking sample.warnings sample.notes sample.numbers sample.analysis_steps sample.analysis_descriptions citations.steps citations.steps_run citations.replays citations.judged citations.extras prose.faults prose.caught prose.extras data.faults data.caught data.extras cleaning.faults cleaning.caught cleaning.extras build.faults build.caught build.extras excerpt.ai excerpt.scholar excerpt.unknown excerpt.not_found excerpt.not_looked_up excerpt.no_quote_found excerpt.record_quote_not_found excerpt.no_reason excerpt.ai_before excerpt.ai_after live.runs live.retries live.judgment_faults live.prose.clean.findings live.citations.seeded.extras live.rechecks live.prose_v01.seeded.extras live.data.seeded.judgment_faults,artifact,s1_artifact_numbers.py

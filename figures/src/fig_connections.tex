@@ -1,0 +1,53 @@
+\def\DoNotLoadEpstopdf{}
+\documentclass[tikz,border=4pt]{standalone}
+\input{appendixstyle.tex}
+% Figure A2 of the 10/26d appendix: how the workflow would connect to the scholar's harness, model,
+% and external software through wrappers, MCP servers, and adapters. Design only, no status.
+\begin{document}
+\hyphenpenalty=10000
+\frenchspacing
+\begin{tikzpicture}
+\tikzset{
+  col/.style={font=\fontsize{9}{11}\selectfont\bfseries, text=cink},
+  lab/.style={font=\fontsize{8}{9.4}\selectfont, inner sep=1.5pt},
+  ext/.style={box, draw=cslate, fill=white, text=cslate},
+  form/.style={box, draw=cmuted, fill=white, text=cink},
+  aud/.style={box, draw=caudit, fill=cauditfill, text=caudit},
+}
+\newcommand{\sm}[1]{{\fontsize{8}{9.4}\selectfont #1}}
+\newcommand{\hd}[1]{{\fontsize{9}{11}\selectfont\bfseries #1}}
+% column heads
+\node[col] at (1.5,5.0) {Harness, model, and software};
+\node[col] at (5.7,5.0) {Connectors};
+\node[col] at (9.55,5.0) {Common forms};
+\node[col] at (13.45,5.0) {Layers};
+% scholar's software
+\node[ai, text width=2.2cm, minimum width=2.4cm, minimum height=1.0cm] (mod) at (1.3,3.9) {\hd{AI model}\\[1pt]\sm{any provider}};
+\node[ai, text width=2.6cm, minimum width=2.8cm, minimum height=1.3cm] (har) at (1.5,1.9) {\hd{AI harness}\\[1pt]\sm{any harness}};
+\node[ext, text width=2.7cm, minimum width=2.9cm, minimum height=3.3cm] (ext) at (1.5,-1.35) {\hd{External software}\\[2pt]\sm{text editor}\\[-1pt]\sm{statistical software}\\[-1pt]\sm{citation manager}\\[-1pt]\sm{version control}\\[-1pt]\sm{build tools such as}\\[-1pt]\sm{Pandoc, Make, or Quarto}};
+% connectors
+\node[pipe, text width=2.7cm, minimum width=2.9cm, minimum height=1.0cm] (mcp) at (5.7,3.9) {\hd{MCP servers}\\[1pt]\sm{query the databases}};
+\node[pipe, text width=2.7cm, minimum width=2.9cm, minimum height=1.0cm] (eva) at (5.7,1.6) {\hd{Event adapters}\\[1pt]\sm{one for each harness}};
+\node[pipe, text width=2.7cm, minimum width=2.9cm, minimum height=1.0cm] (wrp) at (5.7,0.0) {\hd{Wrappers}\\[1pt]\sm{log each action,}\\[-1pt]\sm{never interrupt the call}};
+\node[pipe, text width=2.7cm, minimum width=2.9cm, minimum height=1.0cm] (fia) at (5.7,-2.3) {\hd{File adapters}\\[1pt]\sm{one for each tool and stream}};
+% common forms
+\node[form, text width=2.5cm, minimum width=2.7cm, minimum height=1.0cm] (evs) at (9.55,0.8) {\hd{One event schema}\\[1pt]\sm{every action as an event}};
+\node[form, text width=2.5cm, minimum width=2.7cm, minimum height=1.0cm] (fld) at (9.55,-2.3) {\hd{Stream fields}\\[1pt]\sm{the fixed fields of each stream}};
+% workflow
+\node[aud, text width=2.8cm, minimum width=3.0cm, minimum height=1.3cm] (aud) at (13.45,0.8) {\hd{Audit layer}\\[1pt]\sm{capture, databases, knowledge base (A2.4)}};
+\node[ver, text width=2.8cm, minimum width=3.0cm, minimum height=1.3cm] (ver) at (13.45,-2.3) {\hd{Verification layer}\\[1pt]\sm{one procedure for each stream (A2.5)}};
+% arrows
+\draw[flow, cbrass] (har.north -| mod.south) -- node[lab, text=cbrass, right] {provider setting} (mod.south);
+\draw[flow, cslate] (har.east |- eva.west) -- (eva.west);
+\draw[flow, cslate] (ext.east |- wrp.west) -- node[lab, text=cslate, above] {actions} (wrp.west);
+\draw[flow, cslate] (ext.east |- fia.west) -- node[lab, text=cslate, above] {files} (fia.west);
+\draw[flow, cslate] (eva.east) -| ($(evs.west)+(-0.45,0)$) -- (evs.west);
+\draw[flow, cslate] (wrp.east) -| ($(evs.west)+(-0.45,0)$) -- (evs.west);
+\draw[flow, cslate] (fia.east) -- (fld.west);
+\draw[flow, caudit] (evs.east) -- (aud.west);
+\draw[flow, cred] (fld.east) -- (ver.west);
+\draw[flow, caudit] (aud.north) |- (mcp.east);
+\draw[<->, line width=0.8pt, cslate] (mcp.south) |- ($(har.east)+(0,0.35)$);
+\draw[<->, line width=0.8pt, cslate] (mcp.west |- mod.east) -- (mod.east);
+\end{tikzpicture}
+\end{document}

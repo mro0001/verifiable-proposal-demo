@@ -1,0 +1,9 @@
+# The provider setting the live runs used, with the service address replaced. A scholar
+# writes their own with python3 -m connections provider set, into CONNECTIONS_HOME, and
+# keeps the key in WORKFLOW_MODEL_KEY. No key is ever written here.
+base_url: https://models.example.edu/v1
+model: qwen/qwen3.8-27b
+second_model: moonshotai/kimi-k3
+token_limit: 65536
+token_limit_field: max_completion_tokens
+request_timeout: 900

@@ -1,0 +1,49 @@
+\def\DoNotLoadEpstopdf{}
+\documentclass[tikz,border=4pt]{standalone}
+\input{appendixstyle.tex}
+% Figure A2 of the 10/26c appendix: the reproducible pipeline as a build-only layer. Design only, no status.
+\begin{document}
+\hyphenpenalty=10000
+\begin{tikzpicture}
+\tikzset{
+  file/.style={box, draw=cslate, fill=white, text=cslate, inner sep=3pt, font=\fontsize{8}{9.6}\selectfont},
+  mod/.style={pipe, minimum height=1.6cm, font=\fontsize{8}{9.6}\selectfont},
+}
+\newcommand{\nm}[1]{{\fontsize{9}{11}\selectfont\ttfamily #1}}
+\newcommand{\fn}[1]{{\fontsize{8}{9.4}\selectfont\ttfamily #1}}
+\newcommand{\sm}[1]{{\fontsize{8}{9.4}\selectfont #1}}
+% inputs
+\node[font=\fontsize{9}{11}\selectfont\bfseries, text=cslate] at (1.7,2.75) {Source files};
+\node[file, text width=2.9cm, anchor=north] (in1) at (1.7,2.45) {\fn{manuscript.md}\\[-1pt]\sm{placeholders such as}\\[-2pt]\fn{\{\{num:key\}\}}};
+\node[file, text width=2.9cm, anchor=north] (in2) at ($(in1.south)+(0,-0.12)$) {\fn{numbers.yml}\\[-1pt]\sm{computed results}};
+\node[file, text width=2.9cm, anchor=north] (in3) at ($(in2.south)+(0,-0.12)$) {\fn{tables/}\\[-1pt]\sm{table files}};
+\node[file, text width=2.9cm, anchor=north] (in4) at ($(in3.south)+(0,-0.12)$) {\fn{refs.bib}};
+\node[ver, text width=2.9cm, anchor=north, font=\fontsize{8}{9.6}\selectfont, inner sep=3pt] (in5) at ($(in4.south)+(0,-0.35)$) {\fn{verification/}\\[-2pt]\fn{<stream>.json}\\[-1pt]\sm{results of each stream, with the scholar's approvals}};
+% modules
+\node[mod, text width=2.2cm] (res) at (5.7,0) {\nm{resolve}\\[-1pt]\sm{fills placeholders, stops on any missing key}};
+\node[mod, text width=2.5cm] (bld) at (8.75,0) {\nm{build}\\[-1pt]\sm{checks earlier builds, runs Pandoc, records verification status}};
+\draw[cslate, line width=0.6pt] (res.north west)++(0,0.18) -- ++(0,0.14) coordinate (bl) -- (bl -| bld.north east) -- ++(0,-0.14);
+\node[anchor=south, inner sep=1pt, align=center, text=cslate] at ($(bl)!0.5!(bl -| bld.north east)+(0,0.04)$) {\sm{one build command}\\[-1pt]\sm{\texttt{check} fills placeholders without building}};
+% outputs
+\node[font=\fontsize{9}{11}\selectfont\bfseries, text=cslate] at (13.3,2.75) {Numbered build};
+\node[file, text width=3.6cm, anchor=north] (out1) at (13.3,2.45) {\fn{builds/vNNN.docx}\\[-1pt]\sm{the research product}};
+\node[file, text width=3.6cm, anchor=north] (out2) at ($(out1.south)+(0,-0.12)$) {\fn{builds/vNNN.md}\\[-1pt]\sm{filled copy of the text}};
+\node[file, text width=3.6cm, anchor=north] (out3) at ($(out2.south)+(0,-0.12)$) {\fn{builds/BUILDS.md}\\[-1pt]\sm{ledger row with checksum, run identifiers, and any unverified flags}};
+% replication folder
+\node[mod, text width=2.5cm, minimum height=1.3cm] (emit) at (8.75,-3.0) {\nm{make emit}\\[-1pt]\sm{copies what a research product depends on}};
+\node[file, text width=3.6cm, anchor=west, minimum height=1.3cm] (ship) at (11.5,-3.0) {\fn{ship/}\\[-1pt]\sm{replication folder that builds on its own}};
+% wiring
+\coordinate (ib) at (3.55,0);
+\foreach \n in {in1,in2,in3,in4} {\draw[line width=0.8pt, cslate] (\n.east) -- (\n.east -| ib);}
+\draw[line width=0.8pt, cslate] (in1.east -| ib) -- (in4.east -| ib);
+\draw[flow, cred] (in5.east) -- ($(in5.east -| bld.south)+(-0.6,0)$) -- ($(bld.south)+(-0.6,0)$);
+\draw[flow, cslate] (ib) -- (res.west);
+\draw[flow, cslate] (res.east) -- (bld.west);
+\coordinate (ob) at (10.85,0);
+\draw[line width=0.8pt, cslate] (bld.east) -- (ob);
+\draw[line width=0.8pt, cslate] (out1.west -| ob) -- (out3.west -| ob);
+\foreach \n in {out1,out2,out3} {\draw[flow, cslate] (\n.west -| ob) -- (\n.west);}
+\draw[flow, cslate] ($(bld.south)+(0.6,0)$) -- ($(emit.north)+(0.6,0)$);
+\draw[flow, cslate] (emit.east) -- (ship.west);
+\end{tikzpicture}
+\end{document}

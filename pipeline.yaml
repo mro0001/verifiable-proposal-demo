@@ -1,0 +1,25 @@
+# The pipeline from raw data to the results the text cites.
+# Each step runs as <runner> <script> in this folder, and helpers are the files
+# the steps share. Both steps compute the appendix's numbers about the prototype,
+# the first from the research artifact and the second from the October 8 run folders.
+# Both are analysis. The raw archives were collected outside the pipeline, as acquisition.yaml says,
+# and nothing is cleaned, so no step declares collection or cleaning.
+helpers: [params_io.py, results_io.py]
+steps:
+  - id: artifact
+    phase: analysis
+    kind: table
+    runner: python3
+    script: s1_artifact_numbers.py
+    # The artifact's newest public copy, commit e22136c.
+    inputs: [artifact_public_e22136c.tar]
+    outputs: [suite_counts.csv, a4_results.csv, artifact_counts.csv, params_record_artifact.csv]
+  - id: live
+    phase: analysis
+    kind: table
+    runner: python3
+    script: s2_live_runs.py
+    # The October 8 run folders, and the earlier copy, commit f48459a, for those runs' truth files,
+    # recorded answers, and graphs, since the runs used the earlier procedures, which the newest copy no longer has.
+    inputs: [live_runs_2026-10-08.tar, artifact_public_f48459a.tar]
+    outputs: [live_runs.csv, params_record_live.csv]

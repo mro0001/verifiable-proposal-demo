@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" initialize-with-hyphen="false" demote-non-dropping-particle="sort-only" default-locale="en-US">
+  <!-- This style was edited with the Visual CSL Editor (http://editor.citationstyles.org/visualEditor/) -->
+  <!-- Changed for the verifiable proposal demo, so the citations in the text and the
+       reference list print as his documents print them. The file as downloaded is in the
+       demo's git history, in the commit that added it.
+       Its own name. As CSL practice asks of a changed style, it has its own id and title,
+       the link to the original's id is a template link, not a self link, and the updated
+       date is the date of the change. The author and the license stay the original's.
+       In the citation.
+       1. No sort, so the works in one citation keep the order he wrote them in.
+       2. Citations in one parenthesis are separated by semicolons, not commas.
+       3. No label before a locator, so a clause number prints as "2.41", not "p. 2.41".
+       In the reference list.
+       4. Every entry ends with its DOI as https://doi.org/..., or its URL when it has no DOI.
+          A URL with an access date prints as "Accessed October 22, 2026, URL." The new
+          macros doi-link and link do this, and replace the macro access.
+       5. Books. A comma before the edition, the series number after it (JCGM 200:2012),
+          a version as "Version 2020-10-24.", and no period lost when there is no publisher.
+       6. Reports print as their own type. Title, then the kind of report, the month, and
+          the publisher, as in "Report, September, Oxford University Press."
+       7. Conference papers. No period after the proceedings title, so the publisher's
+          parenthesis follows it. Then the paper number (Paper 32) and pages, the URL when
+          there is no DOI, and the note, which holds a preprint's link.
+       8. Presentations (an entry with an event). Title, then the kind, the event, the month
+          and day, and the place.
+       9. Entries with no journal or proceedings, such as preprints. Title, then how the work
+          was published and its DOI, as in "Preprint, submitted July 23, https://doi.org/...".
+       10. Journal articles with a publication status, such as ePub ahead of print, print the
+          journal, the status, and the DOI in one sentence. -->
+  <info>
+    <title>Institute for Operations Research and the Management Sciences (INFORMS), changed for the verifiable proposal demo</title>
+    <title-short>INFORMS (changed)</title-short>
+    <id>http://www.zotero.org/styles/institute-for-operations-research-and-the-management-sciences-verifiable-proposal-demo</id>
+    <link href="http://www.zotero.org/styles/institute-for-operations-research-and-the-management-sciences" rel="template"/>
+    <link href="https://www.informs.org/Find-Research-Publications/INFORMS-Journals/Author-Portal/LaTeX-Style-Files" rel="documentation"/>
+    <author>
+      <name>Jim Xiaojin Liu</name>
+      <email>liux1591@umn.edu</email>
+    </author>
+    <category citation-format="author-date"/>
+    <category field="social_science"/>
+    <category field="engineering"/>
+    <updated>2026-10-30T00:00:00+00:00</updated>
+    <rights license="http://creativecommons.org/licenses/by-sa/3.0/">This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 License</rights>
+  </info>
+  <macro name="editor">
+    <names variable="editor" delimiter=", ">
+      <name initialize-with="" name-as-sort-order="all" sort-separator=" "/>
+      <label form="short" prefix=", "/>
+    </names>
+  </macro>
+  <macro name="anon">
+    <text term="anonymous" form="short" text-case="capitalize-first" strip-periods="true"/>
+  </macro>
+  <macro name="author">
+    <names variable="author">
+      <name delimiter-precedes-last="always" initialize-with="" name-as-sort-order="all" sort-separator=" "/>
+      <label form="short" prefix=" "/>
+      <substitute>
+        <names variable="editor"/>
+        <text macro="anon"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="author-short">
+    <names variable="author">
+      <name form="short" and="text" delimiter=", " delimiter-precedes-last="never" initialize-with=". "/>
+      <substitute>
+        <names variable="editor"/>
+        <names variable="translator"/>
+        <text macro="title"/>
+      </substitute>
+    </names>
+  </macro>
+  <macro name="doi-link">
+    <text variable="DOI" prefix="https://doi.org/"/>
+  </macro>
+  <macro name="link">
+    <choose>
+      <if variable="DOI">
+        <text macro="doi-link"/>
+      </if>
+      <else-if variable="accessed">
+        <group delimiter=", " suffix=".">
+          <date variable="accessed" prefix="Accessed ">
+            <date-part name="month" suffix=" "/>
+            <date-part name="day" suffix=", "/>
+            <date-part name="year"/>
+          </date>
+          <text variable="URL"/>
+        </group>
+      </else-if>
+      <else>
+        <text variable="URL"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="title">
+    <choose>
+      <if type="bill book graphic legal_case legislation motion_picture report song thesis" match="any">
+        <text variable="title" font-style="italic"/>
+      </if>
+      <else>
+        <text variable="title"/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="publisher">
+    <group delimiter=", " prefix="(" suffix=")">
+      <text variable="publisher"/>
+      <text variable="publisher-place"/>
+    </group>
+  </macro>
+  <macro name="year-date">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+    </choose>
+  </macro>
+  <macro name="edition">
+    <choose>
+      <if is-numeric="edition">
+        <group delimiter=" ">
+          <number variable="edition" form="ordinal"/>
+          <text term="edition" form="short"/>
+        </group>
+      </if>
+      <else>
+        <text variable="edition" suffix="."/>
+      </else>
+    </choose>
+  </macro>
+  <macro name="pages">
+    <text variable="page"/>
+  </macro>
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true" disambiguate-add-names="true" disambiguate-add-givenname="true" collapse="year-suffix">
+    <layout prefix="(" suffix=")" delimiter="; ">
+      <group delimiter=", ">
+        <group delimiter=" ">
+          <text macro="author-short"/>
+          <text macro="year-date"/>
+        </group>
+        <group delimiter=" ">
+          <text variable="locator"/>
+        </group>
+      </group>
+    </layout>
+  </citation>
+  <bibliography et-al-min="11" et-al-use-first="7" entry-spacing="0" hanging-indent="true">
+    <sort>
+      <key macro="author"/>
+      <key variable="issued"/>
+      <key variable="title"/>
+    </sort>
+    <layout>
+      <text macro="author"/>
+      <date variable="issued" prefix=" (" suffix=")">
+        <date-part name="year"/>
+      </date>
+      <choose>
+        <if type="bill book graphic legal_case legislation motion_picture song" match="any">
+          <group delimiter=" " prefix=" " suffix=".">
+            <group delimiter=", ">
+              <text macro="title"/>
+              <text macro="edition"/>
+            </group>
+            <text macro="editor"/>
+            <text variable="collection-number"/>
+            <text macro="publisher"/>
+          </group>
+          <text variable="version" prefix=" Version " suffix="."/>
+          <text macro="link" prefix=" "/>
+        </if>
+        <else-if type="report">
+          <text macro="title" prefix=" " suffix="."/>
+          <group delimiter=", " prefix=" " suffix=".">
+            <text variable="genre"/>
+            <date variable="issued">
+              <date-part name="month"/>
+            </date>
+            <text variable="publisher"/>
+          </group>
+          <text macro="link" prefix=" "/>
+        </else-if>
+        <else-if type="chapter paper-conference" match="any">
+          <text macro="title" prefix=" " suffix="."/>
+          <group delimiter=", " prefix=" " suffix=".">
+            <group delimiter=" ">
+              <text macro="editor"/>
+              <text variable="container-title" form="short" font-style="italic"/>
+              <text variable="collection-title"/>
+              <text macro="publisher"/>
+            </group>
+            <text variable="collection-number"/>
+            <text macro="pages"/>
+            <choose>
+              <if variable="DOI" match="none">
+                <text variable="URL"/>
+              </if>
+            </choose>
+          </group>
+          <text variable="note" prefix=" "/>
+          <text macro="doi-link" prefix=" "/>
+        </else-if>
+        <else-if type="thesis">
+          <group prefix=" " suffix="." delimiter=". ">
+            <text macro="title"/>
+            <text variable="genre"/>
+            <text macro="publisher"/>
+          </group>
+          <text macro="link" prefix=" "/>
+        </else-if>
+        <else-if type="article-magazine article-newspaper" match="any">
+          <group prefix=" " suffix=".">
+            <text macro="title"/>
+            <text macro="editor"/>
+          </group>
+          <group prefix=" ">
+            <text variable="container-title" font-style="italic"/>
+            <group>
+              <text variable="volume"/>
+              <text variable="issue" prefix="(" suffix=")"/>
+            </group>
+          </group>
+          <text macro="link" prefix=" "/>
+        </else-if>
+        <else-if variable="event">
+          <text macro="title" prefix=" " suffix="."/>
+          <group delimiter=", " prefix=" " suffix=".">
+            <text variable="genre"/>
+            <text variable="event"/>
+            <date variable="issued">
+              <date-part name="month"/>
+              <date-part name="day" prefix=" "/>
+            </date>
+            <text variable="event-place"/>
+          </group>
+          <text macro="link" prefix=" "/>
+        </else-if>
+        <else-if variable="container-title" match="none">
+          <text macro="title" prefix=" " suffix="."/>
+          <group delimiter=", " prefix=" " suffix=".">
+            <text variable="publisher"/>
+            <text macro="link"/>
+          </group>
+        </else-if>
+        <else>
+          <group suffix=".">
+            <text macro="title" prefix=" "/>
+            <text macro="editor" prefix=" "/>
+          </group>
+          <choose>
+            <if variable="status">
+              <group delimiter=", " prefix=" " suffix=".">
+                <text variable="container-title" font-style="italic" form="short"/>
+                <text variable="status"/>
+                <text macro="link"/>
+              </group>
+            </if>
+            <else>
+              <group prefix=" " suffix=".">
+                <text variable="container-title" font-style="italic" form="short"/>
+                <group prefix=" ">
+                  <text variable="volume" font-weight="normal"/>
+                  <text variable="issue" prefix="(" suffix=")"/>
+                </group>
+                <text variable="page" prefix=":"/>
+              </group>
+              <text macro="link" prefix=" "/>
+            </else>
+          </choose>
+        </else>
+      </choose>
+    </layout>
+  </bibliography>
+</style>

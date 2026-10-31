@@ -1,0 +1,543 @@
+{
+  "schema": "verification-results",
+  "schema_version": 1,
+  "stream": "data_phases",
+  "run_id": "appendix_data_analysis",
+  "procedure_version": 0.1,
+  "inputs": {
+    "final_text.md": "sha256:6cfef15424907eb740a62a668ab9aaf9cecadbe47765b67dce2e205bcd4fb076",
+    "params_io.py": "sha256:2c0af822eef3ddf1a1f1e6deff40bb22728bdb3d2c83309c5f1862f92222c4a9",
+    "pipeline.yaml": "sha256:5d2b08aebbf298038c44b8ae6e0d7e23f33a141ef3c285882a85436572d31c3c",
+    "results_io.py": "sha256:1370d330abb7f8f05caffa7fadcf62d634ef2b211a485d1bc97176e1d0fd88da",
+    "s1_artifact_numbers.py": "sha256:c0d7c3fbf27aa4c612ca7db1da28dc4720df03271a727d126b28220a4d01da27",
+    "s2_live_runs.py": "sha256:7f78483fe3e311f914f4c2353090b9bcd97232c49e0fa6fcc0343e7b3301fe17"
+  },
+  "items": [
+    {
+      "id": "d01",
+      "kind": "description",
+      "summary": "The first suite reports `443 passed` in about a minute and the second `872 passed` in about 10 minutes.",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d02",
+      "kind": "description",
+      "summary": "The other six report `1333 passed`, `39 passed`, `148 passed`, `338 passed`, `559 passed`, and `644 passed`, in the orde",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d03",
+      "kind": "description",
+      "summary": "Its analysis script computes the results the two products cite from one data file, the build fills them in from the proj",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d04",
+      "kind": "description",
+      "summary": "A second handoff gathers the pipeline, its script, and the text of the latest manuscript build for the data analysis rep",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d05",
+      "kind": "description",
+      "summary": "Each build takes under a second and writes version `v001`, the manuscript as `builds/manuscript/v001.docx` and the slide",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d06",
+      "kind": "description",
+      "summary": "A placeholder with no value stops the build, which lists every missing key.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d07",
+      "kind": "description",
+      "summary": "Opening the slides in a browser loads the reveal.js library from the web.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d08",
+      "kind": "description",
+      "summary": "The data procedure's run takes under 3 seconds and reports 0 blocking findings and 0 warnings, with all 10 cited numbers",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d09",
+      "kind": "description",
+      "summary": "In a trial with one number changed by hand in the numbers file, the run reported it as blocking.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d10",
+      "kind": "description",
+      "summary": "The data analysis report's outline lists 5 steps of the script, and a program confirms each description the model step f",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d11",
+      "kind": "description",
+      "summary": "The run takes about 3 seconds and completes 11 of the graph's 11 steps, including its one judgment step, which locates p",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d12",
+      "kind": "description",
+      "summary": "The `verify` command reports `replay matches` for each of the 9 tool steps it reruns (A2.4), and the `score` command pri",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d13",
+      "kind": "description",
+      "summary": "Every finding in this report is a note, and only blocking findings and warnings count as extras.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d14",
+      "kind": "description",
+      "summary": "The `score` command reports every planted fault caught, 7 of 7 for prose, 9 of 9 for data, 2 of 2 for the data cleaning ",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d15",
+      "kind": "description",
+      "summary": "The two for data fall on items that planted faults touch.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d16",
+      "kind": "description",
+      "summary": "Each run takes under 3 seconds.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d17",
+      "kind": "description",
+      "summary": "Offline runs take under 4 seconds per procedure on test sets of 4 to 25 files.",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d18",
+      "kind": "description",
+      "summary": "A live run sends a model one request for each judged item, and the seeded references files have 6 judged items, each a p",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d19",
+      "kind": "description",
+      "summary": "The data procedure asks no model, and each data phase report sends one request holding the final build's text and the pi",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d20",
+      "kind": "description",
+      "summary": "Nothing has been measured on a full manuscript.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d21",
+      "kind": "description",
+      "summary": "The tests use recorded answers so that they give the same result on every run, while a live run saves every prompt and a",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d22",
+      "kind": "description",
+      "summary": "A reader can therefore review the answers a run used even if a model answers differently on another run.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d23",
+      "kind": "description",
+      "summary": "On October 8, 2026, seven development runs had AI models answer every judgment step in earlier versions of the reference",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d24",
+      "kind": "description",
+      "summary": "Those steps judged whether a source supports its sentence, with a second model's recheck and a proposed fix, whether eac",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d25",
+      "kind": "description",
+      "summary": "Of the steps these runs answered, the current procedures keep only the one that locates a passage.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d26",
+      "kind": "description",
+      "summary": "Table A10 gives the models and settings, and Table A11 the results.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d27",
+      "kind": "description",
+      "summary": "Both models are open-weight models reached through a university-hosted inference service, whose address the runtime read",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d28",
+      "kind": "description",
+      "summary": "Recorded answers let any reader run the references procedure and the three data phase reports without a model key (A4), ",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d29",
+      "kind": "description",
+      "summary": "In the live runs, every planted fault was caught in all three procedures, and the six that depend on judgment were caugh",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d30",
+      "kind": "description",
+      "summary": "The `score` command then counted a fault as caught when any blocking finding or warning named the same check and item, s",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d31",
+      "kind": "description",
+      "summary": "It now counts a finding of any severity that names the fault's check and an item holding the fault's item.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d32",
+      "kind": "description",
+      "summary": "In a trial run with no model answers, the earlier prose procedure still scored 10 of 10, and the current one has no mode",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d33",
+      "kind": "description",
+      "summary": "The clean files gave no warning or blocking finding for references and data, and one warning for prose (Table A11).",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d34",
+      "kind": "description",
+      "summary": "In the live seeded references run, four of the five extra findings follow from planted faults.",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d35",
+      "kind": "description",
+      "summary": "The fifth is a partly verdict on row r06, a sentence with no planted support fault whose recorded answer at the time was",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d36",
+      "kind": "description",
+      "summary": "Row r06's reference then carried a planted wrong year, which was caught separately.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d37",
+      "kind": "description",
+      "summary": "Of note, the prose procedure's pitfalls and prompt wording were revised after its first live run, which made two errors,",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d38",
+      "kind": "description",
+      "summary": "The clean prose warning came after that revision.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d39",
+      "kind": "description",
+      "summary": "For all seven live runs, the saved code of most tool steps differs from the committed code, since the references, data, ",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d40",
+      "kind": "description",
+      "summary": "No saved prompt can be rendered from the committed templates, which were removed or rewritten.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d41",
+      "kind": "description",
+      "summary": "All seven runs used contract files that differ from the committed ones, and each also used an earlier graph than the com",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d42",
+      "kind": "description",
+      "summary": "The runtime file is not recorded in run folders and changed on October 8.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d43",
+      "kind": "description",
+      "summary": "Every run folder from October 8 passed the `verify` command (A2.4) on October 23, 2026.",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d44",
+      "kind": "description",
+      "summary": "Each test file was run once per model configuration, except the seeded prose file, which was run again after the revisio",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "d45",
+      "kind": "description",
+      "summary": "Within these runs, live support verdicts differed from the recorded answers of that time on 3 of 12 references rows, and",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d46",
+      "kind": "description",
+      "summary": "The second model agreed with the first on all five rechecks, and the recorded second answers of that time also agreed, s",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "d47",
+      "kind": "description",
+      "summary": "The run records are \\[LIVE RECORDS LOCATION\\].",
+      "findings": [
+        {
+          "check": "check_descriptions",
+          "severity": "warning",
+          "message": "The finding step gave no place in the scripts that carries out this description.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    }
+  ],
+  "decisions": []
+}

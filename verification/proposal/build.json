@@ -1,0 +1,1411 @@
+{
+  "schema": "verification-results",
+  "schema_version": 1,
+  "stream": "build",
+  "run_id": "proposal_build",
+  "procedure_version": 0.1,
+  "inputs": {
+    "project.tar": "sha256:fe68f4a94bd9747d4cd13a7790217308236f94cb8479b578a19e868e366819aa",
+    "proposal.md": "sha256:5e9b9d321d6794d369c9c51a2fc507e93ba9c97e4a3e1eb8178315dc8394e19f",
+    "session_writes.jsonl": "sha256:fb74b82092ae8271729fb9c6d39f72bb986b648e5226c09fde70caff1552c38b"
+  },
+  "items": [
+    {
+      "id": "appendix",
+      "kind": "deliverable",
+      "summary": "source appendix.md, builds folder builds/appendix, ledgered versions v001, v002, v003, v004, v005, v006, v007, v008, v009, v010",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "proposal",
+      "kind": "deliverable",
+      "summary": "source proposal.md, builds folder builds/proposal, ledgered versions v001, v002, v003, v004, v005, v006",
+      "findings": [],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:0",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'build.extras'; use {{num:build.extras}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'build.extras'; use {{num:build.extras}} so it moves with the data.",
+          "evidence": "line 483: \\| Settings \\| Temperature 0 and a limit of 4,000 output tokens, with up to four attempts per request \\| `vg.py`, line …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:0.10",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'live.prose_v01.seeded.graph_version'; use {{num:live.prose_v01.seeded.graph_v",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v01.seeded.graph_version'; use {{num:live.prose_v01.seeded.graph_version}} so it moves with the data.",
+          "evidence": "line 388: \\| October 2026 \\| 1 \\| Verification runtime and four procedures built and tested, and live judgment runs (October 8). …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:0.2",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'live.prose.clean.graph_version'; use {{num:live.prose.clean.graph_version}} s",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose.clean.graph_version'; use {{num:live.prose.clean.graph_version}} so it moves with the data.",
+          "evidence": "line 500: \\| Prose, seeded, graph version {{num:live.prose_v01.seeded.graph_version}} \\| {{num:live.prose_v01.seeded.caught}} of …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:03",
+      "kind": "finding",
+      "summary": "2 problems. Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgm",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgment_caught}} so it moves with the data.",
+          "evidence": "line 281: • **Origin:** First named by an AI at 2026-10-13T10:03:20Z in session S7be25f19c0a4, where the record reads \"Nakamura (…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgment_caught}} so it moves with the data.",
+          "evidence": "line 289: • **Reason:** \"Nakamura (2020) looked at recognition events among long-serving volunteers. Their result belongs beside …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:04",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'excerpt.ai_after'; use {{num:excerpt.ai_after}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.ai_after'; use {{num:excerpt.ai_after}} so it moves with the data.",
+          "evidence": "line 295: • **Trail:** origin from citation_provenance.yaml (record 04_read_origin); lookup (records 05_fetch_metadata, 06_check_…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:05",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'kb.tools'; use {{num:kb.tools}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'kb.tools'; use {{num:kb.tools}} so it moves with the data.",
+          "evidence": "line 295: • **Trail:** origin from citation_provenance.yaml (record 04_read_origin); lookup (records 05_fetch_metadata, 06_check_…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:06",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'citations.judged'; use {{num:citations.judged}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'citations.judged'; use {{num:citations.judged}} so it moves with the data.",
+          "evidence": "line 295: • **Trail:** origin from citation_provenance.yaml (record 04_read_origin); lookup (records 05_fetch_metadata, 06_check_…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:07",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'build.caught'; use {{num:build.caught}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'build.caught'; use {{num:build.caught}} so it moves with the data.",
+          "evidence": "line 295: • **Trail:** origin from citation_provenance.yaml (record 04_read_origin); lookup (records 05_fetch_metadata, 06_check_…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:09",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'citations.replays'; use {{num:citations.replays}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'citations.replays'; use {{num:citations.replays}} so it moves with the data.",
+          "evidence": "line 295: • **Trail:** origin from citation_provenance.yaml (record 04_read_origin); lookup (records 05_fetch_metadata, 06_check_…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:1",
+      "kind": "finding",
+      "summary": "12 problems. Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with ",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 7: This appendix gives the status of each part of the workflow and offline commands that run the prototype. It explains ho…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 380: Stage 1 built the prototype and the research artifact this appendix describes. Stage 2, from January to May 2027, compl…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 382: Table A9. Development calendar for Stages 1 and 2"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 386: \\| July 2026 \\| 1 \\| Reproducible pipeline built and tested, with its module contracts and the knowledge base files \\| …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 387: \\| August to September 2026 \\| 1 \\| Designs for the databases and the file protocol \\| \\|"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 388: \\| October 2026 \\| 1 \\| Verification runtime and four procedures built and tested, and live judgment runs (October 8). …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 389: \\| By November 1, 2026 \\| 1 \\| Research artifact released at \\[COMMIT OR TAG\\], and the proposal, this appendix, and th…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 389: \\| By November 1, 2026 \\| 1 \\| Research artifact released at \\[COMMIT OR TAG\\], and the proposal, this appendix, and th…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 390: \\| November 2026 to January 10, 2027 \\| 1 \\| Selection by the special issue editors, with selected projects notified Ja…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 391: \\| January 2027 \\| 2 \\| Item 1, \"finalize the procedural graph system, so that verification procedures, wrappers, MCP s…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 398: Item 1 is described in the system specification's definition of the procedural graph system and in the verification pro…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 398: Item 1 is described in the system specification's definition of the procedural graph system and in the verification pro…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:10",
+      "kind": "finding",
+      "summary": "6 problems. Hard-coded result: equals numbers.yml key 'live.prose_v01.seeded.caught'; use {{num:live.prose_v01.seeded.caught}} so it",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v01.seeded.caught'; use {{num:live.prose_v01.seeded.caught}} so it moves with the data.",
+          "evidence": "line 281: • **Origin:** First named by an AI at 2026-10-13T10:03:20Z in session S7be25f19c0a4, where the record reads \"Nakamura (…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v01.seeded.caught'; use {{num:live.prose_v01.seeded.caught}} so it moves with the data.",
+          "evidence": "line 289: • **Reason:** \"Nakamura (2020) looked at recognition events among long-serving volunteers. Their result belongs beside …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v01.seeded.caught'; use {{num:live.prose_v01.seeded.caught}} so it moves with the data.",
+          "evidence": "line 295: • **Trail:** origin from citation_provenance.yaml (record 04_read_origin); lookup (records 05_fetch_metadata, 06_check_…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v01.seeded.caught'; use {{num:live.prose_v01.seeded.caught}} so it moves with the data.",
+          "evidence": "line 390: \\| November 2026 to January 10, 2027 \\| 1 \\| Selection by the special issue editors, with selected projects notified Ja…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v01.seeded.caught'; use {{num:live.prose_v01.seeded.caught}} so it moves with the data.",
+          "evidence": "line 390: \\| November 2026 to January 10, 2027 \\| 1 \\| Selection by the special issue editors, with selected projects notified Ja…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v01.seeded.caught'; use {{num:live.prose_v01.seeded.caught}} so it moves with the data.",
+          "evidence": "line 423: The first suite reports `{{num:tests.ospipe}} passed` in about a minute and the second `{{num:tests.verification}} pass…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:13",
+      "kind": "finding",
+      "summary": "2 problems. Hard-coded result: equals numbers.yml key 'citations.faults'; use {{num:citations.faults}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'citations.faults'; use {{num:citations.faults}} so it moves with the data.",
+          "evidence": "line 281: • **Origin:** First named by an AI at 2026-10-13T10:03:20Z in session S7be25f19c0a4, where the record reads \"Nakamura (…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'citations.faults'; use {{num:citations.faults}} so it moves with the data.",
+          "evidence": "line 289: • **Reason:** \"Nakamura (2020) looked at recognition events among long-serving volunteers. Their result belongs beside …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:2",
+      "kind": "finding",
+      "summary": "18 problems. Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 7: This appendix gives the status of each part of the workflow and offline commands that run the prototype. It explains ho…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 15: Each layer's section ends with a table of the status of its parts, with the gaps and open questions that belong to that…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 37: The proposal's Figure 2 draws the workflow as components, with the scholar, the AI model, and external software as inpu…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 338: \\| Seeded-fault test on a full synthetic manuscript \\| Planned \\| Placed after Stage 2 in the specification \\|"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 342: The observability layer enables the scholar to observe an AI model's reasoning where the model exposes it, the tool cal…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 380: Stage 1 built the prototype and the research artifact this appendix describes. Stage 2, from January to May 2027, compl…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 380: Stage 1 built the prototype and the research artifact this appendix describes. Stage 2, from January to May 2027, compl…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 380: Stage 1 built the prototype and the research artifact this appendix describes. Stage 2, from January to May 2027, compl…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 382: Table A9. Development calendar for Stages 1 and 2"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 391: \\| January 2027 \\| 2 \\| Item 1, \"finalize the procedural graph system, so that verification procedures, wrappers, MCP s…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 392: \\| January to March 2027 \\| 2 \\| Item 2, \"finish building and testing the verification layer\" \\| Four procedures with t…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 392: \\| January to March 2027 \\| 2 \\| Item 2, \"finish building and testing the verification layer\" \\| Four procedures with t…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 393: \\| February 27 to 28, 2027 \\| 2 \\| Special issue workshop (date tentative) \\| \\|"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 394: \\| March to April 2027 \\| 2 \\| Item 3, \"build the observability layer and the associated wrappers and MCP tools ..., wi…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 395: \\| April to May 2027 \\| 2 \\| Item 4, \"test the workflow across multiple open-source harnesses, models, external softwar…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 396: \\| May 2027 \\| 2 \\| Item 5, \"develop an interactive web portal to help scholars learn, implement, and critique the work…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 398: Item 1 is described in the system specification's definition of the procedural graph system and in the verification pro…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 398: Item 1 is described in the system specification's definition of the procedural graph system and in the verification pro…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:3",
+      "kind": "finding",
+      "summary": "5 problems. Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgm",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgment_caught}} so it moves with the data.",
+          "evidence": "line 394: \\| March to April 2027 \\| 2 \\| Item 3, \"build the observability layer and the associated wrappers and MCP tools ..., wi…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgment_caught}} so it moves with the data.",
+          "evidence": "line 398: Item 1 is described in the system specification's definition of the procedural graph system and in the verification pro…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgment_caught}} so it moves with the data.",
+          "evidence": "line 439: Each build takes under a second and writes version `{{num:sample.version}}`, the manuscript as `builds/manuscript/{{num…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgment_caught}} so it moves with the data.",
+          "evidence": "line 449: The run takes about 3 seconds and completes {{num:citations.steps_run}} of the graph's {{num:citations.steps}} steps, i…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgment_caught}} so it moves with the data.",
+          "evidence": "line 466: The `score` command reports every planted fault caught, {{num:prose.caught}} of {{num:prose.faults}} for prose, {{num:d…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:4",
+      "kind": "finding",
+      "summary": "3 problems. Hard-coded result: equals numbers.yml key 'excerpt.ai_after'; use {{num:excerpt.ai_after}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.ai_after'; use {{num:excerpt.ai_after}} so it moves with the data.",
+          "evidence": "line 395: \\| April to May 2027 \\| 2 \\| Item 4, \"test the workflow across multiple open-source harnesses, models, external softwar…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.ai_after'; use {{num:excerpt.ai_after}} so it moves with the data.",
+          "evidence": "line 398: Item 1 is described in the system specification's definition of the procedural graph system and in the verification pro…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.ai_after'; use {{num:excerpt.ai_after}} so it moves with the data.",
+          "evidence": "line 468: Offline runs take under 4 seconds per procedure on test sets of {{num:fixtures.min_files}} to {{num:fixtures.max_files}…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:5",
+      "kind": "finding",
+      "summary": "3 problems. Hard-coded result: equals numbers.yml key 'kb.tools'; use {{num:kb.tools}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'kb.tools'; use {{num:kb.tools}} so it moves with the data.",
+          "evidence": "line 396: \\| May 2027 \\| 2 \\| Item 5, \"develop an interactive web portal to help scholars learn, implement, and critique the work…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'kb.tools'; use {{num:kb.tools}} so it moves with the data.",
+          "evidence": "line 398: Item 1 is described in the system specification's definition of the procedural graph system and in the verification pro…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'kb.tools'; use {{num:kb.tools}} so it moves with the data.",
+          "evidence": "line 516: AI tools were used to help draft and edit the proposal and technical appendix and to build the research artifact. The A…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:6",
+      "kind": "finding",
+      "summary": "2 problems. Hard-coded result: equals numbers.yml key 'citations.judged'; use {{num:citations.judged}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'citations.judged'; use {{num:citations.judged}} so it moves with the data.",
+          "evidence": "line 398: Item 1 is described in the system specification's definition of the procedural graph system and in the verification pro…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'citations.judged'; use {{num:citations.judged}} so it moves with the data.",
+          "evidence": "line 516: AI tools were used to help draft and edit the proposal and technical appendix and to build the research artifact. The A…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:6.0",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'citations.judged'; use {{num:citations.judged}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'citations.judged'; use {{num:citations.judged}} so it moves with the data.",
+          "evidence": "line 402: The commands below build a sample project's research products, check its numbers, and run the procedures on their test …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:8",
+      "kind": "finding",
+      "summary": "8 problems. Hard-coded result: equals numbers.yml key 'live.data.seeded.caught'; use {{num:live.data.seeded.caught}} so it moves wit",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.data.seeded.caught'; use {{num:live.data.seeded.caught}} so it moves with the data.",
+          "evidence": "line 323: \\| Live judgment \\| Built and tested \\| Tested against a stand-in model service, and nothing has run live on the curren…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.data.seeded.caught'; use {{num:live.data.seeded.caught}} so it moves with the data.",
+          "evidence": "line 388: \\| October 2026 \\| 1 \\| Verification runtime and four procedures built and tested, and live judgment runs (October 8). …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.data.seeded.caught'; use {{num:live.data.seeded.caught}} so it moves with the data.",
+          "evidence": "line 474: On October 8, 2026, {{num:live.runs.word}} development runs had AI models answer every judgment step in earlier version…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.data.seeded.caught'; use {{num:live.data.seeded.caught}} so it moves with the data.",
+          "evidence": "line 476: Table A10. Models and settings in the live runs (settings and parsing as coded in the committed runtime, because the Oc…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.data.seeded.caught'; use {{num:live.data.seeded.caught}} so it moves with the data.",
+          "evidence": "line 478: \\| Item \\| Live runs of October 8, 2026 \\| Where to check \\|"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.data.seeded.caught'; use {{num:live.data.seeded.caught}} so it moves with the data.",
+          "evidence": "line 506: For all {{num:live.runs.word}} live runs, the saved code of most tool steps differs from the committed code, since the …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.data.seeded.caught'; use {{num:live.data.seeded.caught}} so it moves with the data.",
+          "evidence": "line 506: For all {{num:live.runs.word}} live runs, the saved code of most tool steps differs from the committed code, since the …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.data.seeded.caught'; use {{num:live.data.seeded.caught}} so it moves with the data.",
+          "evidence": "line 506: For all {{num:live.runs.word}} live runs, the saved code of most tool steps differs from the committed code, since the …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:9",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'citations.replays'; use {{num:citations.replays}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'citations.replays'; use {{num:citations.replays}} so it moves with the data.",
+          "evidence": "line 388: \\| October 2026 \\| 1 \\| Verification runtime and four procedures built and tested, and live judgment runs (October 8). …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "proposal.md:1",
+      "kind": "finding",
+      "summary": "5 problems. Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with ",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 3: AI can enhance the productivity of scholars, the quality of scholarship, and the rigor of science by offloading laborio…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 25: The workflow operationalizes verification, observability, and traceability by processing AI contributions through a com…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 25: The workflow operationalizes verification, observability, and traceability by processing AI contributions through a com…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 27: Table 1. Streams and verification procedures"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'excerpt.no_quote_found'; use {{num:excerpt.no_quote_found}} so it moves with the data.",
+          "evidence": "line 41: ![Figure 1. System Workflow Diagram](figures/proposal/fig2_flow.png){width=\"6.5in\"}"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "proposal.md:2",
+      "kind": "finding",
+      "summary": "4 problems. Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 3: AI can enhance the productivity of scholars, the quality of scholarship, and the rigor of science by offloading laborio…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 43: The architecture has four components that enable cross project work (Figure 2): AI harness, databases, reproducible pip…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 45: ![Figure 2. System Component Diagram](figures/proposal/fig3_components.png){width=\"6.5in\"}"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'cleaning.caught'; use {{num:cleaning.caught}} so it moves with the data.",
+          "evidence": "line 59: In Stage 2 (January to May 2027), we will complete the verification layer and test it. First, we will finalize the proc…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "proposal.md:3",
+      "kind": "finding",
+      "summary": "1 problem. Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgm",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "blocking",
+          "message": "Hard-coded result: equals numbers.yml key 'live.prose_v02.seeded.judgment_caught'; use {{num:live.prose_v02.seeded.judgment_caught}} so it moves with the data.",
+          "evidence": "line 49: Figure 3. Observability Dashboard Prototype"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:1.2",
+      "kind": "finding",
+      "summary": "2 problems. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 402: The commands below build a sample project's research products, check its numbers, and run the procedures on their test …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 402: The commands below build a sample project's research products, check its numbers, and run the procedures on their test …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:10.5555",
+      "kind": "finding",
+      "summary": "2 problems. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 285: • **Reference:** Nakamura, E. (2020). Recognition events and the long-serving volunteer. Voluntary Sector Studies. doi:…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 287: • **Found:** found in the metadata cache (DOI 10.5555/vss.2020.0063). The record reads Nakamura, E. (2020). Recognition…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:120",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 516: AI tools were used to help draft and edit the proposal and technical appendix and to build the research artifact. The A…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:20",
+      "kind": "finding",
+      "summary": "3 problems. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 281: • **Origin:** First named by an AI at 2026-10-13T10:03:20Z in session S7be25f19c0a4, where the record reads \"Nakamura (…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 289: • **Reason:** \"Nakamura (2020) looked at recognition events among long-serving volunteers. Their result belongs beside …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 423: The first suite reports `{{num:tests.ospipe}} passed` in about a minute and the second `{{num:tests.verification}} pass…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:22",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 388: \\| October 2026 \\| 1 \\| Verification runtime and four procedures built and tested, and live judgment runs (October 8). …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:23",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 506: For all {{num:live.runs.word}} live runs, the saved code of most tool steps differs from the committed code, since the …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:27",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 393: \\| February 27 to 28, 2027 \\| 2 \\| Special issue workshop (date tentative) \\| \\|"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:28",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 393: \\| February 27 to 28, 2027 \\| 2 \\| Special issue workshop (date tentative) \\| \\|"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:3.12",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 402: The commands below build a sample project's research products, check its numbers, and run the procedures on their test …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:3.5",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 516: AI tools were used to help draft and edit the proposal and technical appendix and to build the research artifact. The A…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:3.6",
+      "kind": "finding",
+      "summary": "2 problems. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 402: The commands below build a sample project's research products, check its numbers, and run the procedures on their test …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 516: AI tools were used to help draft and edit the proposal and technical appendix and to build the research artifact. The A…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:3.8",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 516: AI tools were used to help draft and edit the proposal and technical appendix and to build the research artifact. The A…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:3.9",
+      "kind": "finding",
+      "summary": "4 problems. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 402: The commands below build a sample project's research products, check its numbers, and run the procedures on their test …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 402: The commands below build a sample project's research products, check its numbers, and run the procedures on their test …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 402: The commands below build a sample project's research products, check its numbers, and run the procedures on their test …"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 402: The commands below build a sample project's research products, check its numbers, and run the procedures on their test …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:4,000",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 483: \\| Settings \\| Temperature 0 and a limit of 4,000 output tokens, with up to four attempts per request \\| `vg.py`, line …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:4.6",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 516: AI tools were used to help draft and edit the proposal and technical appendix and to build the research artifact. The A…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:4.8",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 516: AI tools were used to help draft and edit the proposal and technical appendix and to build the research artifact. The A…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:482",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 484: \\| Prompts \\| Rendered from templates then in `verification_procedures/implementations/<stream>/`, since removed or rew…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:491",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 484: \\| Prompts \\| Rendered from templates then in `verification_procedures/implementations/<stream>/`, since removed or rew…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:5.5",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 516: AI tools were used to help draft and edit the proposal and technical appendix and to build the research artifact. The A…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:553",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 485: \\| Parsing \\| Reasoning blocks stripped and a structured answer extracted, with one retry that adds a fixed note to the…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:562",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 485: \\| Parsing \\| Reasoning blocks stripped and a structured answer extracted, with one retry that adds a fixed note to the…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:571",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 482: \\| Access \\| A university-hosted inference service through its chat completions interface, one message per item, with n…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:6.5",
+      "kind": "finding",
+      "summary": "7 problems. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 21: ![Figure A1. System Workflow Diagram](figures/appendix/fig_system.png){alt=\"Figure A1. The workflow's layers and how an…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 41: ![Figure A2. Workflow Connections](figures/appendix/fig_connections.png){alt=\"Figure A2. How the workflow connects to t…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 75: ![Figure A3. How the reproducible pipeline builds a research product and its replication folder.](figures/appendix/fig_…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 113: ![Figure A4. How the audit layer captures, tags, and stores each AI session, and what reads its databases.](figures/app…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 152: ![Figure A5. How the runtime runs a procedure.](figures/appendix/fig_runtime.png){width=\"6.5in\"}"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 223: ![Figure A6. AI Contributions.](figures/appendix/fig_lifecycle.png){alt=\"Figure A6. How one AI contribution goes from r…"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 229: ![Figure A7. Verification Procedure Steps](figures/appendix/fig_procedures.png){alt=\"Figure A7. The steps of the four v…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:609",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 482: \\| Access \\| A university-hosted inference service through its chat completions interface, one message per item, with n…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:628",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 482: \\| Access \\| A university-hosted inference service through its chat completions interface, one message per item, with n…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:653",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 483: \\| Settings \\| Temperature 0 and a limit of 4,000 output tokens, with up to four attempts per request \\| `vg.py`, line …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:666",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 483: \\| Settings \\| Temperature 0 and a limit of 4,000 output tokens, with up to four attempts per request \\| `vg.py`, line …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:668",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 482: \\| Access \\| A university-hosted inference service through its chat completions interface, one message per item, with n…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:671",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 485: \\| Parsing \\| Reasoning blocks stripped and a structured answer extracted, with one retry that adds a fixed note to the…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:672",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 485: \\| Parsing \\| Reasoning blocks stripped and a structured answer extracted, with one retry that adds a fixed note to the…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:679",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 484: \\| Prompts \\| Rendered from templates then in `verification_procedures/implementations/<stream>/`, since removed or rew…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:685",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 484: \\| Prompts \\| Rendered from templates then in `verification_procedures/implementations/<stream>/`, since removed or rew…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:8.4",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 402: The commands below build a sample project's research products, check its numbers, and run the procedures on their test …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:93",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 483: \\| Settings \\| Temperature 0 and a limit of 4,000 output tokens, with up to four attempts per request \\| `vg.py`, line …"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:966",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 484: \\| Prompts \\| Rendered from templates then in `verification_procedures/implementations/<stream>/`, since removed or rew…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:968",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 484: \\| Prompts \\| Rendered from templates then in `verification_procedures/implementations/<stream>/`, since removed or rew…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:970",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 485: \\| Parsing \\| Reasoning blocks stripped and a structured answer extracted, with one retry that adds a fixed note to the…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:971",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 485: \\| Parsing \\| Reasoning blocks stripped and a structured answer extracted, with one retry that adds a fixed note to the…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:980",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 486: \\| What was saved \\| {{num:live.responses}} responses ({{num:live.items}} items and {{num:live.retries.word}} retry), a…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:995",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 485: \\| Parsing \\| Reasoning blocks stripped and a structured answer extracted, with one retry that adds a fixed note to the…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "appendix.md:998",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 485: \\| Parsing \\| Reasoning blocks stripped and a structured answer extracted, with one retry that adds a fixed note to the…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "proposal.md:36",
+      "kind": "finding",
+      "summary": "1 problem. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 57: The verification layer is partly built. A runtime walks procedural graphs for all four streams, and each stream has a c…"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "proposal.md:6.5",
+      "kind": "finding",
+      "summary": "3 problems. Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+      "findings": [
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 41: ![Figure 1. System Workflow Diagram](figures/proposal/fig2_flow.png){width=\"6.5in\"}"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 45: ![Figure 2. System Component Diagram](figures/proposal/fig3_components.png){width=\"6.5in\"}"
+        },
+        {
+          "check": "check_hardcoding",
+          "severity": "warning",
+          "message": "Bare numeral outside the allowlist; ship refuses it until it is keyed or allowlisted.",
+          "evidence": "line 47: ![](figures/proposal/fig3_dashboard.png){width=\"6.5in\"}"
+        }
+      ],
+      "needs_decision": true
+    },
+    {
+      "id": "build_prefs.yaml",
+      "kind": "finding",
+      "summary": "1 problem. The author's build preferences are not written down, so none can be checked.",
+      "findings": [
+        {
+          "check": "check_prefs",
+          "severity": "warning",
+          "message": "The author's build preferences are not written down, so none can be checked.",
+          "evidence": ""
+        }
+      ],
+      "needs_decision": true
+    }
+  ],
+  "decisions": []
+}

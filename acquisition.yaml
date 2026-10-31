@@ -1,0 +1,15 @@
+# Raw data is never edited. Each raw file is listed here with its checksum,
+# recorded when the data was acquired, so a later edit shows.
+raw:
+  - file: artifact_public_e22136c.tar
+    sha256: "sha256:db9331971271ee57b9205a324600b5cb63398d2349c0808fc0e906df2cab1a10"
+    source: "git archive of commit e22136c of the public research artifact, its newest public copy, made with git -C workflow_public_copy_2026-10-31 archive --format=tar HEAD. The appendix's numbers about the artifact come from it."
+    collected: 2026-10-31
+  - file: artifact_public_f48459a.tar
+    sha256: "sha256:cc516aa2cf06c3fee16012e7ef6f41f84dda1e7ffb92ce33295da389c3e27610"
+    source: "git archive of commit f48459a of the public research artifact, the anonymous copy of the workflow's clean build made from its commit 81c6863. It replaces the earlier archive of the private commit 578a94c."
+    collected: 2026-10-31
+  - file: live_runs_2026-10-08.tar
+    sha256: "sha256:865b686a97dceb265700c0ef02560d4e7d58ecdcdc83f6e74959818fffa7db60"
+    source: "The seven run folders of the live judgment runs of October 8, 2026 (cit_live_clean, cit_live_seeded, data_live_clean, data_live_seeded, prose_clean_live, prose_live, prose_live2), packed with no owner names from verification_procedures/live_runs_2026-10-08/ of the same public copy, whose manifests name no home folder. It replaces the earlier pack from the private checkout."
+    collected: 2026-10-31

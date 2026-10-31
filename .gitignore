@@ -1,0 +1,11 @@
+.homes/
+__pycache__/
+*.pyc
+.DS_Store
+ship/
+figures/src/*.aux
+figures/src/*.log
+figures/src/*.log.txt
+figures/src/*.pdf
+sources/
+verification/runs/

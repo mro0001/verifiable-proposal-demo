@@ -1,0 +1,47 @@
+\def\DoNotLoadEpstopdf{}
+\documentclass[tikz,border=4pt]{standalone}
+\input{appendixstyle.tex}
+% Figure A6 of the 10/31 appendix: how one AI contribution goes from recorded to an item of a
+% verification report, followed for the AI-added citation r08 @nakamura2020 in the seeded
+% references test files (verification_procedures/fixtures/citations/seeded/: citation_provenance.yaml,
+% draft.md, metadata_cache.json, recorded_judge.json, source_nakamura2020.txt) and the expected
+% report (tests/golden/citations_seeded/report.md), under citations.yaml 0.2.
+\begin{document}
+\hyphenpenalty=10000
+\frenchspacing
+\begin{tikzpicture}
+\tikzset{
+  col/.style={font=\fontsize{9}{11}\selectfont\bfseries, text=cink, anchor=base west},
+  stage/.style={box, text width=2.2cm, minimum width=2.4cm, minimum height=1.25cm, font=\fontsize{9}{11}\selectfont\bfseries},
+  aud/.style={draw=caudit, fill=cauditfill, text=caudit},
+  what/.style={anchor=west, text width=4.1cm, align=left, font=\fontsize{8}{9.6}\selectfont, text=cink, inner sep=0pt},
+  ex/.style={box, anchor=west, draw=cmuted, fill=white, text=cink, text width=6.3cm, minimum width=6.5cm, minimum height=1.25cm, align=left, font=\fontsize{8}{9.6}\selectfont, inner sep=4pt},
+}
+\newcommand{\cd}[1]{{\fontsize{8}{9.6}\selectfont\ttfamily #1}}
+\node[col] at (0.1,0.55) {Stage};
+\node[col] at (2.85,0.55) {What happens};
+\node[col] at (7.35,0.55) {Example, the AI-added citation in row r08};
+% stages
+\node[aud, stage] (s1) at (1.3,-0.4) {Recorded};
+\node[ver, stage] (s2) at (1.3,-2.0) {Identified};
+\node[ver, stage] (s3) at (1.3,-3.6) {Found};
+\node[ver, stage] (s4) at (1.3,-5.2) {Located by a model};
+\node[ver, stage] (s5) at (1.3,-6.8) {Checked by a program};
+\node[ver, stage] (s6) at (1.3,-8.4) {Reported};
+\foreach \a/\b in {s1/s2, s2/s3, s3/s4, s4/s5, s5/s6} {\draw[flow, cred] (\a.south) -- (\b.north);}
+% what happens
+\node[what] at (2.85,-0.4) {The record names, by its public id, the AI session that first named each work.};
+\node[what] at (2.85,-2.0) {Each citation in the final build's text becomes a row, with its origin from the record.};
+\node[what] at (2.85,-3.6) {A program looks up each work an AI cited, by its DOI.};
+\node[what] at (2.85,-5.2) {The record holds no quote, so a model finds the passage in the source. It gives no verdict.};
+\node[what] at (2.85,-6.8) {A program finds that quote in the source text.};
+\node[what] at (2.85,-8.4) {The report lays out each AI citation for the scholar.};
+% example
+\node[ex] at (7.35,-0.4) {\cd{nakamura2020: \{origin: ai,}\\\cd{\ \ first\_ai: \{session\_ref: S7be25f19c0a4\}\}}\\[1pt]in \cd{citation\_provenance.yaml}};
+\node[ex] at (7.35,-2.0) {Row r08, ``Recognition events had no clear effect on exit among long-serving volunteers [@nakamura2020]'', origin \cd{ai}};
+\node[ex] at (7.35,-3.6) {Found in the metadata cache. Nakamura, E. (2020). Recognition events and the long-serving volunteer. DOI 10.5555/vss.2020.0063};
+\node[ex] at (7.35,-5.2) {The passage on p.\ 15, ``Recognition events had no measurable effect on exit among long-serving volunteers.'' No verdict.};
+\node[ex] at (7.35,-6.8) {Found in \cd{source\_nakamura2020.txt}, at p.\ 15, which holds the full text, pinned by \cd{sha256:b76d203442be...}};
+\node[ex] at (7.35,-8.4) {Entry r08 with its sentence, origin, reason (``Their result belongs beside the feedback finding.''), quote, quote check, and trail, an item the scholar approves or holds};
+\end{tikzpicture}
+\end{document}

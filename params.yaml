@@ -1,0 +1,58 @@
+# Every choice is set here once, and the step scripts read it through params_io.Params.
+# A list is one quoted string of words, since params_io reads flat values only.
+#
+# The archives the steps read, all from the public research artifact. s1 reads the newest copy,
+# commit e22136c. s2 reads the October 8 run folders and, for those runs' truth files, recorded
+# answers, and graphs, the earlier copy, commit f48459a, since the runs used the earlier
+# procedures, which the newest copy no longer has.
+artifact_archive: "artifact_public_e22136c.tar"
+procedures_archive: "artifact_public_f48459a.tar"
+live_archive: "live_runs_2026-10-08.tar"
+#
+# s1_artifact_numbers.py, the tests. Each suite as name=folder:target.
+harness_programs: "claude forge"
+suites: "ospipe=ospipe:tests verification=verification_procedures:tests audit=.:audit_layer story=.:examples/test_story handoffs=.:handoffs/tests observability=.:observability/tests connections=.:connections/tests features=.:features/tests"
+# Named groups of test files, as name=path,path. A path ending in / takes a whole folder.
+test_groups: "pipeline_core=ospipe/tests/test_build.py,ospipe/tests/test_build_fixed_date.py,ospipe/tests/test_build_verification.py,ospipe/tests/test_foundation.py,ospipe/tests/test_resolve.py,ospipe/tests/test_root_composition.py procedures=verification_procedures/tests/test_build.py,verification_procedures/tests/test_citations.py,verification_procedures/tests/test_data.py,verification_procedures/tests/test_prose.py word_review=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py lint=verification_procedures/tests/test_review_lint.py review=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py,verification_procedures/tests/test_review_lint.py,verification_procedures/tests/test_review_cli.py kb=audit_layer/kb/tests/ moved=verification_procedures/tests/test_review_annotate.py,verification_procedures/tests/test_review_returns.py,verification_procedures/tests/test_review_reconcile.py,verification_procedures/tests/test_review_lint.py,audit_layer/kb/tests/ phases=verification_procedures/tests/test_data_phases.py"
+slides_group: "pipeline_core"
+slides_terms: "slide reveal"
+#
+# s1_artifact_numbers.py, the A4 command blocks, as the artifact's README gives them.
+sample_project: "examples/sample_project"
+# Each run on seeded test files as label=graph:folder, the folder being the one under fixtures/
+# whose seeded/ test files the run reads. The label names the run's keys.
+a4_runs: "citations=citations:citations prose=prose:prose data=data:data collection=data_collection:data_phases cleaning=data_cleaning:data_phases analysis=data_analysis:data_phases build=build:build"
+# The runs given the recorded answers of their test files, the runs replayed, and the runs scored.
+judged_runs: "citations collection cleaning analysis"
+replayed_runs: "citations"
+scored_runs: "citations prose data cleaning build"
+# The references report A2.5 shows in part, its entry shown in full, and its counts table as key=field of fields.json.
+excerpt_stream: "citations"
+excerpt_row: "r08"
+excerpt_counts: "citations=n_citations ai=n_ai scholar=n_scholar unknown=n_unknown not_found=n_not_found not_looked_up=n_not_looked_up no_quote_found=n_quote_not_found record_quote_not_found=n_record_quote_not_found no_reason=n_no_reason"
+hash_digits: 12
+#
+# s1_artifact_numbers.py, counts in the archive's files.
+seeded_streams: "citations prose data build"
+fixture_kinds: "clean seeded"
+kb_corpus: "audit_layer/kb/corpus"
+kb_server: "connections/mcp/kb_server.py"
+kb_tool_call: "Tool"
+runtime_file: "verification_procedures/vg.py"
+command_call: "add_parser"
+bytes_per_mb: 1000000
+mb_digits: 1
+#
+# s2_live_runs.py, the October 8 run folders, each as label=folder.
+live_runs: "citations.seeded=cit_live_seeded citations.clean=cit_live_clean data.seeded=data_live_seeded data.clean=data_live_clean prose_v01.seeded=prose_live prose_v02.seeded=prose_live2 prose.clean=prose_clean_live"
+judgment_runs: "citations.seeded data.seeded prose_v02.seeded"
+differ_run: "citations.seeded"
+support_step: "judge_support"
+recheck_step: "second_check"
+retry_suffix: ".retry.txt"
+# The earlier procedure s2 runs once more with no model answers, from the earlier copy (it also reads harness_programs).
+nojudge_stream: "prose"
+#
+# Both steps. Numbers the appendix writes as words, and those that start a sentence.
+word_keys: "kb.tools kb.outside runtime.commands tests.suites sample.slides sample.blocking sample.warnings sample.notes sample.numbers sample.analysis_steps sample.analysis_descriptions citations.steps citations.steps_run citations.replays citations.judged citations.extras prose.faults prose.caught prose.extras data.faults data.caught data.extras cleaning.faults cleaning.caught cleaning.extras build.faults build.caught build.extras excerpt.ai excerpt.scholar excerpt.unknown excerpt.not_found excerpt.not_looked_up excerpt.no_quote_found excerpt.record_quote_not_found excerpt.no_reason excerpt.ai_before excerpt.ai_after live.runs live.retries live.judgment_faults live.prose.clean.findings live.citations.seeded.extras live.rechecks live.prose_v01.seeded.extras live.data.seeded.judgment_faults"
+word_cap_keys: "kb.outside live.retries"
