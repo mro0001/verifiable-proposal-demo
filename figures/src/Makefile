@@ -6,13 +6,14 @@
 DPI ?= 300
 PROPOSAL := fig2_flow fig3_components
 APPENDIX := fig_system fig_connections fig_pipeline fig_audit fig_runtime fig_lifecycle fig_procedures
+README := readme_results
 
-all: $(addprefix ../proposal/,$(addsuffix .png,$(PROPOSAL))) $(addprefix ../appendix/,$(addsuffix .png,$(APPENDIX)))
+all: $(addprefix ../proposal/,$(addsuffix .png,$(PROPOSAL))) $(addprefix ../appendix/,$(addsuffix .png,$(APPENDIX))) ../readme/results.png
 
 fig2_flow.pdf fig3_components.pdf: %.pdf: %.tex figstyle.tex
 	pdflatex -interaction=nonstopmode -halt-on-error $< > $*.log.txt 2>&1 || (grep -A4 '^!' $*.log.txt; exit 1)
 
-$(addsuffix .pdf,$(APPENDIX)): %.pdf: %.tex appendixstyle.tex figstyle.tex
+$(addsuffix .pdf,$(APPENDIX) $(README)): %.pdf: %.tex appendixstyle.tex figstyle.tex
 	pdflatex -interaction=nonstopmode -halt-on-error $< > $*.log.txt 2>&1 || (grep -A4 '^!' $*.log.txt; exit 1)
 
 ../proposal/%.png: %.pdf
@@ -20,6 +21,11 @@ $(addsuffix .pdf,$(APPENDIX)): %.pdf: %.tex appendixstyle.tex figstyle.tex
 
 ../appendix/%.png: %.pdf
 	pdftoppm -png -r $(DPI) -singlefile $< ../appendix/$*
+
+# The README's figure, at screen resolution.
+../readme/results.png: readme_results.pdf
+	mkdir -p ../readme
+	pdftoppm -png -r 150 -singlefile $< ../readme/results
 
 clean:
 	rm -f *.aux *.log *.log.txt *.pdf

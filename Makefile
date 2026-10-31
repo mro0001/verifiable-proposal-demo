@@ -1,9 +1,10 @@
 # The build file. One rule per research product, each naming its one source file.
 # Written by the workflow's project setup, then edited so the project builds on any machine.
-# WORKFLOW is the folder of the workflow (the one holding ospipe/). Set it on another
-# machine, as in make proposal WORKFLOW=/path/to/workflow.
+# WORKFLOW is the folder of the workflow (the one holding ospipe/). The default is a clone of
+# the public workflow beside this folder, or else the author's working copy. Set it otherwise,
+# as in make proposal WORKFLOW=/path/to/workflow.
 
-WORKFLOW ?= ../workflow_for_manuscripts/.worktrees/clean-build
+WORKFLOW ?= $(firstword $(wildcard ../verifiable-social-science-workflow ../workflow_for_manuscripts/.worktrees/clean-build))
 OSPIPE ?= PYTHONPATH='$(WORKFLOW)/ospipe' python3 -m ospipe
 MANIFEST ?= numbers.yml
 PURPOSE ?= draft
