@@ -17,10 +17,10 @@ AI sessions helped write this research proposal and its technical appendix. The 
 git clone https://github.com/mro0001/verifiable-social-science-workflow
 git clone https://github.com/mro0001/verifiable-proposal-demo
 cd verifiable-proposal-demo/project
-make proposal
+SOURCE_DATE_EPOCH=1793404800 make proposal
 ```
 
-This rebuilds the proposal from `project/proposal.md` as the next numbered build, `project/builds/proposal/v007.docx`. With pandoc 3.9.0.2 it is byte for byte the same as v006. It needs Python 3.9 or later with PyYAML and python-docx, and pandoc. `make data` recomputes all 152 numbers from the raw archives, in about 30 minutes.
+This rebuilds the proposal from `project/proposal.md` as the next numbered build, `project/builds/proposal/v007.docx`. A build carries its date, and `SOURCE_DATE_EPOCH=1793404800` sets it to October 31, 2026, the date of v006, so with pandoc 3.9.0.2 the new build is byte for byte the same as v006. It needs Python 3.9 or later with PyYAML and python-docx, and pandoc. `make data` recomputes all 152 numbers from the raw archives, in about 30 minutes.
 
 ## Read more
 
