@@ -11,7 +11,7 @@ The proposal and its appendix as a project laid out by the workflow. Every path 
 | `pipeline.yaml`, `params.yaml`, `acquisition.yaml` | The two analysis steps with their phase, every analytic choice set once, and the two raw archives with their checksums |
 | `s1_artifact_numbers.py`, `s2_live_runs.py` | The two analysis scripts, each with its steps marked |
 | `params_io.py`, `results_io.py` | The helpers both scripts share |
-| `artifact_public_e22136c.tar`, `artifact_public_f48459a.tar`, `live_runs_2026-10-08.tar` | The raw data, archives of the public research artifact at commit e22136c, the copy the appendix describes, and at the earlier commit f48459a, whose procedures the seven live runs of October 8 used, and those runs packed from it |
+| `artifact_public_742a422.tar`, `artifact_public_f48459a.tar`, `live_runs_2026-10-08.tar` | The raw data, archives of the public research artifact at commit 742a422, the copy the appendix describes, and at the earlier commit f48459a, whose procedures the seven live runs of October 8 used, and those runs packed from it |
 | `*.csv` | The analysis outputs |
 | `builds/<product>/` | Every numbered build, with its ledger `BUILDS.md` |
 | `verification/<product>/<report>/` | Each report, `report.md`, and its results file, `results.json` |

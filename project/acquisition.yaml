@@ -1,10 +1,10 @@
 # Raw data is never edited. Each raw file is listed here with its checksum,
 # recorded when the data was acquired, so a later edit shows.
 raw:
-  - file: artifact_public_e22136c.tar
-    sha256: "sha256:db9331971271ee57b9205a324600b5cb63398d2349c0808fc0e906df2cab1a10"
-    source: "git archive of commit e22136c of the public research artifact, its newest public copy, made with git -C workflow_public_copy_2026-10-31 archive --format=tar HEAD. The appendix's numbers about the artifact come from it."
-    collected: 2026-10-31
+  - file: artifact_public_742a422.tar
+    sha256: "sha256:730c28c3e853b42883a3c73c5779fa6bd058beb1d3899ff2e611eff58ec3071d"
+    source: "git archive of commit 742a422 of the public research artifact, its newest public copy, made with git -C workflow_public_copy_2026-10-31 archive --format=tar 742a422. The appendix's numbers about the artifact come from it."
+    collected: 2026-11-01
   - file: artifact_public_f48459a.tar
     sha256: "sha256:cc516aa2cf06c3fee16012e7ef6f41f84dda1e7ffb92ce33295da389c3e27610"
     source: "git archive of commit f48459a of the public research artifact, the anonymous copy of the workflow's clean build made from its commit 81c6863. It replaces the earlier archive of the private commit 578a94c."

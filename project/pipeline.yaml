@@ -11,8 +11,8 @@ steps:
     kind: table
     runner: python3
     script: s1_artifact_numbers.py
-    # The artifact's newest public copy, commit e22136c.
-    inputs: [artifact_public_e22136c.tar]
+    # The artifact's newest public copy, commit 742a422.
+    inputs: [artifact_public_742a422.tar]
     outputs: [suite_counts.csv, a4_results.csv, artifact_counts.csv, params_record_artifact.csv]
   - id: live
     phase: analysis

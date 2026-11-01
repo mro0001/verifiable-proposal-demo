@@ -2,10 +2,10 @@
 # A list is one quoted string of words, since params_io reads flat values only.
 #
 # The archives the steps read, all from the public research artifact. s1 reads the newest copy,
-# commit e22136c. s2 reads the October 8 run folders and, for those runs' truth files, recorded
+# commit 742a422. s2 reads the October 8 run folders and, for those runs' truth files, recorded
 # answers, and graphs, the earlier copy, commit f48459a, since the runs used the earlier
 # procedures, which the newest copy no longer has.
-artifact_archive: "artifact_public_e22136c.tar"
+artifact_archive: "artifact_public_742a422.tar"
 procedures_archive: "artifact_public_f48459a.tar"
 live_archive: "live_runs_2026-10-08.tar"
 #

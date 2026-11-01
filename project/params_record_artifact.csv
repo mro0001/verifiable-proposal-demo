@@ -1,6 +1,6 @@
 param,value,step,script
 a4_runs,citations=citations:citations prose=prose:prose data=data:data collection=data_collection:data_phases cleaning=data_cleaning:data_phases analysis=data_analysis:data_phases build=build:build,artifact,s1_artifact_numbers.py
-artifact_archive,artifact_public_e22136c.tar,artifact,s1_artifact_numbers.py
+artifact_archive,artifact_public_742a422.tar,artifact,s1_artifact_numbers.py
 bytes_per_mb,1000000,artifact,s1_artifact_numbers.py
 command_call,add_parser,artifact,s1_artifact_numbers.py
 excerpt_counts,citations=n_citations ai=n_ai scholar=n_scholar unknown=n_unknown not_found=n_not_found not_looked_up=n_not_looked_up no_quote_found=n_quote_not_found record_quote_not_found=n_record_quote_not_found no_reason=n_no_reason,artifact,s1_artifact_numbers.py

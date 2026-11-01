@@ -18,7 +18,7 @@ Purpose:
     and a number the appendix writes as a word also gets a row with its word
     form.
 Inputs:
-    artifact_public_e22136c.tar - git archive of the newest public copy of the research artifact, at its commit e22136c.
+    artifact_public_742a422.tar - git archive of the newest public copy of the research artifact, at its commit 742a422.
 Outputs:
     suite_counts.csv - tests passed in each suite, the number of suites, the total, and each named group.
     a4_results.csv - what the A4 command blocks report, and the figures of the A2.5 report excerpt.

@@ -4,34 +4,34 @@
 # the values from the outputs. Times and machine versions are typed in the text.
 numbers:
   tests.ospipe: {value: "443", from: "suite_counts.csv", field: "value", where: {"key": "tests.ospipe"}}
-  tests.verification: {value: "872", from: "suite_counts.csv", field: "value", where: {"key": "tests.verification"}}
-  tests.audit: {value: "1333", from: "suite_counts.csv", field: "value", where: {"key": "tests.audit"}}
-  tests.story: {value: "39", from: "suite_counts.csv", field: "value", where: {"key": "tests.story"}}
+  tests.verification: {value: "954", from: "suite_counts.csv", field: "value", where: {"key": "tests.verification"}}
+  tests.audit: {value: "1337", from: "suite_counts.csv", field: "value", where: {"key": "tests.audit"}}
+  tests.story: {value: "40", from: "suite_counts.csv", field: "value", where: {"key": "tests.story"}}
   tests.handoffs: {value: "148", from: "suite_counts.csv", field: "value", where: {"key": "tests.handoffs"}}
   tests.observability: {value: "338", from: "suite_counts.csv", field: "value", where: {"key": "tests.observability"}}
   tests.connections: {value: "559", from: "suite_counts.csv", field: "value", where: {"key": "tests.connections"}}
-  tests.features: {value: "644", from: "suite_counts.csv", field: "value", where: {"key": "tests.features"}}
+  tests.features: {value: "876", from: "suite_counts.csv", field: "value", where: {"key": "tests.features"}}
   tests.suites: {value: "8", from: "suite_counts.csv", field: "value", where: {"key": "tests.suites"}}
   tests.suites.word: {value: "eight", from: "suite_counts.csv", field: "value", where: {"key": "tests.suites.word"}}
-  tests.total: {value: "4376", from: "suite_counts.csv", field: "value", where: {"key": "tests.total"}}
+  tests.total: {value: "4695", from: "suite_counts.csv", field: "value", where: {"key": "tests.total"}}
   tests.pipeline_core: {value: "193", from: "suite_counts.csv", field: "value", where: {"key": "tests.pipeline_core"}}
   tests.slides: {value: "10", from: "suite_counts.csv", field: "value", where: {"key": "tests.slides"}}
-  tests.procedures: {value: "122", from: "suite_counts.csv", field: "value", where: {"key": "tests.procedures"}}
+  tests.procedures: {value: "123", from: "suite_counts.csv", field: "value", where: {"key": "tests.procedures"}}
   tests.word_review: {value: "51", from: "suite_counts.csv", field: "value", where: {"key": "tests.word_review"}}
   tests.lint: {value: "16", from: "suite_counts.csv", field: "value", where: {"key": "tests.lint"}}
   tests.review: {value: "85", from: "suite_counts.csv", field: "value", where: {"key": "tests.review"}}
   tests.kb: {value: "145", from: "suite_counts.csv", field: "value", where: {"key": "tests.kb"}}
   tests.moved: {value: "212", from: "suite_counts.csv", field: "value", where: {"key": "tests.moved"}}
   tests.phases: {value: "63", from: "suite_counts.csv", field: "value", where: {"key": "tests.phases"}}
-  kb.entries: {value: "24", from: "artifact_counts.csv", field: "value", where: {"key": "kb.entries"}}
+  kb.entries: {value: "25", from: "artifact_counts.csv", field: "value", where: {"key": "kb.entries"}}
   kb.outside: {value: "4", from: "artifact_counts.csv", field: "value", where: {"key": "kb.outside"}}
   kb.outside.word_cap: {value: "Four", from: "artifact_counts.csv", field: "value", where: {"key": "kb.outside.word_cap"}}
   kb.tools: {value: "5", from: "artifact_counts.csv", field: "value", where: {"key": "kb.tools"}}
   kb.tools.word: {value: "five", from: "artifact_counts.csv", field: "value", where: {"key": "kb.tools.word"}}
   runtime.commands: {value: "8", from: "artifact_counts.csv", field: "value", where: {"key": "runtime.commands"}}
   runtime.commands.word: {value: "eight", from: "artifact_counts.csv", field: "value", where: {"key": "runtime.commands.word"}}
-  repo.mb: {value: "7.0", from: "artifact_counts.csv", field: "value", where: {"key": "repo.mb"}}
-  repo.files: {value: "1666", from: "artifact_counts.csv", field: "value", where: {"key": "repo.files"}}
+  repo.mb: {value: "9.1", from: "artifact_counts.csv", field: "value", where: {"key": "repo.mb"}}
+  repo.files: {value: "1719", from: "artifact_counts.csv", field: "value", where: {"key": "repo.files"}}
   fixtures.min_files: {value: "4", from: "artifact_counts.csv", field: "value", where: {"key": "fixtures.min_files"}}
   fixtures.max_files: {value: "25", from: "artifact_counts.csv", field: "value", where: {"key": "fixtures.max_files"}}
   sample.version: {value: "v001", from: "a4_results.csv", field: "value", where: {"key": "sample.version"}}

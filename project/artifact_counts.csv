@@ -1,13 +1,13 @@
 key,value
 fixtures.max_files,25
 fixtures.min_files,4
-kb.entries,24
+kb.entries,25
 kb.outside,4
 kb.outside.word,four
 kb.outside.word_cap,Four
 kb.tools,5
 kb.tools.word,five
-repo.files,1666
-repo.mb,7.0
+repo.files,1719
+repo.mb,9.1
 runtime.commands,8
 runtime.commands.word,eight
