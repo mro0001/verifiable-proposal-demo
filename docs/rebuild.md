@@ -15,11 +15,11 @@ The text is the author's. It changes only where the pipeline needs it. Author-ye
 You need Python 3.9 with PyYAML and python-docx, pandoc (3.9.0.2 made these builds), and the workflow. The reports here were made with the workflow at the candidate public copy, commit e22136c. Name its folder with `WORKFLOW=`.
 
 ```
-SOURCE_DATE_EPOCH=1793404800 make proposal WORKFLOW=/path/to/workflow
-SOURCE_DATE_EPOCH=1793404800 make appendix WORKFLOW=/path/to/workflow
+SOURCE_DATE_EPOCH=1793491200 make proposal WORKFLOW=/path/to/workflow
+SOURCE_DATE_EPOCH=1793491200 make appendix WORKFLOW=/path/to/workflow
 ```
 
-A build carries the date it was made, and `SOURCE_DATE_EPOCH=1793404800` sets that date to October 31, 2026, the date of both final builds, so that a rebuild with pandoc 3.9.0.2 gives the same bytes. Without `WORKFLOW=`, the `Makefile` looks for the workflow beside this repository, at `../../verifiable-social-science-workflow` from `project/`, where `git clone` puts it, and stops with "No module named ospipe" if it is not there. Each build fills every placeholder from `numbers.yml`, stops if one has no value, writes the next numbered build in `builds/<product>/`, and adds a ledger row that names each stream's current results and whether it is verified. To compute the numbers again from the raw archives, run `make data` (about 30 minutes, mostly the artifact's test suites) and then `make manifest`.
+A build carries the date it was made, and `SOURCE_DATE_EPOCH=1793491200` sets that date to November 1, 2026, the date of both final builds, so that a rebuild with pandoc 3.9.0.2 gives the same bytes. Without `WORKFLOW=`, the `Makefile` looks for the workflow beside this repository, at `../../verifiable-social-science-workflow` from `project/`, where `git clone` puts it, and stops with "No module named ospipe" if it is not there. Each build fills every placeholder from `numbers.yml`, stops if one has no value, writes the next numbered build in `builds/<product>/`, and adds a ledger row that names each stream's current results and whether it is verified. To compute the numbers again from the raw archives, run `make data` (about 30 minutes, mostly the artifact's test suites) and then `make manifest`.
 
 ## Rerunning the reports
 

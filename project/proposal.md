@@ -52,15 +52,13 @@ The workflow also supports reusable, project-specific features and AI-assisted p
 
 ## Current Status and Development Plan
 
-The proposal builds on a working prototype. We have built and tested the reproducible pipeline and a runtime for the verification procedures, specified the databases and the observability layer, and planned the two features, pipeline setup and project organizer above. The reproducible pipeline is the most mature component. It makes no model or network calls; blocks build with unfilled computed-result placeholders; numbers and checksums each build; refuses to replace an altered prior build; and traces a reported number to its manifest entry and every sentence or table citing it.
+The proposal builds on a working prototype the details of which can be found in the technical appendix. We have built and tested the reproducible pipeline, the databases, the verification layer, the observability layer, and the two features, pipeline setup and project organizer above and the prototype can be accessed <https://github.com/mro0001/verifiable-social-science-workflow> while a demo of the verification reports run for this proposal can be found at <https://github.com/mro0001/verifiable-proposal-demo>.
 
-The verification layer is partly built. A runtime walks procedural graphs for all four streams, and each stream has a clean and a seeded test manuscript, with every seeded fault caught under both recorded and live judgment across 36 tests. Shared schemas and reports, harness triggers, observability, and adapters for R and Quarto are designed but not yet built.
-
-In Stage 2 (January to May 2027), we will complete the verification layer and test it. First, we will finalize the procedural graph system, so that verification procedures, wrappers, MCP servers, and operational tasks can all be written as procedural graphs. Second, we will finish building and testing the verification layer. Third, we will build the observability layer and the associated wrappers and MCP tools required to integrate AI observability into tools outside of the workflow, a live view of what the harness reads, calls, and retrieves, with the same events written to the logs. Fourth, we will test the workflow across multiple open-source harnesses, models, external software integrations and scenarios. Finally, we will develop an interactive web portal to help scholars learn, implement, and critique the workflow.
+In Stage 2 (January to May 2027) we will complete the verification layer, so that verification procedures, wrappers, MCP servers, and operational tasks are all written as procedural graphs. We will extend the observability layer so that software outside the workflow feeds the same live view of the internal workflow components. Finally, we will extend the workflow to additional harnesses and models.
 
 ## Key risks
 
-Two key risks could limit the development, timely execution, and impact of the proposed workflow. First, this system is being designed, tested and evaluated to be model and harness agnostic, but the usefulness of said system can still be limited by institutional IT policies, AI model provider's terms of service contracts, and the evolving legal landscape. Second, the verification process may become verification theater in practice. Until standards are developed and adopted by the scientific community, verification will be practiced intermittently and reported seldomly.
+Two key risks could limit the development, timely execution, and impact of the proposed workflow. First, the prototype is complex and the development of the system in stage two will need to focus on limiting AI content bloat and making the information scholars are most interested in reviewing, easy to find and understand. Second, the verification process may become verification theater in practice. Until standards are developed and adopted by the scientific community, verification will be practiced intermittently and reported seldomly.
 
 ## Implications
 
@@ -68,6 +66,10 @@ If the workflow is successfully built and disseminated, social scientists would 
 
 ## Technical appendix and research artifact
 
-The technical appendix describes each layer as designed, gives the status of every part, and lists commands that run the prototype offline in a few minutes without a model key. The research artifact is a public Git repository, tagged for this submission, at \[URL\]. It holds the reproducible pipeline, the procedural graph system with its four verification procedures and tests, clean and seeded test files for each stream so reviewers can watch the procedures catch planted faults, a sample project whose manuscript and slides are built from one numbers file and checked by the data procedure, and the records of our live model runs.
+The technical appendix describes each layer as designed, gives the status of every part, and lists commands that run the prototype offline without a model key. The research artifact is a public Git repository, verifiable-social-science-workflow, at https://github.com/mro0001/verifiable-social-science-workflow . A second repository, verifiable-proposal-demo, at https://github.com/mro0001/verifiable-proposal-demo, runs the workflow on this proposal and its appendix, with each verification report and a public index of the AI sessions behind them.
+
+## AI use disclosure
+
+AI tools helped draft and edit this proposal and the technical appendix and build the research artifact. They include author-developed agentic workflows for search, retrieval, storage, and summarization of scientific manuscripts, Anthropic's Claude Code harness, and ForgeCode's open-source harness, running proprietary models (GPT 6, Opus 4.6, 4.8, 5.5, and Fable 5) and university-hosted open-weight models (gpt-oss-120b and Qwen 3.5, 3.6, and 3.8). The authors directed the work, reviewed each AI contribution, and take responsibility for the content. The workflow's own verification reports on this proposal and the appendix, with a public index of the AI sessions behind them, are in the demo repository named above.
 
 ## References
