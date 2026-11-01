@@ -12,7 +12,7 @@
 | Models | claude-opus-5-5 |
 | Started by session | [Sf4ea29931912](Sf4ea29931912.md) |
 | Tool calls by verb | wrote 1; ran 53; searched 7 |
-| Project files read | orgsci_ai_workflow_proposal/proposal/figures/appendix_10_27/fig_connections.png; orgsci_ai_workflow_proposal/proposal/figures/appendix_10_27/fig_lifecycle.png; orgsci_ai_workflow_proposal/proposal/figures/appendix_10_27/fig_pipeline.png; orgsci_ai_workflow_proposal/proposal/figures/appendix_10_27/fig_system.png; orgsci_ai_workflow_proposal/proposal/working/144_technical_appendix_2026-10-23/112_procedural_graph_sentence.md; orgsci_ai_workflow_proposal/proposal/working/144_technical_appendix_2026-10-23/113_michael_1026e_as_md.md; orgsci_ai_workflow_proposal/proposal/working/144_technical_appendix_2026-10-23/114_appendix_1027_draft.md |
+| Project files read | orgsci_ai_workflow_proposal/proposal/figures/appendix_10_27/fig_connections.png; orgsci_ai_workflow_proposal/proposal/figures/appendix_10_27/fig_lifecycle.png; orgsci_ai_workflow_proposal/proposal/figures/appendix_10_27/fig_pipeline.png; orgsci_ai_workflow_proposal/proposal/figures/appendix_10_27/fig_system.png; orgsci_ai_workflow_proposal/proposal/working/144_technical_appendix_2026-10-23/112_procedural_graph_sentence.md; orgsci_ai_workflow_proposal/proposal/working/144_technical_appendix_2026-10-23/113_[withheld]_1026e_as_md.md; orgsci_ai_workflow_proposal/proposal/working/144_technical_appendix_2026-10-23/114_appendix_1027_draft.md |
 | Project files edited |  |
 | Project files written |  |
 | Other files touched, counted only | 1 |
